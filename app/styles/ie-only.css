@@ -1,0 +1,8 @@
+/*html[data-useragent*='MSIE'], html[data-useragent*='Trident']{
+
+    .bootsnipp-search .form-control{
+        padding: 0px 10px;
+    }
+
+}*/
+
