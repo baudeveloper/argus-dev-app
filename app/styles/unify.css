@@ -11,7 +11,7 @@
 
 /*Import Global Compulsory CSS Files*/
 
-/*
+/*   
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
  * Version: 1.8
@@ -85,7 +85,7 @@
 /*Background Opacity*/
 
 .ie8 .service-block-v2 .service-block-in {
-  background: url(/Content/themes/img/transparent/white.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/transparent/white.png) repeat;
 }
 .ie8 .job-img .job-banner,
 .ie8 .job-img .job-img-inputs,
@@ -94,9 +94,9 @@
 .ie8 .search-block:before,
 .ie8 .parallax-counter .counters,
 .ie8 .carousel-v1 .carousel-caption {
-  background: url(/Content/themes/img/transparent/black.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/transparent/black.png) repeat;
 }
-/*
+/*   
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
  * Version: 1.8
@@ -113,7 +113,7 @@
   overflow: hidden;
   padding: 10px 0 6px;
   border-bottom: solid 1px #eeeeee;
-  background: url(/Content/themes/img/patterns/breadcrumbs.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/patterns/breadcrumbs.png) repeat;
 }
 .breadcrumbs h1 {
   color: #666666;
@@ -204,7 +204,7 @@
 .breadcrumbs-v1 {
   padding: 100px 0;
   position: relative;
-  background: url(/Content/themes/img/breadcrumbs/img1.jpg) center no-repeat;
+  background: url(https://argus.bm/Content/themes/img/breadcrumbs/img1.jpg) center no-repeat;
   background-size: cover;
   /*Scales the background image to be as large as possible*/
 
@@ -251,7 +251,7 @@
 .breadcrumbs-v2 {
   text-align: center;
   position: relative;
-  background: url(/Content/themes/img/bg/11.jpg) no-repeat center;
+  background: url(https://argus.bm/Content/themes/img/bg/11.jpg) no-repeat center;
 }
 .breadcrumbs-v2-in {
   padding: 80px 0;
@@ -285,17 +285,17 @@
   padding: 200px 0;
 }
 .breadcrumbs-v3.img-v1 {
-  background: url(/Content/themes/img/breadcrumbs/img1.jpg) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/breadcrumbs/img1.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
 .breadcrumbs-v3.img-v2 {
-  background: url(/Content/themes/img/breadcrumbs/img2.jpg) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/breadcrumbs/img2.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
 .breadcrumbs-v3.img-v3 {
-  background: url(/Content/themes/img/breadcrumbs/img3.jpg) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/breadcrumbs/img3.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -1348,7 +1348,7 @@
 
 @media (max-width: 991px) {
   /*Team Arrows*/
-
+  
   .team-v7 .team-arrow-left:before,
   .team-v7 .team-arrow-right:before {
     top: auto;
@@ -1364,7 +1364,7 @@
     border-width: 25px 20px 0 20px;
   }
   /*Equal Height Columns*/
-
+  
   .team-v7 .equal-height-column {
     height: auto !important;
   }
@@ -1408,7 +1408,7 @@
 .call-action-v2 {
   padding: 50px 0;
   text-align: center;
-  background: url(/Content/themes/img/patterns/16.png);
+  background: url(https://argus.bm/Content/themes/img/patterns/16.png);
 }
 .call-action-v2 h2 {
   font-size: 22px;
@@ -1745,7 +1745,7 @@
   height: auto;
   padding: 50px 0;
   position: relative;
-  background: url(/Content/themes/img/bg/7.jpg) repeat fixed;
+  background: url(https://argus.bm/Content/themes/img/bg/7.jpg) repeat fixed;
 }
 .bg-image-v2:before {
   top: 0;
@@ -1779,7 +1779,7 @@
   padding: 100px 0;
   position: relative;
   text-align: center;
-  background: url(/Content/themes/img/team/faces.jpg) 50% 0 repeat fixed;
+  background: url(https://argus.bm/Content/themes/img/team/faces.jpg) 50% 0 repeat fixed;
 }
 .parallax-quote:after {
   top: 0;
@@ -1797,7 +1797,7 @@
   height: 100%;
   content: " ";
   position: absolute;
-  background: url(/Content/themes/img/patterns/gridtile.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/patterns/gridtile.png) repeat;
 }
 /*Parallax Quote Inner*/
 
@@ -1871,7 +1871,7 @@
 ------------------------------------*/
 
 .parallax-team {
-  background: url(/Content/themes/img/team/faces.jpg) 50% 0 repeat fixed;
+  background: url(https://argus.bm/Content/themes/img/team/faces.jpg) 50% 0 repeat fixed;
 }
 .parallax-team,
 .parallax-team .title-box-v2 {
@@ -1890,7 +1890,7 @@
 /*Parallax Team*/
 
 .parallax-team {
-  background: url(/Content/themes/img/team/faces.jpg) 50% 0 repeat fixed;
+  background: url(https://argus.bm/Content/themes/img/team/faces.jpg) 50% 0 repeat fixed;
 }
 .parallax-team,
 .parallax-team .title-box-v2 {
@@ -1903,14 +1903,14 @@
 ------------------------------------*/
 
 .parallax-bg {
-  background: url(/Content/themes/img/patterns/5.png) repeat fixed;
+  background: url(https://argus.bm/Content/themes/img/patterns/5.png) repeat fixed;
 }
 /*Parallax Counter
 ------------------------------------*/
 
 .parallax-counter {
   padding: 30px 0;
-  background: url(/Content/themes/img/patterns/5.png) repeat fixed;
+  background: url(https://argus.bm/Content/themes/img/patterns/5.png) repeat fixed;
 }
 .parallax-counter .counters {
   color: white;
@@ -1929,7 +1929,7 @@
 
 .parallax-counter-v1 {
   padding: 60px 0;
-  background: url(/Content/themes/img/patterns/5.png) repeat fixed;
+  background: url(https://argus.bm/Content/themes/img/patterns/5.png) repeat fixed;
 }
 .parallax-counter-v1 .counters {
   color: white;
@@ -1951,7 +1951,7 @@
 .parallax-counter-v2 {
   position: relative;
   padding: 80px 0 60px;
-  background: url(/Content/themes/img/patterns/16.png) repeat fixed;
+  background: url(https://argus.bm/Content/themes/img/patterns/16.png) repeat fixed;
 }
 .parallax-counter-v2:after {
   top: 0;
@@ -2005,7 +2005,7 @@
   overflow: hidden;
   text-align: center;
   position: relative;
-  background: url(/Content/themes/img/bg/25.jpg) 50% 0 fixed;
+  background: url(https://argus.bm/Content/themes/img/bg/25.jpg) 50% 0 fixed;
 }
 .parallax-counter-v3:after {
   left: 0;
@@ -2078,7 +2078,7 @@
   overflow: hidden;
   text-align: center;
   position: relative;
-  background: url(/Content/themes/img/bg/19.jpg) 50% 0 fixed;
+  background: url(https://argus.bm/Content/themes/img/bg/19.jpg) 50% 0 fixed;
 }
 .parallax-counter-v4:after {
   left: 0;
@@ -2114,7 +2114,7 @@
 
 .flat-bg-block-v1 {
   padding: 40px 0;
-  background: url(/Content/themes/img/patterns/16.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/patterns/16.png) repeat;
 }
 .flat-bg-block-v1 .checked-list.first-child {
   float: left;
@@ -2487,7 +2487,7 @@
 .quote-v1 {
   padding: 60px 0;
   text-align: center;
-  background: url(/Content/themes/img/patterns/5.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/patterns/5.png) repeat;
 }
 .quote-v1 p {
   color: white;
@@ -2633,17 +2633,17 @@
   position: relative;
 }
 .interactive-slider-v1.img-v1 {
-  background: url(/Content/themes/img/bg/18.jpg) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/bg/18.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
 .interactive-slider-v1.img-v2 {
-  background: url(/Content/themes/img/bg/19.jpg) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/bg/19.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
 .interactive-slider-v1.img-v3 {
-  background: url(/Content/themes/img/bg/18.jpg) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/bg/18.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -2689,12 +2689,12 @@
   background-position: center center;
 }
 .interactive-slider-v2.img-v1 {
-  background: url(/Content/themes/img/bg/25.jpg) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/bg/25.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
 .interactive-slider-v2.img-v2 {
-  background: url(/Content/themes/img/bg/14.jpg) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/bg/14.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -3360,7 +3360,7 @@
   font-size: 15px;
   margin-top: -10px;
 }
-/*
+/*   
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
  * Version: 1.8
@@ -3385,7 +3385,7 @@
 }
 @media (max-width: 900px) {
   /*Slider Parallax*/
-
+  
   .da-slide .da-img {
     display: none;
   }
@@ -4074,7 +4074,7 @@
   padding: 100px 0;
   position: relative;
   text-align: center;
-  background: #333333 url(/Content/themes/img/bg/19.jpg) 50% 0 fixed;
+  background: #333333 url(https://argus.bm/Content/themes/img/bg/19.jpg) 50% 0 fixed;
   background-size: cover;
   background-position: center center;
 }
@@ -4094,7 +4094,7 @@
   height: 100%;
   content: " ";
   position: absolute;
-  background: url(/Content/themes/img/patterns/gridtile.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/patterns/gridtile.png) repeat;
 }
 .parallax-twitter-in {
   z-index: 1;
@@ -4136,7 +4136,7 @@
 .clients-section {
   padding: 60px 0;
   position: relative;
-  background: #333333 url(/Content/themes/img/bg/7.jpg) 50% fixed;
+  background: #333333 url(https://argus.bm/Content/themes/img/bg/7.jpg) 50% fixed;
   background-size: cover;
   background-position: center center;
 }
@@ -4156,7 +4156,7 @@
   height: 100%;
   content: " ";
   position: absolute;
-  background: url(/Content/themes/img/patterns/gridtile.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/patterns/gridtile.png) repeat;
 }
 .clients-section .title-v1 p,
 .clients-section .title-v1 h2 {
@@ -4212,7 +4212,7 @@
 .owl-video .owl-controls .owl-page span {
   margin: 5px 3px;
 }
-/*
+/*   
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
  * Version: 1.8
@@ -5882,91 +5882,91 @@ a.social-icon {
   opacity: 1;
 }
 .social_amazon {
-  background: url(/Content/themes/img/icons/social/amazon.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/amazon.png) no-repeat;
 }
 .social_behance {
-  background: url(/Content/themes/img/icons/social/behance.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/behance.png) no-repeat;
 }
 .social_blogger {
-  background: url(/Content/themes/img/icons/social/blogger.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/blogger.png) no-repeat;
 }
 .social_deviantart {
-  background: url(/Content/themes/img/icons/social/deviantart.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/deviantart.png) no-repeat;
 }
 .social_dribbble {
-  background: url(/Content/themes/img/icons/social/dribbble.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/dribbble.png) no-repeat;
 }
 .social_dropbox {
-  background: url(/Content/themes/img/icons/social/dropbox.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/dropbox.png) no-repeat;
 }
 .social_evernote {
-  background: url(/Content/themes/img/icons/social/evernote.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/evernote.png) no-repeat;
 }
 .social_facebook {
-  background: url(/Content/themes/img/icons/social/facebook.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/facebook.png) no-repeat;
 }
 .social_forrst {
-  background: url(/Content/themes/img/icons/social/forrst.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/forrst.png) no-repeat;
 }
 .social_github {
-  background: url(/Content/themes/img/icons/social/github.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/github.png) no-repeat;
 }
 .social_googleplus {
-  background: url(/Content/themes/img/icons/social/googleplus.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/googleplus.png) no-repeat;
 }
 .social_jolicloud {
-  background: url(/Content/themes/img/icons/social/jolicloud.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/jolicloud.png) no-repeat;
 }
 .social_last-fm {
-  background: url(/Content/themes/img/icons/social/last-fm.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/last-fm.png) no-repeat;
 }
 .social_linkedin {
-  background: url(/Content/themes/img/icons/social/linkedin.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/linkedin.png) no-repeat;
 }
 .social_picasa {
-  background: url(/Content/themes/img/icons/social/picasa.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/picasa.png) no-repeat;
 }
 .social_pintrest {
-  background: url(/Content/themes/img/icons/social/pintrest.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/pintrest.png) no-repeat;
 }
 .social_rss {
-  background: url(/Content/themes/img/icons/social/rss.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/rss.png) no-repeat;
 }
 .social_skype {
-  background: url(/Content/themes/img/icons/social/skype.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/skype.png) no-repeat;
 }
 .social_spotify {
-  background: url(/Content/themes/img/icons/social/spotify.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/spotify.png) no-repeat;
 }
 .social_stumbleupon {
-  background: url(/Content/themes/img/icons/social/stumbleupon.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/stumbleupon.png) no-repeat;
 }
 .social_tumblr {
-  background: url(/Content/themes/img/icons/social/tumblr.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/tumblr.png) no-repeat;
 }
 .social_twitter {
-  background: url(/Content/themes/img/icons/social/twitter.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/twitter.png) no-repeat;
 }
 .social_vimeo {
-  background: url(/Content/themes/img/icons/social/vimeo.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/vimeo.png) no-repeat;
 }
 .social_wordpress {
-  background: url(/Content/themes/img/icons/social/wordpress.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/wordpress.png) no-repeat;
 }
 .social_xing {
-  background: url(/Content/themes/img/icons/social/xing.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/xing.png) no-repeat;
 }
 .social_yahoo {
-  background: url(/Content/themes/img/icons/social/yahoo.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/yahoo.png) no-repeat;
 }
 .social_youtube {
-  background: url(/Content/themes/img/icons/social/youtube.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/youtube.png) no-repeat;
 }
 .social_vk {
-  background: url(/Content/themes/img/icons/social/vk.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/vk.png) no-repeat;
 }
 .social_instagram {
-  background: url(/Content/themes/img/icons/social/instagram.png) no-repeat;
+  background: url(https://argus.bm/Content/themes/img/icons/social/instagram.png) no-repeat;
 }
 /*Font Awesome Icon Styles*/
 
@@ -8011,7 +8011,7 @@ img.img-center,
 }
 /*Import CSS Plugins*/
 
-/*
+/*   
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
  * Version: 1.7
@@ -8240,7 +8240,7 @@ a:hover {
   box-shadow: 0 0 5px #cccccc;
   margin-left: auto !important;
   margin-right: auto !important;
-  background: url(/Content/themes/img/patterns/15.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/patterns/15.png) repeat;
 }
 /*Main Styles
 ------------------------------------*/
@@ -8250,7 +8250,7 @@ a:hover {
 .purchase {
   padding: 25px 0 30px;
   border-bottom: solid 1px #eeeeee;
-  background: url(/Content/themes/img/patterns/breadcrumbs.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/patterns/breadcrumbs.png) repeat;
 }
 .purchase p {
   margin-bottom: 0;
@@ -8706,7 +8706,7 @@ a.thumbnail {
   padding: 40px 0;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  background: url(/Content/themes/img/breadcrumbs.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/breadcrumbs.png) repeat;
 }
 /*Gallery Page
 ------------------------------------*/
@@ -8905,7 +8905,7 @@ ul.blog-tags a:hover i {
 }
 .slider-promo-info-bg {
   padding: 25px 20px 20px;
-  background: url(/Content/themes/img/bg-black.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/bg-black.png) repeat;
 }
 .slider-promo-info span.big-size {
   color: white;
@@ -9586,7 +9586,7 @@ img.img-mouse {
 .service-info {
   position: relative;
   padding: 40px 0 50px;
-  background: url(/Content/themes/img/patterns/17.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/patterns/17.png) repeat;
 }
 .service-info .info-description {
   overflow: hidden;
@@ -9632,7 +9632,7 @@ img.img-mouse {
 
 .testimonials-bs {
   padding: 50px 0;
-  background: url(/Content/themes/img/bg/16.jpg) 50% 0 repeat fixed;
+  background: url(https://argus.bm/Content/themes/img/bg/16.jpg) 50% 0 repeat fixed;
 }
 .testimonials-bs .headline-center-v2 span.author {
   color: #777777;
@@ -9866,7 +9866,7 @@ body.dark .header-v4 .dropdown-menu li > a:hover {
 
 @media (max-width: 991px) {
   /*Topbar v1*/
-
+  
   body.dark .header-v1 .topbar-v1 .top-v1-data li,
   body.dark .header-v4 .topbar-v1 .top-v1-data li {
     border-color: #555555;
@@ -9878,13 +9878,13 @@ body.dark .header-v4 .dropdown-menu li > a:hover {
     background: #333333;
   }
   /*Header Navbar*/
-
+  
   body.dark .navbar-form,
   body.dark .navbar-collapse {
     border-color: #555555;
   }
   /*Navbar Nav*/
-
+  
   body.dark .navbar-nav > .active > a {
     color: white;
   }
@@ -9893,7 +9893,7 @@ body.dark .header-v4 .dropdown-menu li > a:hover {
     border-bottom-color: #555555;
   }
   /*Dropdown Menu*/
-
+  
   body.dark .navbar-nav .open .dropdown-menu > li > a {
     color: #999999;
   }
@@ -9910,14 +9910,14 @@ body.dark .header-v4 .dropdown-menu li > a:hover {
     border-bottom-color: #333333;
   }
   /*Navbar Opened*/
-
+  
   body.dark .navbar-default .navbar-nav > .open > a,
   body.dark .navbar-default .navbar-nav > .open > a:hover,
   body.dark .navbar-default .navbar-nav > .open > a:focus {
     color: #eeeeee;
   }
   /*Dropdown Submenu*/
-
+  
   body.dark .header .dropdown .dropdown-submenu > a,
   body.dark .header-v1 .dropdown .dropdown-submenu > a,
   body.dark .header-v2 .dropdown .dropdown-submenu > a,
@@ -9926,7 +9926,7 @@ body.dark .header-v4 .dropdown-menu li > a:hover {
     color: #999999 !important;
   }
   /*Equal Height List Style*/
-
+  
   body.dark .header .mega-menu .equal-height-list h3,
   body.dark .header-v1 .mega-menu .equal-height-list h3,
   body.dark .header-v3 .mega-menu .equal-height-list h3,
@@ -9935,7 +9935,7 @@ body.dark .header-v4 .dropdown-menu li > a:hover {
     border-bottom: solid 1px #333333;
   }
   /*Header v3 Search Box*/
-
+  
   body.dark .header-v3 .navbar .nav > li > .search {
     color: #999999;
     background: #292929;
@@ -9945,12 +9945,12 @@ body.dark .header-v4 .dropdown-menu li > a:hover {
     background: #303030;
   }
   /*Header v2 Navbar*/
-
+  
   body.dark .header-v2 .navbar-default .navbar-nav > li a {
     border-color: #555555;
   }
   /*Header v2 Topbar*/
-
+  
   body.dark .header-v2 .topbar-buttons .btn-u-light {
     border-color: #eeeeee;
   }
@@ -9972,7 +9972,7 @@ body.dark .header-v4 .dropdown-menu li > a:hover {
     background: #333333;
   }
   /*Header v4*/
-
+  
   body.dark .header-v4 .navbar-toggle,
   body.dark .header-v4 .navbar-default .navbar-toggle:hover,
   body.dark .header-v4 .navbar-default .navbar-toggle:focus {
@@ -10064,7 +10064,7 @@ body.dark .header-v6 .shopping-cart-open span.shc-total {
     background: #2a2b2b;
   }
   /*Navbar Brand*/
-
+  
   body.dark.header-fixed .header-v6 .navbar-brand img.default-logo {
     display: inherit;
   }
@@ -10072,17 +10072,17 @@ body.dark .header-v6 .shopping-cart-open span.shc-total {
     display: none;
   }
   /*Toggle*/
-
+  
   body.dark .header-v6 .navbar-toggle .icon-bar {
     background: white;
   }
   /*Menu Inner Right*/
-
+  
   body.dark .header-v6 li.menu-icons i.menu-icons-style {
     color: white;
   }
   /*Search*/
-
+  
   body.dark .header-v6 .search-open {
     background: #2a2b2b;
     border-bottom: 1px solid #555555;
@@ -10108,13 +10108,13 @@ body.dark .header-v6 .shopping-cart-open span.shc-total {
     color: white;
   }
   /*Navbar Collapse*/
-
+  
   body.dark .header-v6 .navbar-collapse {
     border-color: #555555;
     border-bottom-color: #555555;
   }
   /*Navbar Nav*/
-
+  
   body.dark .header-v6 .navbar-nav > li a {
     color: #cccccc;
     border-top-color: #555555;
@@ -10128,7 +10128,7 @@ body.dark .header-v6 .shopping-cart-open span.shc-total {
     color: white;
   }
   /*Dropdown*/
-
+  
   body.dark .header-v6 .navbar-nav .open .dropdown-menu > li > a {
     color: #cccccc;
   }
@@ -10136,19 +10136,19 @@ body.dark .header-v6 .shopping-cart-open span.shc-total {
     color: #72c02c;
   }
   /*Submenu*/
-
+  
   body.dark .header-v6 .dropdown .dropdown-submenu > a {
     color: white !important;
   }
   /*Mega Menu*/
-
+  
   body.dark .header-v6 .mega-menu .equal-height-list h3 {
     color: white;
   }
 }
 @media (min-width: 992px) {
   /*Header*/
-
+  
   body.dark.header-fixed .header-v6.header-fixed-shrink,
   body.dark .header-v6.header-classic-white .navbar {
     box-shadow: none;
@@ -10158,12 +10158,12 @@ body.dark .header-v6 .shopping-cart-open span.shc-total {
     background-color: inherit;
   }
   /*Navbar Brand*/
-
+  
   body.dark.header-fixed .header-v6.header-fixed-shrink .navbar-brand img.default-logo {
     display: inherit;
   }
   /*Navbar*/
-
+  
   body.dark.header-fixed .header-v6.header-fixed-shrink .navbar-nav > li > a,
   body.dark.header-fixed .header-v6.header-classic-white .navbar-nav > li > a {
     color: white;
@@ -10177,7 +10177,7 @@ body.dark .header-v6 .shopping-cart-open span.shc-total {
     color: white;
   }
   /*Search*/
-
+  
   body.dark .header-v6 .search-open {
     background: #2a2b2b;
     border-bottom: 1px solid #555555;
@@ -10203,7 +10203,7 @@ body.dark .header-v6 .shopping-cart-open span.shc-total {
     color: white;
   }
   /*Dropdown*/
-
+  
   body.dark .header-v6 .dropdown-menu {
     background: #2a2b2b;
   }
@@ -10219,7 +10219,7 @@ body.dark .header-v6 .shopping-cart-open span.shc-total {
     background: inherit;
   }
   /*Equal Height List Style*/
-
+  
   body.dark .header-v6 .mega-menu .equal-height-in {
     border-left-color: #777777;
   }
@@ -10276,7 +10276,7 @@ body.dark .header-v7 .navbar-toggle .icon-bar {
 
 body.dark.boxed-layout {
   box-shadow: 0 0 5px #191919;
-  background: url(/Content/themes/img/patterns/4.png) repeat;
+  background: url(https://argus.bm/Content/themes/img/patterns/4.png) repeat;
 }
 /*Breadcrumbs
 ------------------------------------*/
@@ -10413,7 +10413,7 @@ body.dark .close {
 body.dark .close:hover {
   color: #bbbbbb;
 }
-/*Alert Warning
+/*Alert Warning 
 ------------------------------------*/
 
 body.dark .alert-info,
@@ -10478,7 +10478,7 @@ body.dark .contex-bg p.bg-primary {
 body.dark .contex-bg p.bg-success {
   color: #72c02c;
 }
-/*Address
+/*Address 
 ------------------------------------*/
 
 body.dark address {
@@ -11013,7 +11013,7 @@ body.dark img.img-bordered {
   background: #222222;
   border-color: #303030;
 }
-/*Panel
+/*Panel 
 ------------------------------------*/
 
 body.dark .panel {
@@ -12252,7 +12252,7 @@ body.dark .tags-v1 li a:hover {
 ------------------------------------*/
 
 body.dark .parallax-counter-v2 {
-  background: #222222 url(/Content/themes/img/patterns/5.png) repeat fixed;
+  background: #222222 url(https://argus.bm/Content/themes/img/patterns/5.png) repeat fixed;
 }
 body.dark .parallax-counter-v2:after {
   border-top-color: #252525;
@@ -12349,7 +12349,7 @@ body.dark .bg-image-v2 p {
 ------------------------------------*/
 
 body.dark .flat-bg-block-v1 {
-  background: #202020 url(/Content/themes/img/patterns/5.png) repeat;
+  background: #202020 url(https://argus.bm/Content/themes/img/patterns/5.png) repeat;
 }
 /*Content Boxes v5
 ------------------------------------*/
@@ -12382,7 +12382,7 @@ body.dark li a.btn-u {
 ------------------------------------*/
 
 body.dark .service-info {
-  background: #202020 url(/Content/themes/img/patterns/5.png) repeat;
+  background: #202020 url(https://argus.bm/Content/themes/img/patterns/5.png) repeat;
 }
 /*Portfolio Box v2
 ------------------------------------*/
@@ -12850,7 +12850,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (max-width: 991px) {
   /*Responsive code for max-width: 991px*/
-
+  
   .header .navbar-header {
     float: none;
   }
@@ -12876,12 +12876,12 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     padding-bottom: 40px;
   }
   /*Pull Right*/
-
+  
   .header .dropdown-menu.pull-right {
     float: none !important;
   }
   /*Dropdown Menu Slide Down Effect*/
-
+  
   .header .navbar-nav .open .dropdown-menu {
     border: 0;
     float: none;
@@ -12931,7 +12931,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     padding-bottom: 0;
   }
   /*Design for max-width: 991px*/
-
+  
   .header .navbar-nav > li > a {
     font-size: 14px;
     padding: 9px 10px;
@@ -12959,12 +12959,12 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 }
 @media (min-width: 992px) {
   /*Navbar Collapse*/
-
+  
   .header .navbar-collapse {
     padding: 0;
   }
   /*Navbar*/
-
+  
   .header .container > .navbar-header,
   .header .container-fluid > .navbar-header,
   .header .container > .navbar-collapse,
@@ -13006,7 +13006,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: #72c02c;
   }
   /*Dropdown Menu*/
-
+  
   .header .dropdown-menu {
     padding: 0;
     border: none;
@@ -13044,7 +13044,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     display: none;
   }
   /*Search*/
-
+  
   .header .navbar-nav .search-open {
     width: 330px;
   }
@@ -13252,12 +13252,12 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 }
 @media (min-width: 992px) {
   /*Mega Menu for Two Columns*/
-
+  
   .header .mega-menu .mega-menu-content.content-two-col {
     min-width: 596px;
   }
   /*Mega Menu for Three Columns*/
-
+  
   .header .mega-menu .mega-menu-content.content-three-col {
     min-width: 864px;
   }
@@ -13329,7 +13329,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     text-decoration: none;
   }
   /*Dropdown Arrow Icons*/
-
+  
   .header .mega-menu .mega-menu-content li a {
     padding: 5px 10px 5px 30px;
   }
@@ -13344,7 +13344,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     font-family: FontAwesome;
   }
   /*Dropdown Arrow Icons Disable class*/
-
+  
   .header .mega-menu .disable-icons li a {
     padding: 5px 10px 5px 15px;
   }
@@ -13356,7 +13356,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (max-width: 991px) {
   /*Equal Height List Style*/
-
+  
   .header .mega-menu .equal-height-list h3 {
     color: #555555;
     margin: 0 0 5px;
@@ -13539,7 +13539,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 }
 @media (max-width: 991px) {
   /*Header*/
-
+  
   .header-fixed .header,
   .header-fixed .header.header-fixed-shrink {
     height: inherit;
@@ -13548,18 +13548,18 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 }
 @media (min-width: 992px) {
   /*Container*/
-
+  
   .header-fixed .header.header-fixed-shrink > .container {
     margin-bottom: -46px;
   }
   /*Logo*/
-
+  
   .header-fixed .header.header-fixed-shrink .logo img {
     max-width: 105px;
     margin: 45px 0 -4px;
   }
   /*Navbar Nav*/
-
+  
   .header-fixed .header.header-fixed-shrink .navbar-nav > li > a {
     padding-top: 19px;
     padding-bottom: 19px;
@@ -13569,12 +13569,12 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     border-bottom: none;
   }
   /*Dropdown*/
-
+  
   .header-fixed .header.header-fixed-shrink .dropdown > a:after {
     top: 20px;
   }
   /*Search*/
-
+  
   .header-fixed .header.header-fixed-shrink .nav > li > .search {
     color: #777777;
     padding: 20px 0 22px;
@@ -14010,7 +14010,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (max-width: 991px) {
   /*Responsive code for max-width: 991px*/
-
+  
   .header-v5 .navbar-header {
     float: none;
   }
@@ -14036,12 +14036,12 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     padding-bottom: 40px;
   }
   /*Pull Right*/
-
+  
   .header-v5 .dropdown-menu.pull-right {
     float: none !important;
   }
   /*Dropdown Menu Slide Down Effect*/
-
+  
   .header-v5 .navbar-nav .open .dropdown-menu {
     border: 0;
     float: none;
@@ -14086,7 +14086,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     padding-bottom: 0;
   }
   /*Design for max-width: 991px*/
-
+  
   .header-v5 .navbar-collapse,
   .header-v5 .navbar-collapse .container {
     padding-left: 0 !important;
@@ -14119,7 +14119,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 }
 @media (min-width: 992px) {
   /*Navbar Collapse*/
-
+  
   .header-v5 .navbar-collapse {
     padding: 0;
   }
@@ -14155,7 +14155,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: #72c02c;
   }
   /*Dropdown Menu*/
-
+  
   .header-v5 .dropdown-menu {
     padding: 0;
     border: none;
@@ -14487,7 +14487,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 }
 @media (max-width: 991px) {
   /*Header*/
-
+  
   .header-fixed .header-v5,
   .header-fixed .header-v5.header-fixed-shrink,
   .header-fixed .header-v5.no-topbar,
@@ -14503,7 +14503,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     padding: 17px 18px 26px;
   }
   /*No Topbar*/
-
+  
   .header-fixed .header-v5.no-topbar.header-fixed-shrink .navbar-nav > li > a {
     margin-top: 35px;
     padding: 14px 17px 16px;
@@ -14851,7 +14851,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (max-width: 991px) {
   /*Responsive code for max-width: 991px*/
-
+  
   .header-v6 .navbar-header {
     float: none;
   }
@@ -14881,17 +14881,17 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     padding-bottom: 40px;
   }
   /*Navbar Nav*/
-
+  
   .header-v6 .navbar-nav > li > a {
     color: #444444;
   }
   /*Pull Right*/
-
+  
   .header-v6 .dropdown-menu.pull-right {
     float: none !important;
   }
   /*Dropdown Menu Slide Down Effect*/
-
+  
   .header-v6 .navbar-nav .open .dropdown-menu {
     border: 0;
     float: none;
@@ -14936,7 +14936,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     padding-bottom: 0;
   }
   /*Design for max-width: 991px*/
-
+  
   .header-v6 .navbar-collapse,
   .header-v6 .navbar-collapse .container {
     padding-left: 0 !important;
@@ -14976,12 +14976,12 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 }
 @media (min-width: 992px) {
   /*Navbar Collapse*/
-
+  
   .header-v6 .navbar-collapse {
     padding: 0;
   }
   /*Navbar*/
-
+  
   .header-v6 .navbar {
     min-height: 40px !important;
   }
@@ -15015,7 +15015,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: white;
   }
   /*Dropdown Menu*/
-
+  
   .header-v6 .dropdown-menu {
     border: none;
     padding: 15px 0;
@@ -15184,7 +15184,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     /*-webkit-flex-wrap: wrap;
   	    -ms-flex-wrap: wrap;
   	    flex-wrap: wrap;*/
-
+  
   }
   .header-v6 .mega-menu .equal-height-in {
     display: -webkit-flex;
@@ -15232,7 +15232,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     text-decoration: none;
   }
   /*Dropdown Arrow Icons*/
-
+  
   .header-v6 .mega-menu .mega-menu-fullwidth li a {
     padding: 5px 10px 5px 30px;
   }
@@ -15247,7 +15247,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     font-family: FontAwesome;
   }
   /*Dropdown Arrow Icons Disable class*/
-
+  
   .header-v6 .mega-menu .mega-menu-fullwidth .disable-icons li a {
     padding: 5px 10px 5px 15px;
   }
@@ -15292,7 +15292,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     display: block;
   }
   /*Equal Height List Style*/
-
+  
   .header-v6 .mega-menu .equal-height-list h3 {
     color: #555555;
     margin: 0 0 5px;
@@ -15331,7 +15331,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (min-width: 992px) {
   /*Header Sticky*/
-
+  
   .header-fixed .header-v6.header-sticky {
     top: 0;
     left: 0;
@@ -15348,7 +15348,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     background: white;
   }
   /*Navbar*/
-
+  
   .header-fixed .header-v6.header-fixed-shrink .navbar-nav > li > a {
     color: #555555;
   }
@@ -15357,7 +15357,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: #72c02c;
   }
   /*Navbar Brand*/
-
+  
   .header-fixed .header-v6.header-fixed-shrink .navbar-brand img.default-logo {
     display: none;
   }
@@ -15365,12 +15365,12 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     display: inherit;
   }
   /*Menu Inner Right*/
-
+  
   .header-fixed .header-v6.header-fixed-shrink li.menu-icons i.menu-icons-style {
     color: #555555;
   }
   /*Transition*/
-
+  
   .header-fixed .header-v6.header-fixed-shrink .navbar-brand,
   .header-fixed .header-v6.header-fixed-shrink .navbar-nav > li > a,
   .header-fixed .header-v6.header-fixed-shrink li.menu-icons i.menu-icons-style,
@@ -15381,19 +15381,19 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     transition: all 0.4s cubic-bezier(0.7, 1, 0.7, 1);
   }
   /*Navbar Brand*/
-
+  
   .header-fixed .header-v6.header-fixed-shrink .navbar-brand {
     height: 70px;
     max-height: 70px;
     line-height: 39px;
   }
   /*Navbar Nav*/
-
+  
   .header-fixed .header-v6.header-fixed-shrink .navbar-nav > li > a {
     line-height: 30px;
   }
   /*Menu Icons*/
-
+  
   .header-fixed .header-v6.header-fixed-shrink li.menu-icons i.menu-icons-style {
     line-height: 70px;
   }
@@ -15404,7 +15404,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     top: 70px;
   }
   /*Search*/
-
+  
   .header-fixed .header-v6.header-fixed-shrink .search-open {
     border-bottom: 1px solid #eeeeee;
   }
@@ -15417,21 +15417,21 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (max-width: 991px) {
   /*Header*/
-
+  
   .header-fixed .header-v6,
   .header-fixed .header-v6.header-fixed-shrink {
     height: inherit;
     position: relative;
   }
   /*Header Inner Right*/
-
+  
   .header-fixed .header-v6.header-fixed-shrink .header-inner-right,
   .header-fixed .header-v6.header-fixed-shrink .menu-icons-list {
     margin-left: 0;
     margin-right: 20px;
   }
   /*Menu Icons*/
-
+  
   .header-v6 li.menu-icons i.menu-icons-style {
     color: #555555;
   }
@@ -15496,7 +15496,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (min-width: 992px) {
   /*Header*/
-
+  
   .header-fixed .header-v6.header-dark-transparent.header-fixed-shrink {
     box-shadow: none;
   }
@@ -15504,7 +15504,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     background: #2a2b2b;
   }
   /*Navbar Brand*/
-
+  
   .header-fixed .header-v6.header-dark-transparent.header-fixed-shrink .navbar-brand img.default-logo {
     display: inherit;
   }
@@ -15512,7 +15512,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     display: none;
   }
   /*Navbar*/
-
+  
   .header-fixed .header-v6.header-dark-transparent.header-fixed-shrink .navbar-nav > li > a {
     color: white;
   }
@@ -15526,7 +15526,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 }
 @media (max-width: 991px) {
   /*Header*/
-
+  
   .header-fixed .header-v6.header-dark-transparent .navbar {
     background: white;
   }
@@ -15545,7 +15545,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (min-width: 992px) {
   /*Header*/
-
+  
   .header-fixed .header-v6.header-dark-scroll.header-fixed-shrink {
     box-shadow: none;
     background: #2a2b2b;
@@ -15554,7 +15554,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     background-color: inherit;
   }
   /*Navbar Brand*/
-
+  
   .header-fixed .header-v6.header-dark-scroll.header-fixed-shrink .navbar-brand img.default-logo {
     display: inherit;
   }
@@ -15562,7 +15562,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     display: none;
   }
   /*Navbar*/
-
+  
   .header-fixed .header-v6.header-dark-scroll.header-fixed-shrink .navbar-nav > li > a {
     color: white;
   }
@@ -15588,7 +15588,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (min-width: 992px) {
   /*Navbar*/
-
+  
   .header-fixed .header-v6.header-dark-search.header-fixed-shrink {
     box-shadow: none;
   }
@@ -15599,7 +15599,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     box-shadow: none;
   }
   /*Search*/
-
+  
   .header-v6.header-dark-search .search-open {
     background: #2a2b2b;
     border-bottom: 1px solid #555555;
@@ -15647,7 +15647,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (min-width: 992px) {
   /*Dropdown*/
-
+  
   .header-v6.header-dark-dropdown .dropdown-menu {
     background: #2a2b2b;
   }
@@ -15659,7 +15659,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: #72c02c;
   }
   /*Equal Height List Style*/
-
+  
   .header-v6.header-dark-dropdown .mega-menu .equal-height-in {
     border-left-color: #777777;
   }
@@ -15685,7 +15685,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     background: #2a2b2b;
   }
   /*Navbar Brand*/
-
+  
   .header-fixed .header-v6.header-dark-res-nav .navbar-brand img.default-logo {
     display: inherit;
   }
@@ -15693,17 +15693,17 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     display: none;
   }
   /*Toggle*/
-
+  
   .header-v6.header-dark-res-nav .navbar-toggle .icon-bar {
     background: white;
   }
   /*Menu Inner Right*/
-
+  
   .header-v6.header-dark-res-nav li.menu-icons i.menu-icons-style {
     color: white;
   }
   /*Search*/
-
+  
   .header-v6.header-dark-res-nav .search-open {
     background: #2a2b2b;
     border-bottom: 1px solid #555555;
@@ -15729,13 +15729,13 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: white;
   }
   /*Navbar Collapse*/
-
+  
   .header-v6.header-dark-res-nav .navbar-collapse {
     border-color: #555555;
     border-bottom-color: #555555;
   }
   /*Navbar Nav*/
-
+  
   .header-v6.header-dark-res-nav .navbar-nav > li a {
     color: #cccccc;
     border-top-color: #555555;
@@ -15749,7 +15749,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: white;
   }
   /*Dropdown*/
-
+  
   .header-v6.header-dark-res-nav .navbar-nav .open .dropdown-menu > li > a {
     color: #cccccc;
   }
@@ -15757,12 +15757,12 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: #72c02c;
   }
   /*Submenu*/
-
+  
   .header-v6.header-dark-res-nav .dropdown .dropdown-submenu > a {
     color: white !important;
   }
   /*Mega Menu*/
-
+  
   .header-v6.header-dark-res-nav .mega-menu .equal-height-list h3 {
     color: white;
   }
@@ -15775,12 +15775,12 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (min-width: 992px) {
   /*Header Sticky*/
-
+  
   .header-v6.header-classic-white .navbar {
     background: white;
   }
   /*Navbar*/
-
+  
   .header-fixed .header-v6.header-classic-white .navbar-nav > li > a {
     color: #555555;
     font-weight: 400;
@@ -15790,7 +15790,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: #72c02c;
   }
   /*Navbar Brand*/
-
+  
   .header-fixed .header-v6.header-classic-white .navbar-brand img.default-logo {
     display: none;
   }
@@ -15798,7 +15798,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     display: inherit;
   }
   /*Menu Inner Right*/
-
+  
   .header-fixed .header-v6.header-classic-white li.menu-icons i.menu-icons-style {
     color: #555555;
   }
@@ -15828,7 +15828,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (min-width: 992px) {
   /*Header*/
-
+  
   .header-v6.header-classic-dark,
   .header-fixed .header-v6.header-classic-dark.header-fixed-shrink {
     box-shadow: none;
@@ -15839,7 +15839,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     background-color: inherit;
   }
   /*Navbar Brand*/
-
+  
   .header-v6.header-classic-dark .navbar-brand img.default-logo,
   .header-fixed .header-v6.header-classic-dark.header-fixed-shrink .navbar-brand img.default-logo {
     display: inherit;
@@ -15849,7 +15849,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     display: none;
   }
   /*Navbar*/
-
+  
   .header-v6.header-classic-dark .navbar-nav > li > a,
   .header-fixed .header-v6.header-classic-dark.header-fixed-shrink .navbar-nav > li > a {
     color: white;
@@ -15865,7 +15865,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: white;
   }
   /*Search*/
-
+  
   .header-v6.header-classic-dark .search-open {
     background: #2a2b2b;
   }
@@ -15890,7 +15890,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: white;
   }
   /*Dropdown*/
-
+  
   .header-v6.header-classic-dark .dropdown-menu {
     background: #2a2b2b;
   }
@@ -15902,7 +15902,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: #72c02c;
   }
   /*Equal Height List Style*/
-
+  
   .header-v6.header-classic-dark .mega-menu .equal-height-in {
     border-left-color: #777777;
   }
@@ -16208,7 +16208,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 ------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+  
 }
 @media (max-width: 991px) {
   .header-v8 .res-container:before,
@@ -16225,7 +16225,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
       padding-left: 15px;
       padding-right: 15px;
   }
-
+  
       .header-v8 > .navbar > .container {
       width: inherit;
       margin-left: 0;
@@ -16233,7 +16233,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
       padding-left: 0;
       padding-right: 0;
   }*/
-
+  
   .header-v8 > .navbar > .container > .navbar-header,
   .header-v8 > .navbar > .container > .navbar-collapse {
     margin-left: 0;
@@ -16329,7 +16329,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 
 @media (max-width: 991px) {
   /*Responsive code for max-width: 991px*/
-
+  
   .header-v8 .navbar-header {
     float: none;
   }
@@ -16360,23 +16360,23 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     padding-bottom: 40px;
   }
   /*Navbar Nav*/
-
+  
   .header-v8 .navbar-nav > li > a {
     color: black;
   }
   /*Pull Right*/
-
+  
   .header-v8 .dropdown-menu.pull-right {
     float: none !important;
   }
   /*Navbar*/
-
+  
   .header-v8 .navbar-nav .open > a:focus,
   .header-v8 .navbar-nav .open > a:hover {
     border-color: #eeeeee;
   }
   /*Dropdown Menu Slide Down Effect*/
-
+  
   .header-v8 .navbar-nav .open .dropdown-menu {
     border: 0;
     float: none;
@@ -16417,7 +16417,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     padding-bottom: 0;
   }
   /*Design for max-width: 991px*/
-
+  
   .header-v8 .navbar-collapse,
   .header-v8 .navbar-collapse .container {
     padding-left: 0 !important;
@@ -16454,12 +16454,12 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 }
 @media (min-width: 992px) {
   /*Navbar Collapse*/
-
+  
   .header-v8 .navbar-collapse {
     padding: 0;
   }
   /*Navbar*/
-
+  
   .header-v8 .navbar {
     min-height: 40px !important;
   }
@@ -16489,7 +16489,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     color: white;
   }
   /*Dropdown Menu*/
-
+  
   .header-v8 .dropdown-menu {
     border: none;
     padding: 15px 0;
@@ -16687,7 +16687,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 }
 @media (max-width: 991px) {
   /*Dropdown Menu*/
-
+  
   .header-v8 .mega-menu .mega-menu-fullwidth .dropdown-menu {
     width: auto;
   }
@@ -16702,7 +16702,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     border-top: none;
   }
   /*Dropdown Link List*/
-
+  
   .header-v8 .mega-menu .mega-menu-fullwidth .dropdown-link-list > li > a {
     padding-left: 15px;
   }
@@ -16740,24 +16740,24 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 }
 @media (min-width: 992px) {
   /*Topbar v2*/
-
+  
   .header-fixed .header-v8.header-fixed-shrink .blog-topbar {
     margin-top: -40px;
   }
   /*Navbar Brand*/
-
+  
   .header-fixed .header-v8.header-fixed-shrink .navbar-brand {
     height: 70px;
     max-height: 70px;
     line-height: 36px;
   }
   /*Navbar Nav*/
-
+  
   .header-fixed .header-v8.header-fixed-shrink .navbar-nav > li > a {
     line-height: 30px;
   }
   /*Transition*/
-
+  
   .header-v8 .blog-topbar,
   .header-v8 .navbar-brand,
   .header-v8 .navbar-nav > li > a,
@@ -16800,57 +16800,57 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 /*load fonts from this directory*/
 @font-face {
   font-family: 'Encode Sans';
-  src: url(/fonts/Argus/EncodeSans-Regular.eot);
-  src: url(/fonts/Argus/EncodeSans-Regular.eot?#iefix) format('embedded-opentype'), url(/fonts/Argus/EncodeSans-Regular.woff2) format('woff2'), url(/fonts/Argus/EncodeSans-Regular.woff) format('woff'), url(/fonts/Argus/EncodeSans-Regular.ttf) format('truetype'), url(/fonts/Argus/EncodeSans-Regular.svg#EncodeSans-Regular) format('svg');
+  src: url(https://argus.bm/fonts/Argus/EncodeSans-Regular.eot);
+  src: url(https://argus.bm/fonts/Argus/EncodeSans-Regular.eot?#iefix) format('embedded-opentype'), url(https://argus.bm/fonts/Argus/EncodeSans-Regular.woff2) format('woff2'), url(https://argus.bm/fonts/Argus/EncodeSans-Regular.woff) format('woff'), url(https://argus.bm/fonts/Argus/EncodeSans-Regular.ttf) format('truetype'), url(https://argus.bm/fonts/Argus/EncodeSans-Regular.svg#EncodeSans-Regular) format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Encode Sans';
-  src: url(/fonts/Argus/EncodeSans-SemiBold.eot);
-  src: url(/fonts/Argus/EncodeSans-SemiBold.eot?#iefix) format('embedded-opentype'), url(/fonts/Argus/EncodeSans-SemiBold.woff2) format('woff2'), url(/fonts/Argus/EncodeSans-SemiBold.woff) format('woff'), url(/fonts/Argus/EncodeSans-SemiBold.ttf) format('truetype'), url(/fonts/Argus/EncodeSans-SemiBold.svg#EncodeSans-SemiBold) format('svg');
+  src: url(https://argus.bm/fonts/Argus/EncodeSans-SemiBold.eot);
+  src: url(https://argus.bm/fonts/Argus/EncodeSans-SemiBold.eot?#iefix) format('embedded-opentype'), url(https://argus.bm/fonts/Argus/EncodeSans-SemiBold.woff2) format('woff2'), url(https://argus.bm/fonts/Argus/EncodeSans-SemiBold.woff) format('woff'), url(https://argus.bm/fonts/Argus/EncodeSans-SemiBold.ttf) format('truetype'), url(https://argus.bm/fonts/Argus/EncodeSans-SemiBold.svg#EncodeSans-SemiBold) format('svg');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: 'Encode Sans Narrow';
-  src: url(/fonts/Argus/EncodeSansNarrow-SemiBold.eot);
-  src: url(/fonts/Argus/EncodeSansNarrow-SemiBold.eot?#iefix) format('embedded-opentype'), url(/fonts/Argus/EncodeSansNarrow-SemiBold.woff2) format('woff2'), url(/fonts/Argus/EncodeSansNarrow-SemiBold.woff) format('woff'), url(/fonts/Argus/EncodeSansNarrow-SemiBold.ttf) format('truetype'), url(/fonts/Argus/EncodeSansNarrow-SemiBold.svg#EncodeSansNarrow-SemiBold) format('svg');
+  src: url(https://argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.eot);
+  src: url(https://argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.eot?#iefix) format('embedded-opentype'), url(https://argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.woff2) format('woff2'), url(https://argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.woff) format('woff'), url(https://argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.ttf) format('truetype'), url(https://argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.svg#EncodeSansNarrow-SemiBold) format('svg');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: 'Interstate';
-  src: url(/fonts/Argus/Interstate-Bold.eot);
-  src: url(/fonts/Argus/Interstate-Bold.eot?#iefix) format('embedded-opentype'), url(/fonts/Argus/Interstate-Bold.woff2) format('woff2'), url(/fonts/Argus/Interstate-Bold.woff) format('woff'), url(/fonts/Argus/Interstate-Bold.ttf) format('truetype'), url(/fonts/Argus/Interstate-Bold.svg#Interstate-Bold) format('svg');
+  src: url(https://argus.bm/fonts/Argus/Interstate-Bold.eot);
+  src: url(https://argus.bm/fonts/Argus/Interstate-Bold.eot?#iefix) format('embedded-opentype'), url(https://argus.bm/fonts/Argus/Interstate-Bold.woff2) format('woff2'), url(https://argus.bm/fonts/Argus/Interstate-Bold.woff) format('woff'), url(https://argus.bm/fonts/Argus/Interstate-Bold.ttf) format('truetype'), url(https://argus.bm/fonts/Argus/Interstate-Bold.svg#Interstate-Bold) format('svg');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Interstate';
-  src: url(/fonts/Argus/Interstate-Regular.eot);
-  src: url(/fonts/Argus/Interstate-Regular.eot?#iefix) format('embedded-opentype'), url(/fonts/Argus/Interstate-Regular.woff2) format('woff2'), url(/fonts/Argus/Interstate-Regular.woff) format('woff'), url(/fonts/Argus/Interstate-Regular.ttf) format('truetype'), url(/fonts/Argus/Interstate-Regular.svg#Interstate-Regular) format('svg');
+  src: url(https://argus.bm/fonts/Argus/Interstate-Regular.eot);
+  src: url(https://argus.bm/fonts/Argus/Interstate-Regular.eot?#iefix) format('embedded-opentype'), url(https://argus.bm/fonts/Argus/Interstate-Regular.woff2) format('woff2'), url(https://argus.bm/fonts/Argus/Interstate-Regular.woff) format('woff'), url(https://argus.bm/fonts/Argus/Interstate-Regular.ttf) format('truetype'), url(https://argus.bm/fonts/Argus/Interstate-Regular.svg#Interstate-Regular) format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Interstate';
-  src: url(/fonts/Argus/Interstate-Light.eot);
-  src: url(/fonts/Argus/Interstate-Light.eot?#iefix) format('embedded-opentype'), url(/fonts/Argus/Interstate-Light.woff2) format('woff2'), url(/fonts/Argus/Interstate-Light.woff) format('woff'), url(/fonts/Argus/Interstate-Light.ttf) format('truetype'), url(/fonts/Argus/Interstate-Light.svg#Interstate-Light) format('svg');
+  src: url(https://argus.bm/fonts/Argus/Interstate-Light.eot);
+  src: url(https://argus.bm/fonts/Argus/Interstate-Light.eot?#iefix) format('embedded-opentype'), url(https://argus.bm/fonts/Argus/Interstate-Light.woff2) format('woff2'), url(https://argus.bm/fonts/Argus/Interstate-Light.woff) format('woff'), url(https://argus.bm/fonts/Argus/Interstate-Light.ttf) format('truetype'), url(https://argus.bm/fonts/Argus/Interstate-Light.svg#Interstate-Light) format('svg');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Interstate';
-  src: url(/fonts/Argus/Interstate-ExtraLight.eot);
-  src: url(/fonts/Argus/Interstate-ExtraLight.eot?#iefix) format('embedded-opentype'), url(/fonts/Argus/Interstate-ExtraLight.woff2) format('woff2'), url(/fonts/Argus/Interstate-ExtraLight.woff) format('woff'), url(/fonts/Argus/Interstate-ExtraLight.ttf) format('truetype'), url(/fonts/Argus/Interstate-ExtraLight.svg#Interstate-ExtraLight) format('svg');
+  src: url(https://argus.bm/fonts/Argus/Interstate-ExtraLight.eot);
+  src: url(https://argus.bm/fonts/Argus/Interstate-ExtraLight.eot?#iefix) format('embedded-opentype'), url(https://argus.bm/fonts/Argus/Interstate-ExtraLight.woff2) format('woff2'), url(https://argus.bm/fonts/Argus/Interstate-ExtraLight.woff) format('woff'), url(https://argus.bm/fonts/Argus/Interstate-ExtraLight.ttf) format('truetype'), url(https://argus.bm/fonts/Argus/Interstate-ExtraLight.svg#Interstate-ExtraLight) format('svg');
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: 'Minion Pro';
-  src: url(/fonts/Argus/MinionPro-Regular.eot);
-  src: url(/fonts/Argus/MinionPro-Regular.eot?#iefix) format('embedded-opentype'), url(/fonts/Argus/MinionPro-Regular.woff2) format('woff2'), url(/fonts/Argus/MinionPro-Regular.woff) format('woff'), url(/fonts/Argus/MinionPro-Regular.ttf) format('truetype'), url(/fonts/Argus/MinionPro-Regular.svg#MinionPro-Regular) format('svg');
+  src: url(https://argus.bm/fonts/Argus/MinionPro-Regular.eot);
+  src: url(https://argus.bm/fonts/Argus/MinionPro-Regular.eot?#iefix) format('embedded-opentype'), url(https://argus.bm/fonts/Argus/MinionPro-Regular.woff2) format('woff2'), url(https://argus.bm/fonts/Argus/MinionPro-Regular.woff) format('woff'), url(https://argus.bm/fonts/Argus/MinionPro-Regular.ttf) format('truetype'), url(https://argus.bm/fonts/Argus/MinionPro-Regular.svg#MinionPro-Regular) format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -17272,7 +17272,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
       height:400px;
       width:inherit;
       margin-left:-80%;
-
+  
   }*/
 }
 /*Tablet End*/
@@ -18921,7 +18921,7 @@ footer {
   left: 0px;
 }
 .topbar-list .dropdown.has-children:hover {
-  background: #004b8d;
+  background: #002d72;
 }
 .topbar-list .dropdown.has-children:hover > .topbar-dropdown {
   z-index: 10;
@@ -19061,7 +19061,7 @@ input[type=button] {
   line-height: 35px;
 }
 #notify-blue {
-  background-color: #004b8d;
+  background-color: #002d72;
 }
 #notify-green {
   background-color: green;

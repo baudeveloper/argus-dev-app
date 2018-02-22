@@ -1,56 +1,56 @@
 @font-face {
   font-family:'Encode Sans';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/EncodeSans-Regular.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/EncodeSans-Regular.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/EncodeSans-Regular.woff2) format('woff2'),url(/Content/fonts/Argus/EncodeSans-Regular.woff) format('woff'),url(/Content/fonts/Argus/EncodeSans-Regular.ttf) format('truetype'),url(/Content/fonts/Argus/EncodeSans-Regular.svg#EncodeSans-Regular) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/EncodeSans-Regular.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/EncodeSans-Regular.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-Regular.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-Regular.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-Regular.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-Regular.svg#EncodeSans-Regular) format('svg');
   font-weight:normal;
   font-style:normal
  }
  @font-face {
   font-family:'Encode Sans';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/EncodeSans-SemiBold.woff2) format('woff2'),url(/Content/fonts/Argus/EncodeSans-SemiBold.woff) format('woff'),url(/Content/fonts/Argus/EncodeSans-SemiBold.ttf) format('truetype'),url(/Content/fonts/Argus/EncodeSans-SemiBold.svg#EncodeSans-SemiBold) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.svg#EncodeSans-SemiBold) format('svg');
   font-weight:600;
   font-style:normal
  }
  @font-face {
   font-family:'Encode Sans Narrow';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/EncodeSansNarrow-SemiBold.woff2) format('woff2'),url(/Content/fonts/Argus/EncodeSansNarrow-SemiBold.woff) format('woff'),url(/Content/fonts/Argus/EncodeSansNarrow-SemiBold.ttf) format('truetype'),url(/Content/fonts/Argus/EncodeSansNarrow-SemiBold.svg#EncodeSansNarrow-SemiBold) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.svg#EncodeSansNarrow-SemiBold) format('svg');
   font-weight:600;
   font-style:normal
  }
  @font-face {
   font-family:'Interstate';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-Bold.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-Bold.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/Interstate-Bold.woff2) format('woff2'),url(/Content/fonts/Argus/Interstate-Bold.woff) format('woff'),url(/Content/fonts/Argus/Interstate-Bold.ttf) format('truetype'),url(/Content/fonts/Argus/Interstate-Bold.svg#Interstate-Bold) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-Bold.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-Bold.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/Interstate-Bold.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/Interstate-Bold.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/Interstate-Bold.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/Interstate-Bold.svg#Interstate-Bold) format('svg');
   font-weight:bold;
   font-style:normal
  }
  @font-face {
   font-family:'Interstate';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-Regular.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-Regular.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/Interstate-Regular.woff2) format('woff2'),url(/Content/fonts/Argus/Interstate-Regular.woff) format('woff'),url(/Content/fonts/Argus/Interstate-Regular.ttf) format('truetype'),url(/Content/fonts/Argus/Interstate-Regular.svg#Interstate-Regular) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-Regular.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-Regular.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/Interstate-Regular.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/Interstate-Regular.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/Interstate-Regular.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/Interstate-Regular.svg#Interstate-Regular) format('svg');
   font-weight:normal;
   font-style:normal
  }
  @font-face {
   font-family:'Interstate';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-Light.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-Light.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/Interstate-Light.woff2) format('woff2'),url(/Content/fonts/Argus/Interstate-Light.woff) format('woff'),url(/Content/fonts/Argus/Interstate-Light.ttf) format('truetype'),url(/Content/fonts/Argus/Interstate-Light.svg#Interstate-Light) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-Light.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-Light.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/Interstate-Light.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/Interstate-Light.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/Interstate-Light.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/Interstate-Light.svg#Interstate-Light) format('svg');
   font-weight:300;
   font-style:normal
  }
  @font-face {
   font-family:'Interstate';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-ExtraLight.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-ExtraLight.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/Interstate-ExtraLight.woff2) format('woff2'),url(/Content/fonts/Argus/Interstate-ExtraLight.woff) format('woff'),url(/Content/fonts/Argus/Interstate-ExtraLight.ttf) format('truetype'),url(/Content/fonts/Argus/Interstate-ExtraLight.svg#Interstate-ExtraLight) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-ExtraLight.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-ExtraLight.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/Interstate-ExtraLight.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/Interstate-ExtraLight.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/Interstate-ExtraLight.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/Interstate-ExtraLight.svg#Interstate-ExtraLight) format('svg');
   font-weight:200;
   font-style:normal
  }
  @font-face {
   font-family:'Minion Pro';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/MinionPro-Regular.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/MinionPro-Regular.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/MinionPro-Regular.woff2) format('woff2'),url(/Content/fonts/Argus/MinionPro-Regular.woff) format('woff'),url(/Content/fonts/Argus/MinionPro-Regular.ttf) format('truetype'),url(/Content/fonts/Argus/MinionPro-Regular.svg#MinionPro-Regular) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/MinionPro-Regular.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/MinionPro-Regular.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/MinionPro-Regular.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/MinionPro-Regular.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/MinionPro-Regular.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/MinionPro-Regular.svg#MinionPro-Regular) format('svg');
   font-weight:normal;
   font-style:normal
  }
@@ -80,6 +80,9 @@
  }
  .topbar-menu.call-to-actions {
   justify-content:flex-end
+ }
+ .topbar-menu.topbar-list .topbar-dropdown {
+  background-color:#002d72
  }
  .topbar-menu.topbar-list>li {
   padding:0
@@ -118,6 +121,17 @@
  }
  .topbar-menu.topbar-list>li.link {
   text-align:left
+ }
+ @media(min-width:1200px) {
+  .topbar-menu.topbar-list .topbar-dropdown {
+   background-color:#002d72
+  }
+  .topbar-menu.topbar-list>li {
+   padding:0
+  }
+  .topbar-menu.topbar-list>li.dropdown.link {
+   padding:10px 3px 3px 3px
+  }
  }
  .bootsnipp-search {
   display:block;
@@ -378,7 +392,8 @@
   z-index:1000;
   color:#fff;
   text-align:left;
-  top:55px
+  top:55px;
+  right:-1px
  }
  .ag-login-dropdown-cntr .ag-login-link {
   color:#fff;
@@ -478,11 +493,11 @@
  }
  @media(max-width:991px) {
   .header-v8 .navbar-nav>.open>a,.header-v8 .navbar-nav>.open>a:hover,.header-v8 .navbar-nav>.open>a:focus {
-   color:#004b8d;
+   color:#002d72;
    font-size:16px
   }
   .header-v8 .mega-menu .mega-menu-fullwidth .dropdown-menu li a {
-   color:#004b8d;
+   color:#002d72;
    font-size:16px;
    font-weight:bold;
    padding:5px 0 5px 0;
@@ -601,14 +616,14 @@
   height:450px;
   padding-top:200px;
   color:#fff;
-  background:url(/Content/themes/bm/images/home-bg.jpg) no-repeat center center
+  background:url(https://argus.bm/Content/themes/bm/images/home-bg.jpg) no-repeat center center
  }
  .jumbotron2 {
   margin-bottom:0;
   height:250px;
   padding-top:200px;
   color:#fff;
-  background:url(/Content/themes/bm/images/middle-jumbo.png) center;
+  background:url(https://argus.bm/Content/themes/bm/images/middle-jumbo.png) center;
   background-repeat:no-repeat;
   background-size:contain;
   background-color:#3994c9
@@ -956,10 +971,10 @@
   border-color:#5cb85c
  }
  .ag-request-health-quote .ag-add-more.bg-info {
-  border-color:#0079c1
+  border-color:#002d72
  }
  .ag-request-health-quote .progress-circle.bg-info {
-  background-color:#0079c1;
+  background-color:#002d72;
   color:#fff
  }
  .ag-request-health-quote .progress-circle.bg-success {
@@ -1276,14 +1291,14 @@
   padding:0 10px
  }
  .ag-eft-form .ag-form-section-heading h4 {
-  color:#004b8d
+  color:#002d72
  }
  .ag-eft-form .help-block.form-error {
   display:none
  }
  .ag-eft-form .ag-next,.ag-eft-form .ag-previous,.ag-eft-form .btn.ag-submit {
   padding:10px 20px;
-  background-color:#004b8d;
+  background-color:#002d72;
   width:12%;
   text-align:center;
   font-weight:bold;
@@ -1303,7 +1318,7 @@
   display:none
  }
  .ag-eft-form .ag-gov-id {
-  border:1px dotted #004b8d;
+  border:1px dotted #002d72;
   padding:20px 10px
  }
  .ag-eft-form .ag-gov-id .ag-gov-id-inner {
@@ -1661,7 +1676,7 @@
  }
  .article-main-content p strong span {
   font-size:20px;
-  color:#0079c1;
+  color:#002d72;
   font-weight:400
  }
  @media(max-width:768px) {
@@ -1784,6 +1799,7 @@
   right:15px
  }
  .insurance-src .view-all a {
+  color:#00adf0;
   font-size:16px
  }
  .insurance-src .view-all hr {
@@ -2140,7 +2156,7 @@
  .promo-text-header h2 {
   font-size:36px;
   text-align:center;
-  color:#004b8d;
+  color:#002d72;
   margin-bottom:20px
  }
  .promo-text-header p {
@@ -2296,7 +2312,7 @@
  }
  @media only screen and (max-width:480px) {
   .ag .hero-with-breadcrumb .hero-with-breadcrumb-content {
-   margin-top:22px
+   margin-top:0
   }
   .ag .hero-with-breadcrumb .hero-with-breadcrumb-content h1 {
    font-size:32px
@@ -2435,6 +2451,21 @@
  .ag-doc-selection .clearfix {
   font-size:14px;
   font-weight:normal
+ }
+ .call-to-action-buttons {
+  display:flex;
+  justify-content:center;
+  height:50px;
+  flex-wrap:wrap
+ }
+ .call-to-action-buttons a {
+  margin:3px 10px
+ }
+ .flex-align {
+  display:flex
+ }
+ .article-main-content img.image-left-align,.article-main-content .image-left-align img {
+  margin-left:0
  }
  .a-g-tabs .brt-link-item img {
   margin-right:10px
@@ -2932,10 +2963,10 @@
   height:12px
  }
  .ag-site-menu .toggle-arrow.arrow-up,.ag-mobile-login .toggle-arrow.arrow-up {
-  background-image:url(http://staging.argus.bm/Content/themes/bm/images/arrow-up.png)
+  background-image:url(https://argus.bm/Content/themes/bm/images/arrow-up.png)
  }
  .ag-site-menu .toggle-arrow.arrow-down,.ag-mobile-login .toggle-arrow.arrow-down {
-  background-image:url(http://staging.argus.bm/Content/themes/bm/images/arrow-down.png)
+  background-image:url(https://argus.bm/Content/themes/bm/images/arrow-down.png)
  }
  .ag-site-menu .ag-link-item,.ag-mobile-login .ag-link-item {
   display:inline-block
@@ -2989,7 +3020,7 @@
   border-left:1px solid rgba(255,255,255,.45)
  }
  .ag-mobile-login .icon-link-out {
-  background-image:url(http://staging.argus.bm/Content/themes/bm/images/link-out.png);
+  background-image:url(https://argus.bm/Content/themes/bm/images/link-out.png);
   width:20px;
   height:20px
  }
@@ -3128,7 +3159,7 @@
   position:absolute
  }
  .ag .carousel .carousel-indicators li {
-  background:#0079c1;
+  background:#002d72;
   border:0;
   width:10px;
   height:10px;
@@ -3141,7 +3172,7 @@
   width:16px;
   height:16px;
   background-color:transparent;
-  border:1px solid #0079c1;
+  border:1px solid #002d72;
   position:absolute;
   border-radius:10px;
   right:-3px;
@@ -3170,10 +3201,10 @@
   display:block
  }
  .ag .carousel .carousel-control .left-arrow {
-  background-image:url(http://staging.argus.bm/Content/themes/bm/images/left-arrow.png)
+  background-image:url(https://argus.bm/Content/themes/bm/images/left-arrow.png)
  }
  .ag .carousel .carousel-control .right-arrow {
-  background-image:url(http://staging.argus.bm/Content/themes/bm/images/right-arrow.png)
+  background-image:url(https://argus.bm/Content/themes/bm/images/right-arrow.png)
  }
  .ag .carousel .carousel-slide-image-container {
   height:100%
@@ -3350,57 +3381,57 @@
  }
  @font-face {
   font-family:'Encode Sans';
-  src:url(http://staging.argus.bm/fonts/Argus/EncodeSans-Regular.eot);
-  src:url(http://staging.argus.bm/fonts/Argus/EncodeSans-Regular.eot?#iefix) format('embedded-opentype'),url(http://staging.argus.bm/fonts/Argus/EncodeSans-Regular.woff2) format('woff2'),url(http://staging.argus.bm/fonts/Argus/EncodeSans-Regular.woff) format('woff'),url(http://staging.argus.bm/fonts/Argus/EncodeSans-Regular.ttf) format('truetype'),url(http://staging.argus.bm/fonts/Argus/EncodeSans-Regular.svg#EncodeSans-Regular) format('svg');
+  src:url(https://argus.bm/fonts/Argus/EncodeSans-Regular.eot);
+  src:url(https://argus.bm/fonts/Argus/EncodeSans-Regular.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/fonts/Argus/EncodeSans-Regular.woff2) format('woff2'),url(https://argus.bm/fonts/Argus/EncodeSans-Regular.woff) format('woff'),url(https://argus.bm/fonts/Argus/EncodeSans-Regular.ttf) format('truetype'),url(https://argus.bm/fonts/Argus/EncodeSans-Regular.svg#EncodeSans-Regular) format('svg');
   font-weight:normal;
   font-style:normal
  }
  @font-face {
   font-family:'Encode Sans';
-  src:url(http://staging.argus.bm/fonts/Argus/EncodeSans-SemiBold.eot);
-  src:url(http://staging.argus.bm/fonts/Argus/EncodeSans-SemiBold.eot?#iefix) format('embedded-opentype'),url(http://staging.argus.bm/fonts/Argus/EncodeSans-SemiBold.woff2) format('woff2'),url(http://staging.argus.bm/fonts/Argus/EncodeSans-SemiBold.woff) format('woff'),url(http://staging.argus.bm/fonts/Argus/EncodeSans-SemiBold.ttf) format('truetype'),url(http://staging.argus.bm/fonts/Argus/EncodeSans-SemiBold.svg#EncodeSans-SemiBold) format('svg');
+  src:url(https://argus.bm/fonts/Argus/EncodeSans-SemiBold.eot);
+  src:url(https://argus.bm/fonts/Argus/EncodeSans-SemiBold.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/fonts/Argus/EncodeSans-SemiBold.woff2) format('woff2'),url(https://argus.bm/fonts/Argus/EncodeSans-SemiBold.woff) format('woff'),url(https://argus.bm/fonts/Argus/EncodeSans-SemiBold.ttf) format('truetype'),url(https://argus.bm/fonts/Argus/EncodeSans-SemiBold.svg#EncodeSans-SemiBold) format('svg');
   font-weight:600;
   font-style:normal
  }
  @font-face {
   font-family:'Encode Sans Narrow';
-  src:url(http://staging.argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.eot);
-  src:url(http://staging.argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.eot?#iefix) format('embedded-opentype'),url(http://staging.argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.woff2) format('woff2'),url(http://staging.argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.woff) format('woff'),url(http://staging.argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.ttf) format('truetype'),url(http://staging.argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.svg#EncodeSansNarrow-SemiBold) format('svg');
+  src:url(https://argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.eot);
+  src:url(https://argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.woff2) format('woff2'),url(https://argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.woff) format('woff'),url(https://argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.ttf) format('truetype'),url(https://argus.bm/fonts/Argus/EncodeSansNarrow-SemiBold.svg#EncodeSansNarrow-SemiBold) format('svg');
   font-weight:600;
   font-style:normal
  }
  @font-face {
   font-family:'Interstate';
-  src:url(http://staging.argus.bm/fonts/Argus/Interstate-Bold.eot);
-  src:url(http://staging.argus.bm/fonts/Argus/Interstate-Bold.eot?#iefix) format('embedded-opentype'),url(http://staging.argus.bm/fonts/Argus/Interstate-Bold.woff2) format('woff2'),url(http://staging.argus.bm/fonts/Argus/Interstate-Bold.woff) format('woff'),url(http://staging.argus.bm/fonts/Argus/Interstate-Bold.ttf) format('truetype'),url(http://staging.argus.bm/fonts/Argus/Interstate-Bold.svg#Interstate-Bold) format('svg');
+  src:url(https://argus.bm/fonts/Argus/Interstate-Bold.eot);
+  src:url(https://argus.bm/fonts/Argus/Interstate-Bold.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/fonts/Argus/Interstate-Bold.woff2) format('woff2'),url(https://argus.bm/fonts/Argus/Interstate-Bold.woff) format('woff'),url(https://argus.bm/fonts/Argus/Interstate-Bold.ttf) format('truetype'),url(https://argus.bm/fonts/Argus/Interstate-Bold.svg#Interstate-Bold) format('svg');
   font-weight:bold;
   font-style:normal
  }
  @font-face {
   font-family:'Interstate';
-  src:url(http://staging.argus.bm/fonts/Argus/Interstate-Regular.eot);
-  src:url(http://staging.argus.bm/fonts/Argus/Interstate-Regular.eot?#iefix) format('embedded-opentype'),url(http://staging.argus.bm/fonts/Argus/Interstate-Regular.woff2) format('woff2'),url(http://staging.argus.bm/fonts/Argus/Interstate-Regular.woff) format('woff'),url(http://staging.argus.bm/fonts/Argus/Interstate-Regular.ttf) format('truetype'),url(http://staging.argus.bm/fonts/Argus/Interstate-Regular.svg#Interstate-Regular) format('svg');
+  src:url(https://argus.bm/fonts/Argus/Interstate-Regular.eot);
+  src:url(https://argus.bm/fonts/Argus/Interstate-Regular.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/fonts/Argus/Interstate-Regular.woff2) format('woff2'),url(https://argus.bm/fonts/Argus/Interstate-Regular.woff) format('woff'),url(https://argus.bm/fonts/Argus/Interstate-Regular.ttf) format('truetype'),url(https://argus.bm/fonts/Argus/Interstate-Regular.svg#Interstate-Regular) format('svg');
   font-weight:normal;
   font-style:normal
  }
  @font-face {
   font-family:'Interstate';
-  src:url(http://staging.argus.bm/fonts/Argus/Interstate-Light.eot);
-  src:url(http://staging.argus.bm/fonts/Argus/Interstate-Light.eot?#iefix) format('embedded-opentype'),url(http://staging.argus.bm/fonts/Argus/Interstate-Light.woff2) format('woff2'),url(http://staging.argus.bm/fonts/Argus/Interstate-Light.woff) format('woff'),url(http://staging.argus.bm/fonts/Argus/Interstate-Light.ttf) format('truetype'),url(http://staging.argus.bm/fonts/Argus/Interstate-Light.svg#Interstate-Light) format('svg');
+  src:url(https://argus.bm/fonts/Argus/Interstate-Light.eot);
+  src:url(https://argus.bm/fonts/Argus/Interstate-Light.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/fonts/Argus/Interstate-Light.woff2) format('woff2'),url(https://argus.bm/fonts/Argus/Interstate-Light.woff) format('woff'),url(https://argus.bm/fonts/Argus/Interstate-Light.ttf) format('truetype'),url(https://argus.bm/fonts/Argus/Interstate-Light.svg#Interstate-Light) format('svg');
   font-weight:300;
   font-style:normal
  }
  @font-face {
   font-family:'Interstate';
-  src:url(http://staging.argus.bm/fonts/Argus/Interstate-ExtraLight.eot);
-  src:url(http://staging.argus.bm/fonts/Argus/Interstate-ExtraLight.eot?#iefix) format('embedded-opentype'),url(http://staging.argus.bm/fonts/Argus/Interstate-ExtraLight.woff2) format('woff2'),url(http://staging.argus.bm/fonts/Argus/Interstate-ExtraLight.woff) format('woff'),url(http://staging.argus.bm/fonts/Argus/Interstate-ExtraLight.ttf) format('truetype'),url(http://staging.argus.bm/fonts/Argus/Interstate-ExtraLight.svg#Interstate-ExtraLight) format('svg');
+  src:url(https://argus.bm/fonts/Argus/Interstate-ExtraLight.eot);
+  src:url(https://argus.bm/fonts/Argus/Interstate-ExtraLight.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/fonts/Argus/Interstate-ExtraLight.woff2) format('woff2'),url(https://argus.bm/fonts/Argus/Interstate-ExtraLight.woff) format('woff'),url(https://argus.bm/fonts/Argus/Interstate-ExtraLight.ttf) format('truetype'),url(https://argus.bm/fonts/Argus/Interstate-ExtraLight.svg#Interstate-ExtraLight) format('svg');
   font-weight:200;
   font-style:normal
  }
  @font-face {
   font-family:'Minion Pro';
-  src:url(http://staging.argus.bm/fonts/Argus/MinionPro-Regular.eot);
-  src:url(http://staging.argus.bm/fonts/Argus/MinionPro-Regular.eot?#iefix) format('embedded-opentype'),url(http://staging.argus.bm/fonts/Argus/MinionPro-Regular.woff2) format('woff2'),url(http://staging.argus.bm/fonts/Argus/MinionPro-Regular.woff) format('woff'),url(http://staging.argus.bm/fonts/Argus/MinionPro-Regular.ttf) format('truetype'),url(http://staging.argus.bm/fonts/Argus/MinionPro-Regular.svg#MinionPro-Regular) format('svg');
+  src:url(https://argus.bm/fonts/Argus/MinionPro-Regular.eot);
+  src:url(https://argus.bm/fonts/Argus/MinionPro-Regular.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/fonts/Argus/MinionPro-Regular.woff2) format('woff2'),url(https://argus.bm/fonts/Argus/MinionPro-Regular.woff) format('woff'),url(https://argus.bm/fonts/Argus/MinionPro-Regular.ttf) format('truetype'),url(https://argus.bm/fonts/Argus/MinionPro-Regular.svg#MinionPro-Regular) format('svg');
   font-weight:normal;
   font-style:normal
  }
@@ -3425,7 +3456,7 @@
   padding-top:20px;
   padding-bottom:30px;
   font-size:18px;
-  font-weight:lighter
+  font-weight:300
  }
  .policy .panel {
   -webkit-box-shadow:none;
@@ -3489,57 +3520,57 @@
  }
  @font-face {
   font-family:'Encode Sans';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/EncodeSans-Regular.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/EncodeSans-Regular.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/EncodeSans-Regular.woff2) format('woff2'),url(/Content/fonts/Argus/EncodeSans-Regular.woff) format('woff'),url(/Content/fonts/Argus/EncodeSans-Regular.ttf) format('truetype'),url(/Content/fonts/Argus/EncodeSans-Regular.svg#EncodeSans-Regular) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/EncodeSans-Regular.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/EncodeSans-Regular.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-Regular.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-Regular.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-Regular.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-Regular.svg#EncodeSans-Regular) format('svg');
   font-weight:normal;
   font-style:normal
  }
  @font-face {
   font-family:'Encode Sans';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/EncodeSans-SemiBold.woff2) format('woff2'),url(/Content/fonts/Argus/EncodeSans-SemiBold.woff) format('woff'),url(/Content/fonts/Argus/EncodeSans-SemiBold.ttf) format('truetype'),url(/Content/fonts/Argus/EncodeSans-SemiBold.svg#EncodeSans-SemiBold) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/EncodeSans-SemiBold.svg#EncodeSans-SemiBold) format('svg');
   font-weight:600;
   font-style:normal
  }
  @font-face {
   font-family:'Encode Sans Narrow';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/EncodeSansNarrow-SemiBold.woff2) format('woff2'),url(/Content/fonts/Argus/EncodeSansNarrow-SemiBold.woff) format('woff'),url(/Content/fonts/Argus/EncodeSansNarrow-SemiBold.ttf) format('truetype'),url(/Content/fonts/Argus/EncodeSansNarrow-SemiBold.svg#EncodeSansNarrow-SemiBold) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/EncodeSansNarrow-SemiBold.svg#EncodeSansNarrow-SemiBold) format('svg');
   font-weight:600;
   font-style:normal
  }
  @font-face {
   font-family:'Interstate';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-Bold.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-Bold.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/Interstate-Bold.woff2) format('woff2'),url(/Content/fonts/Argus/Interstate-Bold.woff) format('woff'),url(/Content/fonts/Argus/Interstate-Bold.ttf) format('truetype'),url(/Content/fonts/Argus/Interstate-Bold.svg#Interstate-Bold) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-Bold.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-Bold.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/Interstate-Bold.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/Interstate-Bold.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/Interstate-Bold.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/Interstate-Bold.svg#Interstate-Bold) format('svg');
   font-weight:bold;
   font-style:normal
  }
  @font-face {
   font-family:'Interstate';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-Regular.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-Regular.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/Interstate-Regular.woff2) format('woff2'),url(/Content/fonts/Argus/Interstate-Regular.woff) format('woff'),url(/Content/fonts/Argus/Interstate-Regular.ttf) format('truetype'),url(/Content/fonts/Argus/Interstate-Regular.svg#Interstate-Regular) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-Regular.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-Regular.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/Interstate-Regular.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/Interstate-Regular.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/Interstate-Regular.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/Interstate-Regular.svg#Interstate-Regular) format('svg');
   font-weight:normal;
   font-style:normal
  }
  @font-face {
   font-family:'Interstate';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-Light.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-Light.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/Interstate-Light.woff2) format('woff2'),url(/Content/fonts/Argus/Interstate-Light.woff) format('woff'),url(/Content/fonts/Argus/Interstate-Light.ttf) format('truetype'),url(/Content/fonts/Argus/Interstate-Light.svg#Interstate-Light) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-Light.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-Light.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/Interstate-Light.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/Interstate-Light.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/Interstate-Light.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/Interstate-Light.svg#Interstate-Light) format('svg');
   font-weight:300;
   font-style:normal
  }
  @font-face {
   font-family:'Interstate';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-ExtraLight.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/Interstate-ExtraLight.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/Interstate-ExtraLight.woff2) format('woff2'),url(/Content/fonts/Argus/Interstate-ExtraLight.woff) format('woff'),url(/Content/fonts/Argus/Interstate-ExtraLight.ttf) format('truetype'),url(/Content/fonts/Argus/Interstate-ExtraLight.svg#Interstate-ExtraLight) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-ExtraLight.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/Interstate-ExtraLight.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/Interstate-ExtraLight.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/Interstate-ExtraLight.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/Interstate-ExtraLight.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/Interstate-ExtraLight.svg#Interstate-ExtraLight) format('svg');
   font-weight:200;
   font-style:normal
  }
  @font-face {
   font-family:'Minion Pro';
-  src:url(http://staging.argus.bm/Content/fonts/Argus/MinionPro-Regular.eot);
-  src:url(http://staging.argus.bm/Content/fonts/Argus/MinionPro-Regular.eot?#iefix) format('embedded-opentype'),url(/Content/fonts/Argus/MinionPro-Regular.woff2) format('woff2'),url(/Content/fonts/Argus/MinionPro-Regular.woff) format('woff'),url(/Content/fonts/Argus/MinionPro-Regular.ttf) format('truetype'),url(/Content/fonts/Argus/MinionPro-Regular.svg#MinionPro-Regular) format('svg');
+  src:url(https://argus.bm/Content/fonts/Argus/MinionPro-Regular.eot);
+  src:url(https://argus.bm/Content/fonts/Argus/MinionPro-Regular.eot?#iefix) format('embedded-opentype'),url(https://argus.bm/Content/fonts/Argus/MinionPro-Regular.woff2) format('woff2'),url(https://argus.bm/Content/fonts/Argus/MinionPro-Regular.woff) format('woff'),url(https://argus.bm/Content/fonts/Argus/MinionPro-Regular.ttf) format('truetype'),url(https://argus.bm/Content/fonts/Argus/MinionPro-Regular.svg#MinionPro-Regular) format('svg');
   font-weight:normal;
   font-style:normal
  }
@@ -3550,16 +3581,21 @@
   letter-spacing:-.3px
  }
  .white {
-  color:#fff
+  color:#fff;
+  font-size:inherit;
+  font-weight:inherit
  }
  .dark-blue,.carousel-caption>h1 span.dark-blue {
   color:#004b8d
  }
- .light-blue {
+ h1 span.light-blue,.light-blue {
   color:#0079c1
  }
  .cyan-blue {
   color:#00adf0
+ }
+ .argus-blue {
+  color:#002d72
  }
  .dark-gray {
   color:#3d4144
@@ -3587,6 +3623,13 @@
  }
  .dark-purple-background {
   background-color:#4f4f54
+ }
+ strong {
+  font-size:inherit
+ }
+ span {
+  font-size:inherit;
+  font-weight:inherit
  }
  h1 {
   font-size:54px;
@@ -3694,11 +3737,11 @@
   font-weight:300
  }
  a {
-  color:#00adf0;
+  color:#002d72;
   font-size:16px
  }
  a:hover,a:link,a:active {
-  color:#00adf0
+  color:#002d72
  }
  a.gray-text {
   color:#3d4144
