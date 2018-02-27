@@ -1,0 +1,63 @@
+header
+	#megamenulist.header-v8.header-sticky.hidden-xs.hidden-sm.hidden-md
+		.navbar.mega-menu.tb-megamenu(role='navigation')
+			.container.full-height
+				.row.full-height.flex-vertical.rel-position
+					.col-md-2
+						.res-container
+							button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-responsive-collapse')
+								span.sr-only Toggle navigation
+								span.icon-bar
+								span.icon-bar
+								span.icon-bar
+							.navbar-brand
+								a.clearfix(href='/')
+									img(src='https://argus.bm/media/3076/site-logo.png', alt='Logo')
+								//- .vertical-align-middle.search-cntr.clearfix.visible-sm.visible-xs
+								//-   form(action='https://argus.bm/search/')
+								//-     .form-group.has-feedback
+								//-       label.sr-only(for='search') Search
+								//-       input#search.form-control(name='search', placeholder='Search', type='text')
+								//-       span.glyphicon.glyphicon-search.form-control-feedback
+					.col-md-10.static-position
+						.collapse.navbar-collapse.navbar-responsive-collapse
+							ul#menu-list.nav.navbar-nav.static-position.bm-nav-menu
+								li.dropdown.mega-menu-fullwidth.visible-xs.visible-sm
+									a(href='https://aflonline.aflinvestments.bm/login.asp') Client Login
+								li.dropdown.mega-menu-fullwidth.text-center
+									a(href='/investment-philosophy/')
+										span.overlay Investment Philosphy
+								li.dropdown.mega-menu-fullwidth.text-center
+									a(href='/product-offering/')
+										span.overlay Product Offering
+								li.dropdown.mega-menu-fullwidth.text-center
+									a(href='/investor-profiles/')
+										span.overlay Investor Profiles
+.visible-xs.visible-sm.visible-md
+	#site-menu.ag-site-menu.mobile
+		.ag-mobile-menu
+			//- .search-cntr.mobile
+			//-   form(action='https://argus.bm/search/')
+			//-     .form-group.has-feedback
+			//-       label.sr-only(for='search') Search
+			//-       input#search.form-control(name='search', placeholder='Search', type='text')
+			//-       span.glyphicon.glyphicon-search.form-control-feedback
+			ul.list-unstyled.nav.nav-stacked.mobile-menu-list
+				li.dropdown.level-1.top-level(data-level='1')
+					a(href='/investment-philosophy/', target='_blank')
+						.ag-link-name Investment Philosophy
+				li.dropdown.level-1.top-level(data-level='1')
+					a(href='/product-offering/')
+						.ag-link-name Product Offering 
+				li.dropdown.level-1.top-level(data-level='1')
+					a(href='/investor-profiles/')
+						.ag-link-name Investor Profiles 
+				li.dropdown.level-1.top-level(data-level='1')
+					a(href='/about-us/')
+						.ag-link-name About Us 
+				li.dropdown.level-1.top-level(data-level='1')
+					a(href='/contact-us/')
+						.ag-link-name Contact Us
+				li.dropdown.level-1.top-level(data-level='1')
+					a(href='https://argus.bm')
+						.ag-link-name Argus.bm 
