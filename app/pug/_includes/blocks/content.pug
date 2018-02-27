@@ -21,293 +21,61 @@ div
                     .navbar-brand
                       a.clearfix(href='/')
                         img(src='https://argus.bm/media/3076/site-logo.png', alt='Logo')
-                      .vertical-align-middle.search-cntr.clearfix.visible-sm.visible-xs
-                        form(action='https://argus.bm/search/')
-                          .form-group.has-feedback
-                            label.sr-only(for='search') Search
-                            input#search.form-control(name='search', placeholder='Search', type='text')
-                            span.glyphicon.glyphicon-search.form-control-feedback
+                      //- .vertical-align-middle.search-cntr.clearfix.visible-sm.visible-xs
+                      //-   form(action='https://argus.bm/search/')
+                      //-     .form-group.has-feedback
+                      //-       label.sr-only(for='search') Search
+                      //-       input#search.form-control(name='search', placeholder='Search', type='text')
+                      //-       span.glyphicon.glyphicon-search.form-control-feedback
                   // /end responsive container
                 .col-md-10.static-position
                   // Collect the nav links, forms, and other content for toggling
                   .collapse.navbar-collapse.navbar-responsive-collapse
                     ul#menu-list.nav.navbar-nav.static-position.bm-nav-menu
                       li.dropdown.mega-menu-fullwidth.visible-xs.visible-sm
-                        a.dropdown-toggle(href='javascript:void(0);', data-toggle='dropdown')
-                          | Log into Account 
-                          span.fa.fa-caret-down
-                        ul.dropdown-menu
-                          li.dropdown
-                            a(href='javascript:void(0)')
-                              | Health
-                            ul.dropdown-menu
-                              li.dropdown
-                                a(href='https://argus.veriben.net', target='_blank')
-                                  | Employer Health Portal
-                              li.dropdown
-                                a(href='https://argus.veriben.net/', target='_blank')
-                                  | Member Health Portal
-                              li.dropdown
-                                a(href='https://tor.mywellsite.com/argus/default.aspx', target='_blank')
-                                  | Health Risk Assessment
-                              li.dropdown
-                                a(href='https://join.virginpulse.com/Argus', target='_blank')
-                                  | Get Up &amp; Thrive.
-                          li.dropdown
-                            a(href='https://portal.argus.bm', target='_blank')
-                              | Providers Login
-                          li.dropdown
-                            a(href='javascript:void(0)')
-                              | Pensions
-                            ul.dropdown-menu
-                              li.dropdown
-                                a(href='https://argus.therecordkeeper.com/argusmember/Login.jsp', target='_blank')
-                                  | Members
-                              li.dropdown
-                                a(href='https://argus.therecordkeeper.com/argusclient/Login.jsp', target='_blank')
-                                  | Employers
-                              li.dropdown
-                                a(href='https://www.ta-retirement.com/', target='_blank')
-                                  | 401K
-                      // Health
+                        a(href='https://aflonline.aflinvestments.bm/login.asp') Client Login
                       li.dropdown.mega-menu-fullwidth.text-center
                         a(href='#')
-                          span.overlay Health
-                          img.sub-menu-indicator(src='https://argus.bm/Content/images/navigation.png')
-                        ul.dropdown-menu
-                          // MEGA MENU STARTS
-                          li
-                            .row.display-table
-                              .col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
-                                .blog-grid.mega-menu-title
-                                  a.heading-link(href='https://argus.bm/health/plans-for-employers/') Plans For Employers
-                                  p Take care of your employees&apos; health
-                                  ul.mega-menu-list(id='')
-                                    li
-                                      a.list-item(href='https://argus.bm/health/plans-for-employers/guardian/') Guardian
-                                    li
-                                      a.list-item(href='https://argus.bm/health/plans-for-employers/lighthouse/') Lighthouse
-                                    li
-                                      a.list-item(href='https://argus.bm/health/plans-for-employers/signal/') Signal
-                                    li
-                                      a.list-item(href='https://argus.bm/health/plans-for-employers/employer-health-portal/') Employer Health Portal
-                                    li
-                                      a.list-item(href='https://www.argus.bm/health/plans-for-individuals/employer-health-portal/') Member Health Portal
-                              .col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
-                                .blog-grid.mega-menu-title
-                                  a.heading-link(href='https://argus.bm/health/plans-for-individuals/') Plans for Individuals
-                                  p Take care of yourself and your family
-                                  ul.mega-menu-list(id='')
-                                    li
-                                      a.list-item(href='https://argus.bm/health/plans-for-individuals/classic-health/') Classic Health
-                                    li
-                                      a.list-item(href='https://argus.bm/health/plans-for-individuals/vital-standard/') Vital Standard
-                                    li
-                                      a.list-item(href='https://argus.bm/health/plans-for-individuals/essential-health/') Essential Health
-                              .col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
-                                .blog-grid.mega-menu-title
-                                  a.heading-link(href='https://argus.bm/health/thrive/') Thrive.
-                                  p Improve your health and well-being
-                                  ul.mega-menu-list(id='')
-                                    li
-                                      a.list-item(href='https://argus.bm/health/thrive/get-up-thrive/') Get Up &amp; Thrive.
-                                    li
-                                      a.list-item(href='https://argus.bm/health/thrive/case-management/') Case Management
-                                    li
-                                      a.list-item(href='https://argus.bm/health/thrive/health-risk-assessment/') Health Risk Assessment
-                                    li
-                                      a.list-item(href='https://argus.bm/health/thrive/diabetes-reversal-programme/') Diabetes Reversal Programme
-                                    li
-                                      a.list-item(href='https://argus.bm/health/thrive/medical-weight-management/') Medical Weight Management
-                                    li
-                                      a.list-item(href='https://argus.bm/health/thrive/smoking-cessation/') Smoking Cessation
-                              .col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
-                                .blog-grid.mega-menu-title
-                                  a.heading-link(href='#') Health Resources
-                                  p
-                                  ul.mega-menu-list(id='')
-                                    li
-                                      a.list-item(href='https://argus.bm/forms/electronic-funds-transfer-form/') Setup Direct Deposit
-                                    li
-                                      a.list-item(href='/contact-us/frequently-asked-questions/?offering=health') Frequently Asked Questions
-                                    li
-                                      a.list-item(href='/forms/?offering=health') Health Forms
-                                    li
-                                      a.list-item(href='/learning-resources/') Health Tips &amp; Stories
-                                    li
-                                      a.list-item(href='http://www.healthylearn.com/argus', target='_blank') Health A-Z
-                                    li
-                                      a.list-item(href='http://www.healthylearn.com/argus/newsletters/index.html', target='_blank') Healthylife Newsletter
-                                    li
-                                      a.list-item(href='https://join.virginpulse.com/Argus', target='_blank') Join Wellness Challenges
+                          span.overlay Investment Philosphy
                       li.dropdown.mega-menu-fullwidth.text-center
                         a(href='https://argus.bm/life/')
-                          span.overlay Life
+                          span.overlay Product Offering
                       li.dropdown.mega-menu-fullwidth.text-center
                         a(href='https://argus.bm/disability/')
-                          span.overlay Disability
-                      li.dropdown.mega-menu-fullwidth.text-center
-                        a(href='https://argus.bm/workers-compensation/')
-                          span.overlay Workers&apos; Compensation
-                      li.dropdown.mega-menu-fullwidth.text-center
-                        a(href='#')
-                          span.overlay Property &amp; Casualty
-                          img.sub-menu-indicator(src='https://argus.bm/Content/images/navigation.png')
-                        ul.dropdown-menu
-                          // MEGA MENU STARTS
-                          li
-                            .row.display-table
-                              .col-sm-4.md-margin-bottom-30.border-right.mega-menu-column.table-cell
-                                .blog-grid.mega-menu-title
-                                  a.heading-link(href='https://argus.bm/property-casualty/commercial-plans/') Commercial Plans
-                                  p Explore all of what we offer to protect businesses&rsquo; valuable assets
-                                  ul.mega-menu-list(id='')
-                                    li
-                                      a.list-item(href='https://argus.bm/property-casualty/commercial-plans/property/') Property
-                                    li
-                                      a.list-item(href='https://argus.bm/property-casualty/commercial-plans/vehicles/') Vehicles
-                                    li
-                                      a.list-item(href='https://argus.bm/property-casualty/commercial-plans/liability/') Liability
-                                    li
-                                      a.list-item(href='https://argus.bm/property-casualty/commercial-plans/travel/') Travel
-                                    li
-                                      a.list-item(href='https://argus.bm/property-casualty/commercial-plans/cargo/') Cargo
-                                    li
-                                      a.list-item(href='https://argus.bm/property-casualty/commercial-plans/contractors/') Contractors
-                              .col-sm-4.md-margin-bottom-30.border-right.mega-menu-column.table-cell
-                                .blog-grid.mega-menu-title
-                                  a.heading-link(href='https://argus.bm/property-casualty/individual-plans/') Individual Plans
-                                  p Security for you and your family to ensure peace of mind
-                                  ul.mega-menu-list(id='')
-                                    li
-                                      a.list-item(href='https://argus.bm/property-casualty/individual-plans/home/') Home
-                                    li
-                                      a.list-item(href='https://argus.bm/property-casualty/individual-plans/car/') Car
-                                    li
-                                      a.list-item(href='https://argus.bm/property-casualty/individual-plans/bike/') Bike
-                                    li
-                                      a.list-item(href='https://argus.bm/property-casualty/individual-plans/marine/') Marine
-                                    li
-                                      a.list-item(href='https://argus.bm/property-casualty/individual-plans/travel/') Travel
-                                    li
-                                      a.list-item(href='https://argus.bm/property-casualty/individual-plans/golf/') Golf
-                              .col-sm-4.md-margin-bottom-30.border-right.mega-menu-column.table-cell
-                                .blog-grid.mega-menu-title
-                                  a.heading-link(href='#') Property &amp; Casualty Resources
-                                  p
-                                  ul.mega-menu-list(id='')
-                                    li
-                                      a.list-item(href='/contact-us/frequently-asked-questions/?offering=Property') Frequently Asked Questions
-                                    li
-                                      a.list-item(href='/forms/?offering=Property') P&amp;C Forms
-                      li.dropdown.mega-menu-fullwidth.text-center
-                        a(href='#')
-                          span.overlay Pensions &amp; Investments
-                          img.sub-menu-indicator(src='https://argus.bm/Content/images/navigation.png')
-                        ul.dropdown-menu
-                          // MEGA MENU STARTS
-                          li
-                            .row.display-table
-                              .col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
-                                .blog-grid.mega-menu-title
-                                  a.heading-link(href='https://argus.bm/pensions-investments/plans-for-employers/') Plans for Employers
-                                  p Protecting your employees&apos; financial future
-                                  ul.mega-menu-list(id='')
-                                    li
-                                      a.list-item(href='https://argus.bm/pensions-investments/plans-for-employers/registered-pensions/') Registered Pensions
-                                    li
-                                      a.list-item(href='https://argus.bm/pensions-investments/plans-for-employers/non-registered-pensions/') Non Registered Pensions
-                                    li
-                                      a.list-item(href='https://argus.bm/pensions-investments/plans-for-employers/401k/') 401K
-                                    li
-                                      a.list-item(href='https://argus.bm/investment-options') Investment Options
-                              .col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
-                                .blog-grid.mega-menu-title
-                                  a.heading-link(href='https://argus.bm/pensions-investments/plans-for-individuals/') Plans for Individuals
-                                  p Attractive and flexible pension choices
-                                  ul.mega-menu-list(id='')
-                                    li
-                                      a.list-item(href='https://argus.bm/pensions-investments/plans-for-individuals/individual-retirement-plan/') Individual Retirement Plan
-                                    li
-                                      a.list-item(href='https://argus.bm/pensions-investments/plans-for-individuals/wealth-builder-plan/') Wealth Builder Plan
-                                    li
-                                      a.list-item(href='https://argus.bm/investment-options') Investment Options
-                              .col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
-                                .blog-grid.mega-menu-title
-                                  a.heading-link(href='https://secure.retireware.com/argus/default.aspx', target='_blank') Pensions &amp; Investment Tools
-                                  p Calculators to help you reach your financial goals
-                                  ul.mega-menu-list(id='')
-                                    li
-                                      a.list-item(href='https://secure.retireware.com/argus/planner.aspx', target='_blank') Retirement Planner
-                                    li
-                                      a.list-item(href='https://secure.retireware.com/argus/questionnaire.aspx', target='_blank') Investment Strategy Questionairre
-                                    li
-                                      a.list-item(href='https://secure.retireware.com/argus/drawdown.aspx', target='_blank') Retirement Drawdown Calculator
-                              .col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
-                                .blog-grid.mega-menu-title
-                                  a.heading-link(href='#') Pensions &amp; Investments Resources
-                                  p
-                                  ul.mega-menu-list(id='')
-                                    li
-                                      a.list-item(href='/contact-us/frequently-asked-questions/?offering=Pension') Frequently Asked Questions
-                                    li
-                                      a.list-item(href='/forms/?offering=Pension') Pension Forms
-                                    li
-                                      a.list-item(href='#') Financial Tips &amp; Stories
-                                    li
-                                      a.list-item(href='http://mailchi.mp/argus/your-argus-pensions-newsletter-january-2018', target='_blank') Pensions Newsletter
-                    // /responsive container
-                  // /navbar-collapse
-              // row END
-            // container END
-          // navbar END
-        // sticky header END
+                          span.overlay Investor Profiles
+
       .visible-xs.visible-sm.visible-md
         #site-menu.ag-site-menu.mobile
           // mobile menu
           .ag-mobile-menu
             // search
-            .search-cntr.mobile
-              form(action='https://argus.bm/search/')
-                .form-group.has-feedback
-                  label.sr-only(for='search') Search
-                  input#search.form-control(name='search', placeholder='Search', type='text')
-                  span.glyphicon.glyphicon-search.form-control-feedback
+            //- .search-cntr.mobile
+            //-   form(action='https://argus.bm/search/')
+            //-     .form-group.has-feedback
+            //-       label.sr-only(for='search') Search
+            //-       input#search.form-control(name='search', placeholder='Search', type='text')
+            //-       span.glyphicon.glyphicon-search.form-control-feedback
             // search END
             // menu list
             ul.list-unstyled.nav.nav-stacked.mobile-menu-list
-              .flex-center.request-quote-container
-                a.btn.btn-primary(href='/request-a-quote/request-quote/')
-                  .ag-link-name Request Quote
               li.dropdown.level-1.top-level(data-level='1')
                 a(href='http://argus.oth.gbg.com/#/home', target='_blank')
-                  .ag-link-name Find Doctors &amp; Hospitals 
+                  .ag-link-name Investment Philosophy
               li.dropdown.level-1.top-level(data-level='1')
                 a(href='https://argus.bm/forms/')
-                  .ag-link-name Forms 
+                  .ag-link-name Product Offering 
               li.dropdown.level-1.top-level(data-level='1')
                 a(href='https://argus.bm/learning-resources/')
-                  .ag-link-name Learning Resources 
+                  .ag-link-name Investor Profiles 
               li.dropdown.level-1.top-level(data-level='1')
                 a(href='https://argus.bm/about-us/')
                   .ag-link-name About Us 
-                  span.js-ag-link-toggle.toggle-arrow.arrow-down
-                ul.hidden.ag-menu-level-2.ag-menu-sublevel.list-unstyled.nav.nav-stacked
-                  li.dropdown.level-2(data-level='2')
-                    a.ag-link-name(href='https://argus.bm/about-us/argus-group/') The Argus Group
-                  li.dropdown.level-2(data-level='2')
-                    a.ag-link-name(href='https://argus.bm/about-us/leadership-team/') Leadership Team
-                  li.dropdown.level-2(data-level='2')
-                    a.ag-link-name(href='https://argus.bm/about-us/mission-vision/') Mission &amp; Vision
-                  li.dropdown.level-2(data-level='2')
-                    a.ag-link-name(href='https://argus.bm/about-us/financial-reports/') Financial Reports
-                  li.dropdown.level-2(data-level='2')
-                    a.ag-link-name(href='https://argus.bm/about-us/shareholder-services/') Shareholder Services
-                  li.dropdown.level-2(data-level='2')
-                    a.ag-link-name(href='https://argus.bm/about-us/careers-at-argus/') Careers at Argus
               li.dropdown.level-1.top-level(data-level='1')
                 a(href='https://argus.bm/contact-us/')
-                  .ag-link-name Contact Us 
+                  .ag-link-name Contact Us
+              li.dropdown.level-1.top-level(data-level='1')
+                a(href='https://argus.bm/contact-us/')
+                  .ag-link-name Argus.bm 
                   span.js-ag-link-toggle.toggle-arrow.arrow-down
                 ul.hidden.ag-menu-level-2.ag-menu-sublevel.list-unstyled.nav.nav-stacked
                   li.dropdown.level-2(data-level='2')

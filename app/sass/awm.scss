@@ -67,3 +67,18 @@
 
 // Font Awesome
 @import "../../node_modules/font-awesome/scss/font-awesome.scss";
+
+
+// AWM Site Branding Overrides
+
+.awm-background {
+  background-color: #2C3950;
+}
+
+.topbar-menu {
+  justify-content: flex-end;
+}
+
+.header-v8 .mega-menu .nav {
+  justify-content: flex-end;
+}

@@ -1,4 +1,4 @@
-.ag-full-width-container.light-blue-background
+.ag-full-width-container.awm-background
   div
     .container-fluid.ag-relative-container
       header
@@ -8,141 +8,16 @@
           .container
             // row
             .row.flex-vertical
-              .col-md-offset-2.col-md-6.js-nav-items
+              .col-md-12.js-nav-items
                 ul#topbar.topbar-list.topbar-menu
                   li.dropdown.link
-                    a(href='http://argus.oth.gbg.com/#/home', target='_blank') Find Doctors &amp; Hospitals
+                    a(href='/about-us/', target='_blank') About Us
                   li.dropdown.link
-                    a(href='https://argus.bm/forms/') Forms
+                    a(href='/contact-us/') Contact Us
                   li.dropdown.link
-                    a(href='https://argus.bm/learning-resources/') Learning Resources
-                  li.dropdown.link.has-children
-                    a(href='https://argus.bm/about-us/') About Us
-                    ul.topbar-dropdown
-                      li
-                        a(href='https://argus.bm/about-us/argus-group/') The Argus Group
-                      li
-                        a(href='https://argus.bm/about-us/leadership-team/') Leadership Team
-                      li
-                        a(href='https://argus.bm/about-us/mission-vision/') Mission &amp; Vision
-                      li
-                        a(href='https://argus.bm/about-us/financial-reports/') Financial Reports
-                      li
-                        a(href='https://argus.bm/about-us/shareholder-services/') Shareholder Services
-                      li
-                        a(href='https://argus.bm/about-us/argus-news/') Argus News
-                      li
-                        a(href='https://argus.bm/about-us/careers-at-argus/') Careers at Argus
-                  li.dropdown.link.has-children
-                    a(href='https://argus.bm/contact-us/') Contact Us
-                    ul.topbar-dropdown
-                      li
-                        a(href='https://argus.bm/contact-us/frequently-asked-questions/') Frequently Asked Questions
-              .col-md-5.text-right.js-nav-items
-                ul.topbar-list.topbar-menu.call-to-actions
-                  li.dropdown.ag-dd-toggle-cntr
-                    a.btn.cd-log_reg.dropdown-toggle.ag-dd-toggle.btn-white-text.btn-secondary(href='https://argus.bm/request-a-quote/request-quote/', id='', data-toggle='')
-                      | Request Quote
-                  li#utilitymenu.dropdown.ag-dd-toggle-cntr
-                    a#loginDropdownToggle.btn.btn-primary.cd-signup.cd-log_reg.dropdown-toggle.ag-dd-toggle(data-toggle='dropdown', href='#')
-                      | Log into Account 
-                      span.fa.fa-caret-down
-                    #loginDropdownCntr.ag-login-dropdown-cntr
-                      ul#loginDropdown.ag-login-dropdown(aria-labelledby='loginDropdownToggle')
-                        li.ag-choose-acc
-                          .inner-list-node
-                            | Choose Account:
-                        li.dropdown-submenu.ag-accordion-submenu
-                          a.ag-login-link(href='javascript:void(0)')
-                            .ag-login-link-item.inner-list-node
-                              .ag-login-link-icon.sub-item
-                                .vertical-align-middle
-                                  img(src='https://argus.bm/media/3473/health-login.png')
-                              .sub-item.ag-login-description
-                                .ag-login-link-text
-                                  span(href='#') Health
-                                .ag-login-link-subtext
-                                  span Access your Account
-                              .ag-login-link-caret.sub-item
-                                .vertical-align-middle
-                                  i.ag-arrow-right.fa.fa-chevron-right.fa-2x.caret-closed
-                                  i.fa.fa-caret-down.fa-2x.caret-open
-                          ul.ag-dropdown-submenu
-                            li
-                              a(href='https://argus.veriben.net', target='_blank')
-                                .inner-list-node.ag-login-link-item
-                                  span Employer Health Portal
-                            li
-                              a(href='https://argus.veriben.net/', target='_blank')
-                                .inner-list-node.ag-login-link-item
-                                  span Member Health Portal
-                            li
-                              a(href='https://tor.mywellsite.com/argus/default.aspx', target='_blank')
-                                .inner-list-node.ag-login-link-item
-                                  span Health Risk Assessment
-                            li
-                              a(href='https://join.virginpulse.com/Argus', target='_blank')
-                                .inner-list-node.ag-login-link-item
-                                  span Get Up &amp; Thrive.
-                        li.dropdown-submenu
-                          a.ag-login-link(href='https://portal.argus.bm', target='_blank')
-                            .ag-login-link-item.inner-list-node
-                              .ag-login-link-icon.sub-item
-                                .vertical-align-middle
-                                  img(src='https://argus.bm/media/3472/provider-finder-w.png')
-                              .sub-item.ag-login-description
-                                .ag-login-link-text
-                                  span(href='#') Providers Login
-                                .ag-login-link-subtext
-                                  span View Benefits Information
-                              .ag-login-link-caret.sub-item
-                                .vertical-align-middle
-                                  i.ag-arrow-right.fa.fa-chevron-right.fa-2x.caret-closed
-                                  i.fa.fa-caret-down.fa-2x.caret-open
-                        li.dropdown-submenu.ag-accordion-submenu
-                          a.ag-login-link(href='javascript:void(0)')
-                            .ag-login-link-item.inner-list-node
-                              .ag-login-link-icon.sub-item
-                                .vertical-align-middle
-                                  img(src='https://argus.bm/media/3475/pensions-login.png')
-                              .sub-item.ag-login-description
-                                .ag-login-link-text
-                                  span(href='#') Pensions
-                                .ag-login-link-subtext
-                                  span Access your Account
-                              .ag-login-link-caret.sub-item
-                                .vertical-align-middle
-                                  i.ag-arrow-right.fa.fa-chevron-right.fa-2x.caret-closed
-                                  i.fa.fa-caret-down.fa-2x.caret-open
-                          ul.ag-dropdown-submenu
-                            li
-                              a(href='https://argus.therecordkeeper.com/argusmember/Login.jsp', target='_blank')
-                                .inner-list-node.ag-login-link-item
-                                  span Members
-                            li
-                              a(href='https://argus.therecordkeeper.com/argusclient/Login.jsp', target='_blank')
-                                .inner-list-node.ag-login-link-item
-                                  span Employers
-                            li
-                              a(href='https://www.ta-retirement.com/', target='_blank')
-                                .inner-list-node.ag-login-link-item
-                                  span 401K
-                      // /end login-dropdown
-                    // /end login-dropdown container
-                  li.hidden-xs
-                    a.animate.ag-search-icon(href='#toggle-search')
-                      span.fa.fa-search.search-icon-font
-              // search section
-              .bootsnipp-search.animate.col-md-12
-                form(action='https://argus.bm/search/', method='GET', role='search')
-                  .input-group
-                    input#search.form-control.search-control(name='search', placeholder='What are you looking for?', type='text')
-                    span.input-group-btn
-                      button.btn.btn-primary.btn-search(type='reset')
-                        i.glyphicon.glyphicon-remove
-                    a.animate.ag-search-icon(href='#toggle-search')
-                      span.glyphicon.glyphicon-search.search-icon-font.search-icon-padding
-              // search section END
+                    a(href='https://argus.bm') Argus.bm
+                  li.dropdown
+                    a.btn.btn-primary.call-to-action(href='https://aflonline.aflinvestments.bm/login.asp') Client Login
             // row END
           // container END
         // top nav container END
