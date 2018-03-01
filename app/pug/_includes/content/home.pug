@@ -1,38 +1,139 @@
-.container
-	.row
-		.col-sm-12
-			h1 Home
-			hr
-			div
-				h2 Local Expertise. Global Exposure.
-				p Providing high quality wealth management advice so that you can focus on the things that matter most.
-				a(href="#") Contact Us For More Information
-			hr
-			h2 Argus wealth managemENT
-			p Argus Wealth Management (”AWM”) is a Bermudian financial services company that provides a range of investment solutions to individuals, couples, trusts, companies, endowments and philanthropic organisations.
-			p AWM is a member of The Argus Group of Companies (www.argus.bm) and was founded in 2005. The Argus Group has a history of over 20 years managing investment assets.
-			hr
-			p We manage over $1 billion in discretionary and advisory assets and provide a range of investment solutions for three main client groups:
-			div
-				h2 High Net Worth Clients
-				p For clients with more than $500,000 to invest, AWM manages customized portfolios that are tailored to clients’ needs and risk tolerances, on either a discretionary or advisory basis.
-				a(href="#") Learn More >
-			div
-				h2 Institutional Investors
-				p AWM manages portfolios for trusts, companies, endowments and philanthropic organizations.
-				p We offer a variety of traditional and ethical investment vehicles.
-				a(href="#") Learn More >
-			div
-				h2 Corporate Pension Funds
-				p AWM is the investment manager for the balance sheet assets of The Argus Group.
-				p We also offer our expertise managing pension pools to corporate clients.
-				a(href="#") Learn More >
-			hr
-			p We have a wealth of experience working with both local and international clients to whom we are considered a trusted advisor. We spend time truly getting to know our clients and take pride in our investment approach and excellent client service. The majority of AWM’s staff are Bermudians and our investment team includes three CFA charter holders.
-			a(href="#") Meet Our Team
-			hr
-			p This will be a banner (design to be determined) that will highlight and link to the Product Offering page.
-			a(href="#") Find Out More
-			hr
-			p We help you achieve your goals with our exceptional service in private wealth management.
-			a(href="#") Let’s Talk
+.umb-grid
+	.grid-section
+		div
+			.row
+				.col-md-12.column
+					div
+						.row.ag-row-mobile-full(style='overflow:hidden')
+							#myCarousel.carousel.slide.carousel-fade(data-ride='carousel', data-interval='false')
+								// Wrapper for slides
+								#hero.carousel-inner(role='listbox')
+									#10780.item.active(data-navigation-id='nav-10780')
+										.carousel-caption
+											.container
+												h1
+													| Local Expertise. Global Exposure.
+												h3
+													| Providing high quality wealth management advice so that you can focus on the things that matter most.
+												p
+													a.btn.btn-primary.call-to-action(href='#') Contact Us For More Information
+										.ag-hero.carousel-slide-image-container
+											.banner-image(style='background-image: url(https://argus.bm/media/3644/argus-virgin-pulse-homepage-hero.jpg?width=2800&height=1500&mode=max)')
+											.image-overlay
+									#10355.item(data-navigation-id='nav-10355')
+										.carousel-caption
+											.container
+												h1 Our New Member Health Portal
+												h3 Your one-stop-shop to access and manage your Argus Health information online
+												p
+													a.btn.btn-primary.call-to-action(href='https://argus.bm/health/plans-for-individuals/member-health-portal/') Learn More
+										.ag-hero.carousel-slide-image-container
+											.banner-image(style='background-image: url(https://argus.bm/media/3294/argus-member-health-portal-home-hero.jpg?width=2800&height=1500&mode=max)')
+											.image-overlay
+									#10359.item(data-navigation-id='nav-10359')
+										.carousel-caption
+											.container
+												h1 Diabetes Reversal Programme
+												h3
+												| Designed to help individuals with Type 2 Diabetes find ways to eat healthier and to increase physical activity
+												p
+													a.btn.btn-primary.call-to-action(href='https://argus.bm/health/thrive/diabetes-reversal-programme/') Learn More
+										.ag-hero.carousel-slide-image-container
+											.banner-image(style='background-image: url(https://argus.bm/media/3298/argus-diabetes-reveral-programme-home-hero.jpg?width=2800&height=1500&mode=max)')
+											.image-overlay
+									#10362.item(data-navigation-id='nav-10362')
+										.carousel-caption
+											.container
+												h1 Your Partner in Retirement
+												h3
+												| Browse our Learning Resources to learn how Argus can help you reach your financial goals.
+												p
+													a.btn.btn-primary.call-to-action(href='https://argus.bm/learning-resources/') View Learning Resources
+										.ag-hero.carousel-slide-image-container
+											.banner-image(style='background-image: url(https://argus.bm/media/3296/argus-retirement-planning-home-hero.jpg?width=2800&height=1500&mode=max)')
+											.image-overlay
+								// Indicators
+								ol.carousel-indicators.visible-xs.hidden
+									li(data-target='#myCarousel', data-slide-to='0')
+										.outer-circle
+									li(data-target='#myCarousel', data-slide-to='1')
+										.outer-circle
+									li(data-target='#myCarousel', data-slide-to='2')
+										.outer-circle
+									li.active(data-target='#myCarousel', data-slide-to='3')
+										.outer-circle
+								// Left and right controls
+								#heronav.hidden-xs
+									.container
+										a.left.carousel-control(href='#myCarousel', data-slide='prev')
+											span.left-arrow
+										a.right.carousel-control(href='#myCarousel', data-slide='next')
+											span.right-arrow
+		div.card--summary
+			.container
+				.row
+					.col-sm-12
+						.text-center
+							h2.card--summary--heading Argus wealth management
+							p.card--summary--content Argus Wealth Management (”AWM”) is a Bermudian financial services company that provides a range of investment solutions to individuals, couples, trusts, companies, endowments and philanthropic organisations.
+							p.card--summary--content AWM is a member of The Argus Group of Companies (www.argus.bm) and was founded in 2005. The Argus Group has a history of over 20 years managing investment assets.
+		div.card--features
+			.container
+				.row
+					.col-sm-12
+						.text-center
+							p.card--features-caption AWM manages over $1 billion in discretionary and advisory assets and provides advisory services and a range of investment solutions for three main client groups:
+							ul.card--features-list.row
+								li.card--features-listitem.col-sm-4
+									div.card--features-wrap
+										header
+											img(src="../images/awm-feature-01-thumb.png", alt="High Net Worth Clients")
+										footer
+											h2.card--features-box-heading High Net Worth Clients
+											p.card--features-box-content For clients with more than $500,000 to invest, AWM manages customized portfolios that are tailored to clients’ needs and risk tolerances, on either a discretionary or advisory basis.
+											a.card--features-box-link(href="#")
+												| Learn more &gt;
+								li.card--features-listitem.col-sm-4
+									div.card--features-wrap
+										header
+											img(src="../images/awm-feature-02-thumb.png", alt="Institutional Investors")
+										footer
+											h2.card--features-box-heading Institutional Investors
+											p.card--features-box-content AWM manages portfolios for trusts, companies, endowments and philanthropic organizations.
+											p.card--features-box-content We offer a variety of traditional and ethical investment vehicles.
+											a.card--features-box-link(href="#")
+												| Learn more &gt;
+								li.card--features-listitem.col-sm-4
+									div.card--features-wrap
+										header
+											img(src="../images/awm-feature-03-thumb.png", alt="Corporate Pension Funds")
+										footer
+											h2.card--features-box-heading Corporate Pension Funds
+											p.card--features-box-content AWM is the investment manager for the balance sheet assets of The Argus Group.
+											p.card--features-box-content We also offer our expertise managing pension pools to corporate clients.
+											a.card--features-box-link(href="#")
+												| Learn more &gt;
+		div.card--callout.card--callout-tertiary
+			.container
+				.row
+					.col-sm-12
+						.text-center
+							p
+								| We have a wealth of experience working with both local and international clients to whom we are considered a trusted advisor. We spend time truly getting to know our clients and take pride in our investment approach and excellent client service. The majority of AWM’s staff are Bermudians and our investment team includes three CFA charter holders.
+							a.btn.btn-primary(href='#') Meet Our Team
+		div.card--callout.card--callout-primary
+			.container
+				.row
+					.col-sm-12
+						.text-center
+							p
+								| This will be a banner (design to be determined) that will highlight and link to the Product Offering page.
+							a.btn.btn-primary(href='#') Find Out More
+		div.card--callout.card--callout-secondary
+			.container
+				.row
+					.col-sm-12
+						.text-center
+							p
+								| We help you achieve your goals with our exceptional service in private wealth management.
+							a.btn.btn-primary(href='#') Let’s Talk

@@ -71,23 +71,200 @@
 
 // AWM Site Branding Overrides
 
-.awm-background {
-  background-color: #2C3950;
-}
+// COLORS
+$white: #fff;
+$silver-AA: #5d6770;
+$silver-AB: #e9e7e7;
+$silver-AC: #5d6770;
+$silver-AD: #3d4144;
+$blue-AA: #2c3950;
+$blue-AB: #d6f9ff;
+$blue-AC: #0079c1;
+$blue-AD: #293852;
+$blue-AE: #1f71ac;
 
-.topbar-menu {
-  justify-content: flex-end;
+// --- GENERAL STYLES
+.awm-background,
+footer {
+  background-color: $blue-AA;
 }
-
+.topbar-menu,
 .header-v8 .mega-menu .nav {
   justify-content: flex-end;
 }
-
-footer {
-    background: #2C3950;
-}
-
 #footer .ag-footer-links {
   margin-top: 80px;
   margin-bottom: 30px;
+}
+
+// CARDS
+.card--team {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: $silver-AC;
+  &-caption {
+    color: $blue-AD;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 50px;
+  }
+  &-box {
+    &-heading {
+      color: $silver-AA;
+      font-size: 20px;
+    }
+    &-content {
+      color: $silver-AA;
+      font-size: 16px;
+    }
+    &-link {
+      font-size: 16px;
+      text-transform: uppercase;
+      &:link {
+        color: $blue-AE;
+      }
+    }
+  }
+  &-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  &-wrap {
+    footer {
+      background: $white;
+    }
+  }
+}
+.card--portfolio {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: $silver-AC;
+  &-caption {
+    color: $blue-AD;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 50px;
+  }
+  &-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  &-wrap {
+    background: $white;
+  }
+  &-heading {
+    color: $silver-AA;
+    font-size: 20px;
+  }
+  &-content {
+    color: $silver-AA;
+    font-size: 16px;
+  }
+  &-blurb {
+    color: $blue-AD;
+    font-weight: 300;
+    font-size: 24px;
+  }
+}
+.card--features {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: $silver-AC;
+  &-caption {
+    color: $blue-AD;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 50px;
+  }
+  &-box {
+    &-heading {
+      color: $silver-AA;
+      font-size: 20px;
+    }
+    &-content {
+      color: $silver-AA;
+      font-size: 16px;
+    }
+    &-link {
+      font-size: 16px;
+      text-transform: uppercase;
+      &:link {
+        color: $blue-AE;
+      }
+    }
+  }
+  &-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  &-wrap {
+    footer {
+      background: $white;
+    }
+  }
+}
+.card--summary {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  &--heading {
+    color: $blue-AD;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  &--content {
+    color: $silver-AD;
+    font-weight: 300;
+    font-size: 24px;
+  }
+}
+.card--testimonial {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: $blue-AB;
+  // background-image: url("../images/awm-testimonial-bg.png");
+  blockquote {
+    padding: 0;
+    margin: 0 0 15px;
+    border: none;
+    color: $blue-AC;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 1.25;
+  }
+  cite {
+    color: $silver-AA;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+.card--callout {
+  color: $silver-AA;
+  background: $silver-AB;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  p {
+    font-size: 24px;
+    color: $silver-AC;
+  }
+  a {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  &-primary {
+    background: $silver-AB;
+  }
+  &-secondary {
+    background: $white;
+  }
+  &-tertiary {
+    background: $white;
+    p {
+      font-size: 18px;
+    }
+  }
 }
