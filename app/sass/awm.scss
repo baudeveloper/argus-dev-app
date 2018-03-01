@@ -84,6 +84,7 @@ $blue-AC: #0079c1;
 $blue-AD: #293852;
 $blue-AE: #1f71ac;
 $blue-AF: #d2e3ee;
+$red-AA: #ff5959;
 
 // --- GENERAL STYLES
 .awm-background,
@@ -105,10 +106,18 @@ footer {
 }
 
 // CARDS
+.card--chart {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: $silver-AE;
+  &-heading {
+    text-transform: uppercase;
+  }
+}
 .card--team {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: $silver-AE;
+  // background-color: $silver-AE;
   background: $silver-AE no-repeat url("../images/awm-team-bg.png");
   background-position: bottom right;
   &-title {
@@ -250,6 +259,7 @@ footer {
   }
 }
 .card--testimonial {
+  position: relative;
   padding-top: 90px;
   padding-bottom: 90px;
   // background: $blue-AB;
@@ -274,6 +284,21 @@ footer {
     background-size: cover;
     background-position: -400px center;
   }
+  @media screen and (max-width: 960px) {
+    &::before {
+      position: absolute;
+      content: '';
+      z-index: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      background-color: rgba(255, 89, 89, 0.2);
+    }
+  }
   blockquote {
     padding: 0;
     margin: 0 0 15px;
@@ -297,11 +322,25 @@ footer {
   background: $silver-AB;
   padding-top: 100px;
   padding-bottom: 100px;
+  @media screen and (min-width: 768px) and (max-width: 960px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   p {
     font-size: 24px;
     color: $silver-AC;
     margin: 0 auto 30px;
     max-width: 480px;
+    @media screen and (min-width: 768px) and (max-width: 960px) {
+      font-size: 20px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+    }
   }
   a {
     font-weight: bold;
