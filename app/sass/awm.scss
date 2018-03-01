@@ -110,8 +110,79 @@ footer {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: $silver-AE;
+  @media screen and (min-width: 768px) and (max-width: 960px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   &-heading {
     text-transform: uppercase;
+    @media screen and (min-width: 960px) and (max-width: 1200px) {
+      font-size: 24px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 960px) {
+      font-size: 22px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+  &-content {
+    font-size: 24px;
+    color: $blue-AD;
+    font-weight: 300;
+    margin-bottom: 30px;
+    @media screen and (min-width: 960px) and (max-width: 1200px) {
+      font-size: 20px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 960px) {
+      font-size: 18px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+  img {
+    width: 100%;
+    @media screen and (max-width: 768px) {
+      max-width: 320px;
+    }
+  }
+  table {
+    td {
+      color: $blue-AD;
+      font-weight: 300;
+    }
+    @media screen and (min-width: 1200px) {
+      td {
+        font-size: 24px;
+      }
+    }
+    @media screen and (min-width: 960px) and (max-width: 1200px) {
+      td {
+        font-size: 20px;
+      }
+    }
+    @media screen and (min-width: 768px) and (max-width: 960px) {
+      td {
+        font-size: 18px;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      margin-bottom: 30px;
+      td {
+        font-size: 16px;
+      }
+    }
+  }
+  @media screen and (min-width: 768px) {
+    h2,
+    h2+p {
+      text-align: center;
+    }
   }
 }
 .card--team {
@@ -200,11 +271,39 @@ footer {
   padding-bottom: 90px;
   background: transparent no-repeat url("../images/awm-team-bg.png");
   background-position: bottom right;
+  @media screen and (min-width: 768px) and (max-width: 960px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   &-caption {
     color: $blue-AD;
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (min-width: 768px) {
+      max-width: 750px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1200px) {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  }
+  &-box-heading {
+    line-height: normal;
+  }
+  &-box-link {
+    display: block;
+    margin-top: 15px;
   }
   &-box {
     &-heading {
@@ -227,9 +326,23 @@ footer {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    li:last-of-type {
+      .card--features-wrap {
+        margin-bottom: 0;
+      }
+    }
   }
   &-wrap {
+    @media screen and (max-width: 768px) {
+      margin-bottom: 30px;
+    }
+    header {
+      img {
+        width: 100%;
+      }
+    }
     footer {
+      padding: 15px 30px 30px;
       background: $white;
     }
   }
