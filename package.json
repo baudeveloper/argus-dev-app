@@ -37,7 +37,7 @@
     "watch:css": "onchange \"app/sass\" -- run-s styles",
     "watch:js": "onchange \"app/js\" -- run-s scripts",
     "watch:html": "onchange \"app/pug/_includes\" \"app/pug/_layouts\" \"app/pug/_partials\" \"app/pug/pages\" -- run-s html",
-    "watch:images": "onchange \"app/images\" -- run-s gulp",
+    "watch:images": "onchange \"app/images\" -- run-s images",
     "watch": "run-p serve watch:*",
     "postinstall": "run-s all"
   },
