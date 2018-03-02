@@ -298,6 +298,20 @@ footer {
       font-size: 16px;
     }
   }
+  &-compact {
+    .site--banner-heading {
+      margin: 0;
+      @media screen and (min-width: 960px) and (max-width: 1200px) {
+        margin: 0;
+      }
+      @media screen and (min-width: 768px) and (max-width: 960px) {
+        margin: 0;
+      }
+      @media screen and (max-width: 768px) {
+        margin: 0;
+      }
+    }
+  }
 }
 .site--content {
   &-wrap {
