@@ -84,7 +84,11 @@ $blue-AC: #0079c1;
 $blue-AD: #293852;
 $blue-AE: #1f71ac;
 $blue-AF: #d2e3ee;
+$blue-AG: #1178bb;
 $red-AA: #ff5959;
+$green-AA: #dcd087;
+$green-AB: #817f6f;
+$green-AC: #aab2a9;
 
 // --- GENERAL STYLES
 .awm-background,
@@ -110,6 +114,10 @@ footer {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: $silver-AE;
+  @media screen and (min-width: 960px) and (max-width: 1200px) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
   @media screen and (min-width: 768px) and (max-width: 960px) {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -145,14 +153,15 @@ footer {
       font-size: 16px;
     }
   }
-  img {
+  &-diagram {
     width: 100%;
     @media screen and (max-width: 768px) {
       max-width: 320px;
     }
   }
-  table {
+  &-tbl {
     td {
+      padding: 0 15px 0 0;
       color: $blue-AD;
       font-weight: 300;
     }
@@ -178,9 +187,26 @@ footer {
       }
     }
   }
+  &-sign {
+    display: block;
+    width: 40px;
+    height: 20px;
+  }
+  &-sign-lg {
+    background: $blue-AG;
+  }
+  &-sign-md {
+    background: $green-AA;
+  }
+  &-sign-sm {
+    background: $green-AB;
+  }
+  &-sign-xs {
+    background: $green-AC;
+  }
   @media screen and (min-width: 768px) {
-    h2,
-    h2+p {
+    .card--chart-heading,
+    .card--chart-heading+.card--chart-content {
       text-align: center;
     }
   }
