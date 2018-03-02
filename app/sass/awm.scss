@@ -109,6 +109,108 @@ footer {
   margin-bottom: 0;
 }
 
+// SECTION
+.site--header {
+  position: relative;
+  background: #eee;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  @media screen and (min-width: 960px) and (max-width: 1200px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 960px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    &::before {
+      content: "";
+      background: linear-gradient(to right,rgba(0,121,193,.85),rgba(0,121,193,.65));
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+    }
+  }
+  &-label {
+    margin: 0 0 30px;
+    padding: 0;
+    color: $blue-AC;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: uppercase;
+    @media screen and (min-width: 960px) and (max-width: 1200px) {
+      font-size: 20px;
+      margin: 0 0 20px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 960px) {
+      font-size: 18px;
+      margin: 0 0 20px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      margin: 0 0 15px;
+      color: $white;
+    }
+  }
+  &-heading {
+    margin: 0 0 30px;
+    padding: 0;
+    color: $blue-AD;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: normal;
+    &-text {
+      display: block;
+    }
+    @media screen and (min-width: 960px) and (max-width: 1200px) {
+      font-size: 50px;
+      margin: 0 0 20px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 960px) {
+      font-size: 36px;
+      margin: 0 0 20px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 24px;
+      margin: 0 0 15px;
+      color: $white;
+    }
+  }
+  &-content {
+    margin: 0 0 30px;
+    padding: 0;
+    max-width: 600px;
+    color: $silver-AD;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    @media screen and (min-width: 960px) and (max-width: 1200px) {
+      font-size: 20px;
+      margin: 0 0 20px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 960px) {
+      font-size: 18px;
+      margin: 0 0 20px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+      margin: 0 0 15px;
+      color: $white;
+    }
+  }
+  &-link {
+    min-width: 270px;
+  }
+}
+
 // CARDS
 .card--chart {
   padding-top: 100px;
