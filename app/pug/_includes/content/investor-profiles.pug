@@ -1,24 +1,24 @@
 .umb-grid
 	.grid-section
-		.site--header(data-js="site-header")
+		.site--header(data-js="site-header", role="banner")
 			.container
 				.row
 					.col-sm-12
 						.site--header-wrap
-							img.site--header-img.hidden(src="images/awm-banner-bg.png", alt="Investment Philosophy")
+							img.site--header-img.hidden(src="images/awm-banner-bg.png", alt="Investment Philosophy", role="img")
 							p.site--header-label Investor Profiles
-							h1.site--header-heading
+							h1.site--header-heading(role="heading")
 								span.site--header-heading-text Simplicity.
 								span.site--header-heading-text Best Practice.
 							p.site--header-content Using easy-to-understand language and clear portfolio structuresso that you can make informed decisions and sleep at night.
 							.site--header-btn
-								a.site--header-link.btn.btn-primary(href='#') Find Out More
+								a.site--header-link.btn.btn-primary(href='#', role="link") Find Out More
 		.card--summary
 			.container
 				.row
 					.col-sm-12
 						.text-center
-							h2.card--summary-heading Why Argus Wealth Management?
+							h2.card--summary-heading(role="heading") Why Argus Wealth Management?
 							p.card--summary-content The investment landscape can be complicated and intimidating. Our mission is to put the matter of wealth management into clear portfolio structures, explained using ease-to-understand language. This enables our clients to make fewer but more impactful decisions. AWM manages portfolios for individuals, couples, trusts, companies, endowments and philanthropic organizations.
 		.card--features.card--features-primary-bg
 			.container
@@ -29,35 +29,35 @@
 								| AWM manages over 
 								strong $1 billion 
 								| in discretionary and advisory assets and provides advisory services and a range of investment solutions for three main client groups:
-							ul.card--features-list.row
-								li.card--features-listitem.col-sm-4
+							ul.card--features-list.row(role="list")
+								li.card--features-listitem.col-sm-4(role="listitem")
 									.card--features-wrap
 										header.card--features-header
-											img.card--features-thumb(src="../images/awm-feature-01-thumb.png", alt="High Net Worth Clients")
-											h2.card--features-heading High Net Worth Clients
+											img.card--features-thumb(src="../images/awm-feature-01-thumb.png", alt="High Net Worth Clients", role="img")
+											h2.card--features-heading(role="heading") High Net Worth Clients
 											p.card--features-content For clients with more than $500,000 to invest, AWM manages customized portfolios that are tailored to clients’ needs and risk tolerances, on either a discretionary or advisory basis.
 										footer.card--features-footer
-											a.card--features-link(href="#")
+											a.card--features-link(href="#", role="link")
 												| Learn more &gt;
-								li.card--features-listitem.col-sm-4
+								li.card--features-listitem.col-sm-4(role="listitem")
 									.card--features-wrap
 										header.card--features-header
-											img.card--features-thumb(src="../images/awm-feature-02-thumb.png", alt="Institutional Investors")
-											h2.card--features-heading Institutional Investors
+											img.card--features-thumb(src="../images/awm-feature-02-thumb.png", alt="Institutional Investors", role="img")
+											h2.card--features-heading(role="heading") Institutional Investors
 											p.card--features-content AWM manages portfolios for trusts, companies, endowments and philanthropic organizations.
 											p.card--features-content We offer a variety of traditional and ethical investment vehicles.
 										footer.card--features-footer
-											a.card--features-link(href="#")
+											a.card--features-link(href="#", role="link")
 												| Learn more &gt;
-								li.card--features-listitem.col-sm-4
+								li.card--features-listitem.col-sm-4(role="listitem")
 									.card--features-wrap
 										header.card--features-header
-											img.card--features-thumb(src="../images/awm-feature-03-thumb.png", alt="Corporate Pension Funds")
-											h2.card--features-heading Corporate Pension Funds
+											img.card--features-thumb(src="../images/awm-feature-03-thumb.png", alt="Corporate Pension Funds", role="img")
+											h2.card--features-heading(role="heading") Corporate Pension Funds
 											p.card--features-content AWM is the investment manager for the balance sheet assets of The Argus Group.
 											p.card--features-content We also offer our expertise managing pension pools to corporate clients.
 										footer.card--features-footer
-											a.card--features-link(href="#")
+											a.card--features-link(href="#", role="link")
 												| Learn more &gt;
 		.card--testimonial
 			.container
@@ -75,4 +75,4 @@
 						.text-center
 							p.card--callout-content
 								| We can help you achieve your goals with our exceptional products and experienced team.
-							a.card--callout-link.btn.btn-primary(href='#') Let’s Discuss Your Needs
+							a.card--callout-link.btn.btn-primary(href='#', role="link") Let’s Discuss Your Needs

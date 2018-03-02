@@ -11,74 +11,74 @@
 									#10780.item.active(data-navigation-id='nav-10780')
 										.carousel-caption
 											.container
-												h1
+												h1(role="heading")
 													| Local Expertise. Global Exposure.
 												h3
 													| Providing high quality wealth management advice so that you can focus on the things that matter most.
 												p
-													a.btn.btn-primary.call-to-action(href='#') Contact Us For More Information
+													a.btn.btn-primary.call-to-action(href='#', role="link") Contact Us For More Information
 										.ag-hero.carousel-slide-image-container
 											.banner-image(style='background-image: url(https://argus.bm/media/3644/argus-virgin-pulse-homepage-hero.jpg?width=2800&height=1500&mode=max)')
 											.image-overlay
 									#10355.item(data-navigation-id='nav-10355')
 										.carousel-caption
 											.container
-												h1 Our New Member Health Portal
+												h1(role="heading") Our New Member Health Portal
 												h3 Your one-stop-shop to access and manage your Argus Health information online
 												p
-													a.btn.btn-primary.call-to-action(href='https://argus.bm/health/plans-for-individuals/member-health-portal/') Learn More
+													a.btn.btn-primary.call-to-action(href='#', role="link") Learn More
 										.ag-hero.carousel-slide-image-container
 											.banner-image(style='background-image: url(https://argus.bm/media/3294/argus-member-health-portal-home-hero.jpg?width=2800&height=1500&mode=max)')
 											.image-overlay
 									#10359.item(data-navigation-id='nav-10359')
 										.carousel-caption
 											.container
-												h1 Diabetes Reversal Programme
+												h1(role="heading") Diabetes Reversal Programme
 												h3
 												| Designed to help individuals with Type 2 Diabetes find ways to eat healthier and to increase physical activity
 												p
-													a.btn.btn-primary.call-to-action(href='https://argus.bm/health/thrive/diabetes-reversal-programme/') Learn More
+													a.btn.btn-primary.call-to-action(href='#', role="link") Learn More
 										.ag-hero.carousel-slide-image-container
 											.banner-image(style='background-image: url(https://argus.bm/media/3298/argus-diabetes-reveral-programme-home-hero.jpg?width=2800&height=1500&mode=max)')
 											.image-overlay
 									#10362.item(data-navigation-id='nav-10362')
 										.carousel-caption
 											.container
-												h1 Your Partner in Retirement
+												h1(role="heading") Your Partner in Retirement
 												h3
 												| Browse our Learning Resources to learn how Argus can help you reach your financial goals.
 												p
-													a.btn.btn-primary.call-to-action(href='https://argus.bm/learning-resources/') View Learning Resources
+													a.btn.btn-primary.call-to-action(href='#', role="link") View Learning Resources
 										.ag-hero.carousel-slide-image-container
 											.banner-image(style='background-image: url(https://argus.bm/media/3296/argus-retirement-planning-home-hero.jpg?width=2800&height=1500&mode=max)')
 											.image-overlay
 								// Indicators
-								ol.carousel-indicators.visible-xs.hidden
-									li(data-target='#myCarousel', data-slide-to='0')
+								ol.carousel-indicators.visible-xs.hidden(role="list")
+									li(data-target='#myCarousel', data-slide-to='0', role="listitem")
 										.outer-circle
-									li(data-target='#myCarousel', data-slide-to='1')
+									li(data-target='#myCarousel', data-slide-to='1', role="listitem")
 										.outer-circle
-									li(data-target='#myCarousel', data-slide-to='2')
+									li(data-target='#myCarousel', data-slide-to='2', role="listitem")
 										.outer-circle
-									li.active(data-target='#myCarousel', data-slide-to='3')
+									li.active(data-target='#myCarousel', data-slide-to='3', role="listitem")
 										.outer-circle
 								// Left and right controls
 								#heronav.hidden-xs
 									.container
-										a.left.carousel-control(href='#myCarousel', data-slide='prev')
+										a.left.carousel-control(href='#myCarousel', data-slide='prev', role="link")
 											span.left-arrow
-										a.right.carousel-control(href='#myCarousel', data-slide='next')
+										a.right.carousel-control(href='#myCarousel', data-slide='next', role="link")
 											span.right-arrow
 		.card--summary
 			.container
 				.row
 					.col-sm-12
 						.text-center
-							h2.card--summary-heading Argus wealth management
+							h2.card--summary-heading(role="heading") Argus wealth management
 							p.card--summary-content Argus Wealth Management (”AWM”) is a Bermudian financial services company that provides a range of investment solutions to individuals, couples, trusts, companies, endowments and philanthropic organisations.
 							p.card--summary-content.card--summary-content-small
 								| AWM is a member of The Argus Group of Companies (
-								a.card--summary-link(href="http://argus.bm") www.argus.bm
+								a.card--summary-link(href="http://argus.bm", role="link") www.argus.bm
 								| ) and was founded in 2005. The Argus Group has a history of over 20 years managing investment assets.
 		.card--features.card--features-primary-bg
 			.container
@@ -90,35 +90,35 @@
 								strong $1 billion 
 								| in discretionary and advisory assets and provide a range of investment solutions for 
 								strong three main client groups:
-							ul.card--features-list.row
-								li.card--features-listitem.col-sm-4
+							ul.card--features-list.row(role="list")
+								li.card--features-listitem.col-sm-4(role="listitem")
 									.card--features-wrap
 										header.card--features-header
-											img.card--features-thumb(src="../images/awm-feature-01-thumb.png", alt="High Net Worth Clients")
-											h2.card--features-heading High Net Worth Clients
+											img.card--features-thumb(src="../images/awm-feature-01-thumb.png", alt="High Net Worth Clients", role="img")
+											h2.card--features-heading(role="heading") High Net Worth Clients
 											p.card--features-content For clients with more than $500,000 to invest, AWM manages customized portfolios that are tailored to clients’ needs and risk tolerances, on either a discretionary or advisory basis.
 										footer.card--features-footer
-											a.card--features-link(href="#")
+											a.card--features-link(href="#", role="link")
 												| Learn more &gt;
-								li.card--features-listitem.col-sm-4
+								li.card--features-listitem.col-sm-4(role="listitem")
 									.card--features-wrap
 										header.card--features-header
-											img.card--features-thumb(src="../images/awm-feature-02-thumb.png", alt="Institutional Investors")
-											h2.card--features-heading Institutional Investors
+											img.card--features-thumb(src="../images/awm-feature-02-thumb.png", alt="Institutional Investors", role="img")
+											h2.card--features-heading(role="heading") Institutional Investors
 											p.card--features-content AWM manages portfolios for trusts, companies, endowments and philanthropic organizations.
 											p.card--features-content We offer a variety of traditional and ethical investment vehicles.
 										footer.card--features-footer
-											a.card--features-link(href="#")
+											a.card--features-link(href="#", role="link")
 												| Learn more &gt;
-								li.card--features-listitem.col-sm-4
+								li.card--features-listitem.col-sm-4(role="listitem")
 									.card--features-wrap
 										header.card--features-header
-											img.card--features-thumb(src="../images/awm-feature-03-thumb.png", alt="Corporate Pension Funds")
-											h2.card--features-heading Corporate Pension Funds
+											img.card--features-thumb(src="../images/awm-feature-03-thumb.png", alt="Corporate Pension Funds", role="img")
+											h2.card--features-heading(role="heading") Corporate Pension Funds
 											p.card--features-content AWM is the investment manager for the balance sheet assets of The Argus Group.
 											p.card--features-content We also offer our expertise managing pension pools to corporate clients.
 										footer.card--features-footer
-											a.card--features-link(href="#")
+											a.card--features-link(href="#", role="link")
 												| Learn more &gt;
 		.card--callout.card--callout-tertiary
 			.container
@@ -127,7 +127,7 @@
 						.text-center
 							p.card--callout-content
 								| We have a wealth of experience working with both local and international clients to whom we are considered a trusted advisor. We spend time truly getting to know our clients and take pride in our investment approach and excellent client service. The majority of AWM’s staff are Bermudians and our investment team includes three CFA charter holders.
-							a.card--callout-link.btn.btn-primary(href='#') Meet Our Team
+							a.card--callout-link.btn.btn-primary(href='#', role="link") Meet Our Team
 		.card--callout.card--callout-primary
 			.container
 				.row
@@ -135,7 +135,7 @@
 						.text-center
 							p.card--callout-content
 								| This will be a banner (design to be determined) that will highlight and link to the Product Offering page.
-							a.card--callout-link.btn.btn-primary(href='#') Find Out More
+							a.card--callout-link.btn.btn-primary(href='#', role="link") Find Out More
 		.card--callout.card--callout-secondary
 			.container
 				.row
@@ -143,4 +143,4 @@
 						.text-center
 							p.card--callout-content
 								| We help you achieve your goals with our exceptional service in private wealth management.
-							a.card--callout-link.btn.btn-primary(href='#') Let’s Talk
+							a.card--callout-link.btn.btn-primary(href='#', role="link") Let’s Talk

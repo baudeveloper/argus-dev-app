@@ -1,18 +1,18 @@
 .umb-grid
 	.grid-section
-		.site--header(data-js="site-header")
+		.site--header(data-js="site-header", role="banner")
 			.container
 				.row
 					.col-sm-12
 						.site--header-wrap
-							img.site--header-img.hidden(src="images/awm-banner-bg.png", alt="Investment Philosophy")
+							img.site--header-img.hidden(src="images/awm-banner-bg.png", alt="Investment Philosophy", role="img")
 							p.site--header-label Product Offering
-							h1.site--header-heading
+							h1.site--header-heading(role="heading")
 								span.site--header-heading-text Transparency.
 								span.site--header-heading-text Cost Containment.
 							p.site--header-content Striving to keep fees low, passing on those savings to aid your long-term returns while being fully transparent.
 							.site--header-btn
-								a.site--header-link.btn.btn-primary(href='#') Find Out More
+								a.site--header-link.btn.btn-primary(href='#', role="link") Find Out More
 		.card--summary
 			.container
 				.row
@@ -30,43 +30,43 @@
 								strong $1 billion 
 								| in discretionary and advisory assets and provides a range of investment solutions for 
 								strong three main client groups:
-							ul.card--portfolio-list.row
-								li.card--portfolio-listitem.col-sm-4
+							ul.card--portfolio-list.row(role="list")
+								li.card--portfolio-listitem.col-sm-4(role="listitem")
 									.card--portfolio-wrap
-										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Access to Select Global Asset Managers.")
-										h2.card--portfolio-heading Access to Select Global Asset Managers.
+										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Access to Select Global Asset Managers.", role="img")
+										h2.card--portfolio-heading(role="heading") Access to Select Global Asset Managers.
 										p.card--portfolio-content Argus Wealth Management has carefully selected some of the world’s top rated asset managers based on track record and consistent performance.
-								li.card--portfolio-listitem.col-sm-4
+								li.card--portfolio-listitem.col-sm-4(role="listitem")
 									.card--portfolio-wrap
-										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Customized Solutions to fit your specific Needs.")
-										h2.card--portfolio-heading Customized Solutions to fit your specific Needs.
+										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Customized Solutions to fit your specific Needs.", role="img")
+										h2.card--portfolio-heading(role="heading") Customized Solutions to fit your specific Needs.
 										p.card--portfolio-content We will listen to you and determine in face-to-face meetings which investment solutions will best fit your current situation and future goals.
-								li.card--portfolio-listitem.col-sm-4
+								li.card--portfolio-listitem.col-sm-4(role="listitem")
 									.card--portfolio-wrap
-										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Ongoing Review of ever-changing Market Conditions.")
-										h2.card--portfolio-heading Ongoing Review of ever-changing Market Conditions.
+										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Ongoing Review of ever-changing Market Conditions.", role="img")
+										h2.card--portfolio-heading(role="heading") Ongoing Review of ever-changing Market Conditions.
 										p.card--portfolio-content Our experienced team is constantly monitoring current conditions surrounding world politics, business news and other factors in order to react quickly to changing trends.
-								li.card--portfolio-listitem.col-sm-4
+								li.card--portfolio-listitem.col-sm-4(role="listitem")
 									.card--portfolio-wrap
-										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Bespoke Local Advisory Service.")
-										h2.card--portfolio-heading Bespoke Local Advisory Service.
+										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Bespoke Local Advisory Service.", role="img")
+										h2.card--portfolio-heading(role="heading") Bespoke Local Advisory Service.
 										p.card--portfolio-content At Argus Wealth Management, you can expect discrete and personalised service. We strive to truly understand your needs and forge long-lasting relationships built on honesty and trust.
-								li.card--portfolio-listitem.col-sm-4
+								li.card--portfolio-listitem.col-sm-4(role="listitem")
 									.card--portfolio-wrap
-										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Flexibility. Simplicity. Impact.")
-										h2.card--portfolio-heading Flexibility. Simplicity. Impact.
+										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Flexibility. Simplicity. Impact.", role="img")
+										h2.card--portfolio-heading(role="heading") Flexibility. Simplicity. Impact.
 										p.card--portfolio-content Our team of advisors will try their best to accommodate your schedule and use language pitched to your level of investment knowledge.
 										p.card--portfolio-content Giving you peace-of-mind and the flexibility you deserve.
-								li.card--portfolio-listitem.col-sm-4
+								li.card--portfolio-listitem.col-sm-4(role="listitem")
 									.card--portfolio-wrap
-										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Responsive & Transparent. The way it should be.")
-										h2.card--portfolio-heading Responsive &amp; Transparent. The way it should be.
+										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Responsive & Transparent. The way it should be.", role="img")
+										h2.card--portfolio-heading(role="heading") Responsive &amp; Transparent. The way it should be.
 										p.card--portfolio-content Argus Wealth Management has negotiated competitive rates and implemented a fee structure that is aimed to pass savings on to you. We employ a transparent business model that truly benefits our clients.
 							p.card--portfolio-blurb
 								| To learn more about our 
 								strong Select Portfolios, 
 								| please 
-								a.card--portfolio-link(href="#") click here.
+								a.card--portfolio-link(href="#", role="link") click here.
 		.card--testimonial
 			.container
 				.row
@@ -83,4 +83,4 @@
 						.text-center
 							p.card--callout-content
 								| We can help you achieve your goals with our exceptional products and experienced team.
-							a.card--callout-link.btn.btn-primary(href='#') Let’s Discuss Your Needs
+							a.card--callout-link.btn.btn-primary(href='#', role="link") Let’s Discuss Your Needs

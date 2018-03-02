@@ -1,24 +1,24 @@
 .umb-grid
 	.grid-section
-		.site--header(data-js="site-header")
+		.site--header(data-js="site-header", role="banner")
 			.container
 				.row
 					.col-sm-12
 						.site--header-wrap
-							img.site--header-img.hidden(src="images/awm-banner-bg.png", alt="Investment Philosophy")
+							img.site--header-img.hidden(src="images/awm-banner-bg.png", alt="Investment Philosophy", role="img")
 							p.site--header-label Investment Philosophy
-							h1.site--header-heading
+							h1.site--header-heading(role="heading")
 								span.site--header-heading-text Simplicity.
 								span.site--header-heading-text Transparency.
 							p.site--header-content Providing clear, easy-to-understand structures and full transparency about fees promotes trust and lets you sleep at night.
 							.site--header-btn
-								a.site--header-link.btn.btn-primary(href='#') Find Out More
+								a.site--header-link.btn.btn-primary(href='#', role="link") Find Out More
 		.card--summary
 			.container
 				.row
 					.col-sm-12
 						.text-center
-							h2.card--summary-heading Our Investment Philosophy. Why Argus Wealth Management?
+							h2.card--summary-heading(role="heading") Our Investment Philosophy. Why Argus Wealth Management?
 							p.card--summary-content The investment landscape can be complicated and intimidating. Our mission is to put the matter of wealth management into clear portfolio structures, explained using ease-to-understand language. Full disclosure of costs and fees involved and the use of language suitable to our client’s individual level of knowledge is consistent with the level of trust The Argus Group has built with its clients.
 							p.card--summary-content Our focus when looking after clients’ assets is the long-term creation of wealth within defined and acceptable levels of risk. We will take the time to understand your future goals. This occurs through meaningful discussions and the use of various tools. By combining these, we can make an intelligent decision on the appropriate asset allocation and ongoing investment decisions.
 							p.card--summary-content To implement our philosophy, we employ a mixture of active and passive strategies. We engage active managers only where we feel they can add value over passive (index-based) alternatives. We have aligned ourselves with industry leaders in order to secure best practice with global exposure. Allocations are regularly reviewed since market conditions change over time. We monitor various market risks and the way losses may occur and ensure that portfolio risks are consistent with client expectations.
@@ -26,7 +26,7 @@
 			.container
 				.row
 					.col-sm-12
-						h2.card--chart-heading We focus on Strategic (Long-Term) Asset Allocation
+						h2.card--chart-heading(role="heading") We focus on Strategic (Long-Term) Asset Allocation
 						p.card--chart-content Over 90% of your investment outcome is determined by the asset allocation in your portfolio. This makes is the most important decision when creating an investment portfolio. Monitoring changing market conditions results in varying the weighting across different asset classes to remain within your chosen risk level. We put our emphasis on obtaining the proper strategic allocation in our funds and are conscious about keeping fees and cost low. Both these approaches have proven to be the best way in achieving long-term results.
 				.row
 					.col-sm-6
@@ -57,7 +57,7 @@
 								td Other Factors
 								td 2%
 					.col-sm-6
-						img.card--chart-diagram(src="images/awm-chart.png", alt="Chart")
+						img.card--chart-diagram(src="images/awm-chart.png", alt="Chart", role="img")
 		.card--features.card--features-secondary-bg
 			.container
 				.row
@@ -68,35 +68,35 @@
 								strong $1 billion 
 								| in discretionary and advisory assets and provides a range of investment solutions for 
 								strong three main client groups:
-							ul.card--features-list.row
-								li.card--features-listitem.col-sm-4
+							ul.card--features-list.row(role="list")
+								li.card--features-listitem.col-sm-4(role="listitem")
 									.card--features-wrap
 										header.card--features-header
-											img.card--features-thumb(src="../images/awm-feature-01-thumb.png", alt="High Net Worth Clients")
-											h2.card--features-heading High Net Worth Clients
+											img.card--features-thumb(src="../images/awm-feature-01-thumb.png", alt="High Net Worth Clients", role="img")
+											h2.card--features-heading(role="heading") High Net Worth Clients
 											p.card--features-content For clients with more than $500,000 to invest, AWM manages customized portfolios that are tailored to clients’ needs and risk tolerances, on either a discretionary or advisory basis.
 										footer.card--features-footer
-											a.card--features-link(href="#")
+											a.card--features-link(href="#", role="link")
 												| Learn more &gt;
-								li.card--features-listitem.col-sm-4
+								li.card--features-listitem.col-sm-4(role="listitem")
 									.card--features-wrap
 										header.card--features-header
-											img.card--features-thumb(src="../images/awm-feature-02-thumb.png", alt="Institutional Investors")
-											h2.card--features-heading Institutional Investors
+											img.card--features-thumb(src="../images/awm-feature-02-thumb.png", alt="Institutional Investors", role="img")
+											h2.card--features-heading(role="heading") Institutional Investors
 											p.card--features-content AWM manages portfolios for trusts, companies, endowments and philanthropic organizations.
 											p.card--features-content Offering a variety of traditional and ethical investment vehicles.
 										footer.card--features-footer
-											a.card--features-link(href="#")
+											a.card--features-link(href="#", role="link")
 												| Learn more &gt;
-								li.card--features-listitem.col-sm-4
+								li.card--features-listitem.col-sm-4(role="listitem")
 									.card--features-wrap
 										header.card--features-header
-											img.card--features-thumb(src="../images/awm-feature-03-thumb.png", alt="Corporate Pension Funds")
-											h2.card--features-heading Corporate Pension Funds
+											img.card--features-thumb(src="../images/awm-feature-03-thumb.png", alt="Corporate Pension Funds", role="img")
+											h2.card--features-heading(role="heading") Corporate Pension Funds
 											p.card--features-content AWM is the investment manager for the balance sheet assets of The Argus Group.
 											p.card--features-content We also offer our expertise managing pension pools to corporate clients.
 										footer.card--features-footer
-											a.card--features-link(href="#")
+											a.card--features-link(href="#", role="link")
 												| Learn more &gt;
 		.card--callout.card--callout-primary
 			.container
@@ -105,4 +105,4 @@
 						.text-center
 							p.card--callout-content
 								| We can help you achieve your goals with our exceptional products and experienced team.
-							a.card--callout-link.btn.btn-primary(href='#') Let’s Discuss Your Needs
+							a.card--callout-link.btn.btn-primary(href='#', role="link") Let’s Discuss Your Needs
