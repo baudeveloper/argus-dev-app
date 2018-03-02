@@ -21,8 +21,8 @@
 				.row
 					.col-sm-12
 						.text-center
-							h2.card--summary--heading What makes Us Different?
-							p.card--summary--content At Argus Wealth Management, we believe in transparency, providing clarity about any fees to our investors. After all, an investor / private wealth manager relationship must be built on trust, keeping our investors informed about all aspects of their investment. Honest, high quality Advisory Services at your fingertips!
+							h2.card--summary-heading What makes Us Different?
+							p.card--summary-content At Argus Wealth Management, we believe in transparency, providing clarity about any fees to our investors. After all, an investor / private wealth manager relationship must be built on trust, keeping our investors informed about all aspects of their investment. Honest, high quality Advisory Services at your fingertips!
 		div.card--portfolio
 			.container
 				.row
@@ -55,22 +55,25 @@
 										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Flexibility. Simplicity. Impact.")
 										h2.card--portfolio-heading Flexibility. Simplicity. Impact.
 										p.card--portfolio-content Our team of advisors will try their best to accommodate your schedule and use language pitched to your level of investment knowledge.
-										p.card--portfolio-box-content Giving you peace-of-mind and the flexibility you deserve.
+										p.card--portfolio-content Giving you peace-of-mind and the flexibility you deserve.
 								li.card--portfolio-listitem.col-sm-4
 									div.card--portfolio-wrap
 										img.card--portfolio-thumb(src="../images/awm-portfolio-thumb.png", alt="Responsive & Transparent. The way it should be.")
 										h2.card--portfolio-heading Responsive &amp; Transparent. The way it should be.
 										p.card--portfolio-content Argus Wealth Management has negotiated competitive rates and implemented a fee structure that is aimed to pass savings on to you. We employ a transparent business model that truly benefits our clients.
 							p.card--portfolio-blurb
-								| To learn more about our Select Portfolios, please click here.
+								| To learn more about our 
+								strong Select Portfolios, 
+								| please 
+								a.card--portfolio-link(href="#") click here.
 		div.card--testimonial
 			.container
 				.row
 					.col-sm-7.col-sm-offset-5
-						div
-							blockquote
+						div.card--testimonial-wrap
+							blockquote.card--testimonial-blockquote
 								| “Simon from AWM has taken the time to listen to what matters most and has tailored an investment plan that aligns perfectly with our goals.”
-							cite
+							cite.card--testimonial-cite
 								| ~ Sandy &amp; Jonathan Coralbank, Hamilton, Bermuda
 		div.card--callout.card--callout-primary
 			.container
