@@ -1,18 +1,19 @@
 .umb-grid
 	.grid-section
-		.site--header
+		.site--header(data-js="site-header")
 			.container
 				.row
 					.col-sm-12
 						.site--header-wrap
+							img.site--header-img.hidden(src="images/awm-banner-bg.png", alt="Investment Philosophy")
 							p.site--header-label Investment Philosophy
 							h1.site--header-heading
 								span.site--header-heading-text Simplicity.
 								span.site--header-heading-text Transparency.
 							p.site--header-content Providing clear, easy-to-understand structures and full transparency about fees promotes trust and lets you sleep at night.
-							div.site--header-btn
+							.site--header-btn
 								a.site--header-link.btn.btn-primary(href='#') Find Out More
-		div.card--summary
+		.card--summary
 			.container
 				.row
 					.col-sm-12
@@ -21,7 +22,7 @@
 							p.card--summary-content The investment landscape can be complicated and intimidating. Our mission is to put the matter of wealth management into clear portfolio structures, explained using ease-to-understand language. Full disclosure of costs and fees involved and the use of language suitable to our client’s individual level of knowledge is consistent with the level of trust The Argus Group has built with its clients.
 							p.card--summary-content Our focus when looking after clients’ assets is the long-term creation of wealth within defined and acceptable levels of risk. We will take the time to understand your future goals. This occurs through meaningful discussions and the use of various tools. By combining these, we can make an intelligent decision on the appropriate asset allocation and ongoing investment decisions.
 							p.card--summary-content To implement our philosophy, we employ a mixture of active and passive strategies. We engage active managers only where we feel they can add value over passive (index-based) alternatives. We have aligned ourselves with industry leaders in order to secure best practice with global exposure. Allocations are regularly reviewed since market conditions change over time. We monitor various market risks and the way losses may occur and ensure that portfolio risks are consistent with client expectations.
-		div.card--chart
+		.card--chart
 			.container
 				.row
 					.col-sm-12
@@ -57,7 +58,7 @@
 								td 2%
 					.col-sm-6
 						img.card--chart-diagram(src="images/awm-chart.png", alt="Chart")
-		div.card--features.card--features-secondary-bg
+		.card--features.card--features-secondary-bg
 			.container
 				.row
 					.col-sm-12
@@ -69,7 +70,7 @@
 								strong three main client groups:
 							ul.card--features-list.row
 								li.card--features-listitem.col-sm-4
-									div.card--features-wrap
+									.card--features-wrap
 										header.card--features-header
 											img.card--features-thumb(src="../images/awm-feature-01-thumb.png", alt="High Net Worth Clients")
 											h2.card--features-heading High Net Worth Clients
@@ -78,7 +79,7 @@
 											a.card--features-link(href="#")
 												| Learn more &gt;
 								li.card--features-listitem.col-sm-4
-									div.card--features-wrap
+									.card--features-wrap
 										header.card--features-header
 											img.card--features-thumb(src="../images/awm-feature-02-thumb.png", alt="Institutional Investors")
 											h2.card--features-heading Institutional Investors
@@ -88,7 +89,7 @@
 											a.card--features-link(href="#")
 												| Learn more &gt;
 								li.card--features-listitem.col-sm-4
-									div.card--features-wrap
+									.card--features-wrap
 										header.card--features-header
 											img.card--features-thumb(src="../images/awm-feature-03-thumb.png", alt="Corporate Pension Funds")
 											h2.card--features-heading Corporate Pension Funds
@@ -97,7 +98,7 @@
 										footer.card--features-footer
 											a.card--features-link(href="#")
 												| Learn more &gt;
-		div.card--callout.card--callout-primary
+		.card--callout.card--callout-primary
 			.container
 				.row
 					.col-sm-12

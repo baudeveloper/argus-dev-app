@@ -78,6 +78,7 @@ $silver-AB: #e9e7e7;
 $silver-AC: #5d6770;
 $silver-AD: #3d4144;
 $silver-AE: #dadada;
+$silver-AF: #e8e9ee;
 $blue-AA: #2c3950;
 $blue-AB: #d6f9ff;
 $blue-AC: #0079c1;
@@ -112,9 +113,30 @@ footer {
 // SECTION
 .site--header {
   position: relative;
-  background: #eee;
+  // background: $silver-AF;
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
   padding-top: 90px;
   padding-bottom: 70px;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 60%;
+    background: rgba(232,233,238,1);
+    background: -moz-linear-gradient(left, rgba(232,233,238,1) 0%, rgba(232,233,238,0.52) 48%, rgba(232,233,238,0) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(232,233,238,1)), color-stop(48%, rgba(232,233,238,0.52)), color-stop(100%, rgba(232,233,238,0)));
+    background: -webkit-linear-gradient(left, rgba(232,233,238,1) 0%, rgba(232,233,238,0.52) 48%, rgba(232,233,238,0) 100%);
+    background: -o-linear-gradient(left, rgba(232,233,238,1) 0%, rgba(232,233,238,0.52) 48%, rgba(232,233,238,0) 100%);
+    background: -ms-linear-gradient(left, rgba(232,233,238,1) 0%, rgba(232,233,238,0.52) 48%, rgba(232,233,238,0) 100%);
+    background: linear-gradient(to right, rgba(232,233,238,1) 0%, rgba(232,233,238,0.52) 48%, rgba(232,233,238,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e9ee', endColorstr='#e8e9ee', GradientType=1 );
+  }
   @media screen and (min-width: 960px) and (max-width: 1200px) {
     padding-top: 60px;
     padding-bottom: 60px;
