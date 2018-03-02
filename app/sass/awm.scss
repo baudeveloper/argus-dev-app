@@ -453,16 +453,22 @@ footer {
     background-position: -200px center;
   }
   @media screen and (min-width: 768px) and (max-width: 960px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-size: cover;
-    background-position: -300px center;
+    background-position: -200px center;
   }
   @media screen and (min-width: 480px) and (max-width: 768px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-size: cover;
     background-position: -150px center;
   }
   @media screen and (max-width: 480px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-size: cover;
-    background-position: -400px center;
+    background-position: -150px center;
   }
   @media screen and (max-width: 960px) {
     &::before {
@@ -476,7 +482,7 @@ footer {
       width: 100%;
       height: 100%;
       display: block;
-      background-color: rgba(255, 89, 89, 0.2);
+      background-color: rgba(0, 0, 0, 0.4);
     }
   }
   blockquote {
@@ -489,12 +495,20 @@ footer {
     font-weight: normal;
     line-height: 1.25;
     letter-spacing: 1px;
+    @media screen and (max-width: 960px) {
+      color: $white;
+      font-size: 20px;
+    }
   }
   cite {
     color: $silver-AA;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
+    @media screen and (max-width: 960px) {
+      color: $white;
+      font-size: 16px;
+    }
   }
 }
 .card--callout {
