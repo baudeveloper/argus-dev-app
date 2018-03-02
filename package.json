@@ -1,21 +1,16 @@
 {
-  "name": "application",
+  "name": "awm",
   "version": "1.0.0",
-  "description": "A few words about this application.",
-  "author": "Tej Kahlon",
+  "description": "A few words about this awm application.",
+  "author": "Baustein",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tpkahlon/npm-app-b4"
+    "url": "https://github.com/baudeveloper/argus-dev-app"
   },
-  "bugs": "https://github.com/tpkahlon/npm-app-b4/issues",
+  "bugs": "https://github.com/baudeveloper/argus-dev-app/issues",
   "keywords": [
-    "npm",
-    "scripts",
-    "npm scripts",
-    "watch",
-    "minify",
-    "compress"
+    "npm"
   ],
   "scripts": {
     "clean": "rimraf dist",
@@ -36,8 +31,9 @@
     "html": "pug --pretty app/pug/pages/*.pug -o dist && run-s beautify",
     "minifier": "html-minifier --input-dir dist/ --output-dir dist/ --file-ext html --collapse-whitespace --remove-comments --minify-js --minify-css",
     "beautify": "js-beautify -qrtf ./dist/*.html",
+    "images": "imagemin app/images/* -o dist/images",
     "serve": "browser-sync start --server --serveStatic dist --files \"dist/css/*.css, dist/js/*.js, **/*.html, app/pug/pages/*.pug, dist/images/*.*, !node_modules\"",
-    "all": "run-s clean copy html styles scripts watch",
+    "all": "run-s clean copy html styles scripts images watch",
     "watch:css": "onchange \"app/sass\" -- run-s styles",
     "watch:js": "onchange \"app/js\" -- run-s scripts",
     "watch:html": "onchange \"app/pug/_includes\" \"app/pug/_layouts\" \"app/pug/_partials\" \"app/pug/pages\" -- run-s html",
@@ -53,15 +49,8 @@
     "copyfiles": "^1.2.0",
     "eslint": "^3.18.0",
     "font-awesome": "^4.7.0",
-    "fs-extra": "^5.0.0",
-    "graceful-fs": "^4.1.11",
-    "gulp": "^3.9.1",
-    "gulp-imagemin": "^3.3.0",
     "html-minifier": "^3.5.3",
-    "imagemin-gifsicle": "^5.2.0",
-    "imagemin-jpegtran": "^5.0.2",
-    "imagemin-optipng": "^5.2.1",
-    "imagemin-svgo": "^5.2.2",
+    "imagemin-cli": "^3.0.0",
     "js-beautify": "^1.6.12",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.5.1",
