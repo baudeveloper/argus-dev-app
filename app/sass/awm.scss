@@ -272,6 +272,11 @@ footer {
     font-weight: bold;
     font-family: "Interstate";
   }
+  &-highlighter {
+    padding: 5px;
+    display: inline-block;
+    background: $green-AD;
+  }
 }
 .site--banner {
   position: relative;

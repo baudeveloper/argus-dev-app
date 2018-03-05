@@ -1,16 +1,80 @@
 .umb-grid
 	.grid-section
-		.site--banner.site--banner-compact(data-js="site-banner", role="banner")
+		.site--header(data-js="site-header", role="banner")
 			.container
 				.row
 					.col-sm-12
-						.site--banner-wrap
-							h1.site--banner-heading(role="heading")
-								| Institutional Investors
-		.site--content
+						.site--header-wrap
+							img.site--header-img.hidden(src="images/awm-banner-bg.png", alt="Investment Philosophy", role="img")
+							p.site--header-label Institutional Investors
+							h1.site--header-heading(role="heading")
+								span.site--header-heading-text Transparency.
+								span.site--header-heading-text Cost Containment.
+							p.site--header-content
+								span.site--header-highlighter Accommodating additional reporting needs
+								| &nbsp;and striving to keep fees low, passing on those savings to aid your long-term returns.
+							.site--header-btn
+								a.site--header-link.btn.btn-primary(href='#', role="link") Find Out More
+		.card--summary
 			.container
 				.row
 					.col-sm-12
-						.site--content-wrap
-							p
-								| Institutional Investors content...
+						.text-center
+							h2.card--summary-heading(role="heading") Institutional investors. Why Argus Wealth Management?
+							p.card--summary-content At AWM, we understand the critical importance of finding an outstanding investment partner in managing the funds entrusted to you. You can expect reliable advice and thorough guidance from our experienced wealth managers, who are knowledgeable in delivering suitable products for a variety of risk and interest levels.
+		.card--features.card--features-primary-bg
+			.container
+				.row
+					.col-sm-12
+						.text-center
+							p.card--features-caption
+								| We manage over 
+								strong $1 billion 
+								| in discretionary and advisory assets and provide a range of investment solutions and 
+								span.card--features-highlighter additional benefits for accounts owned by trusts, companies, endowments and philanthropic organizations.
+							ul.card--features-list.row(role="list")
+								li.card--features-listitem.col-sm-4(role="listitem")
+									.card--features-wrap.card--features-wraptop
+										header.card--features-header
+											img.card--features-thumb(src="../images/awm-feature-ihc-01-thumb.png", alt="High Net Worth Clients", role="img")
+										footer.card--features-footer
+											p.card--features-content
+												span.card--features-highlighter Accommodating more demanding reporting requirements
+											p.card--features-content Well structured &amp; auditable, providing clarity about all costs and fees involved
+								li.card--features-listitem.col-sm-4(role="listitem")
+									.card--features-wrap.card--features-wraptop
+										header.card--features-header
+											img.card--features-thumb(src="../images/awm-feature-ihc-02-thumb.png", alt="Institutional Investors", role="img")
+										footer.card--features-footer
+											p.card--features-content In-depth needs and risk assessment
+											p.card--features-content Trustworthy guidance to protect a legacy
+											p.card--features-content Proven performance history
+								li.card--features-listitem.col-sm-4(role="listitem")
+									.card--features-wrap.card--features-wraptop
+										header.card--features-header
+											img.card--features-thumb(src="../images/awm-feature-ihc-03-thumb.png", alt="Corporate Pension Funds", role="img")
+										footer.card--features-footer
+											p.card--features-content Vetted portfolio options
+											p.card--features-content Access to global best practice
+											p.card--features-content Innovative investment (ethical and sustainable alternatives)
+							p.card--features-blurb
+								| If you would like to learn more about our products, please 
+								a.card--portfolio-link(href="#", role="link") click here
+								| .
+		.card--testimonial
+			.container
+				.row
+					.col-sm-7.col-sm-offset-5
+						.card--testimonial-wrap
+							blockquote.card--testimonial-blockquote
+								| “Simon from AWM has taken the time to listen to what matters most and has tailored an investment plan that aligns perfectly with our goals.”
+							cite.card--testimonial-cite
+								| ~ Sandy &amp; Jonathan Coralbank, Hamilton, Bermuda
+		.card--callout.card--callout-primary
+			.container
+				.row
+					.col-sm-12
+						.text-center
+							p.card--callout-content
+								| We can help you achieve your goals with our exceptional products and experienced team.
+							a.card--callout-link.btn.btn-primary(href='#', role="link") Let’s Discuss Your Needs
