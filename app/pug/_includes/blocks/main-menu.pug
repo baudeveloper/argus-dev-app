@@ -33,6 +33,28 @@ header
 								li.dropdown.mega-menu-fullwidth.text-center
 									a(href='/investor-profiles.html')
 										span.overlay Investor Profiles
+										img.sub-menu-indicator(src='https://argus.bm/Content/images/navigation.png')
+									ul.dropdown-menu
+										// MEGA MENU STARTS
+										li
+											.row.display-table
+												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
+													.blog-grid.mega-menu-title
+														a.heading-link(href='/investor-profiles.html') Investor Profiles
+														p Investor Profiles text here...
+														ul.mega-menu-list(id='')
+															li
+																a.list-item(href='/individual-hnw-clients.html') Individual HNW Clients
+															li
+																a.list-item(href='/institutional-investors.html') Institutional Investors
+															li
+																a.list-item(href='/corporate-pension-funds.html') Corporate Pension Funds
+												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
+													.blog-grid.mega-menu-title
+												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
+													.blog-grid.mega-menu-title
+												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
+													.blog-grid.mega-menu-title
 .visible-xs.visible-sm.visible-md
 	#site-menu.ag-site-menu.mobile
 		.ag-mobile-menu
@@ -44,14 +66,22 @@ header
 			//-       span.glyphicon.glyphicon-search.form-control-feedback
 			ul.list-unstyled.nav.nav-stacked.mobile-menu-list
 				li.dropdown.level-1.top-level(data-level='1')
-					a(href='/investment-philosophy.html', target='_blank')
-						.ag-link-name Investment Philosophy
+					a(href='/investment-philosophy.html')
+						.ag-link-name Investment Philosophy 
 				li.dropdown.level-1.top-level(data-level='1')
 					a(href='/product-offering.html')
 						.ag-link-name Product Offering 
 				li.dropdown.level-1.top-level(data-level='1')
 					a(href='/investor-profiles.html')
 						.ag-link-name Investor Profiles 
+						span.js-ag-link-toggle.toggle-arrow.arrow-down
+					ul.hidden.ag-menu-level-2.ag-menu-sublevel.list-unstyled.nav.nav-stacked
+						li.dropdown.level-2(data-level='2')
+							a.ag-link-name(href='') Individual HNW Clients
+						li.dropdown.level-2(data-level='2')
+							a.ag-link-name(href='') Institutional Investors
+						li.dropdown.level-2(data-level='2')
+							a.ag-link-name(href='') Corporate Pension Funds
 				li.dropdown.level-1.top-level(data-level='1')
 					a(href='/about-us.html')
 						.ag-link-name About Us 
