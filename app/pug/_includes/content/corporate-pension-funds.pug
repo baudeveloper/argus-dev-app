@@ -1,16 +1,76 @@
 .umb-grid
 	.grid-section
-		.site--banner.site--banner-compact(data-js="site-banner", role="banner")
+		.site--header(data-js="site-header", role="banner")
 			.container
 				.row
 					.col-sm-12
-						.site--banner-wrap
-							h1.site--banner-heading(role="heading")
-								| Corporate Pension Funds
-		.site--content
+						.site--header-wrap
+							img.site--header-img.hidden(src="images/awm-banner-bg.png", alt="Investment Philosophy", role="img")
+							p.site--header-label Corporate Pension Funds
+							h1.site--header-heading(role="heading")
+								span.site--header-heading-text Local Experience.
+								span.site--header-heading-text Global Exposure.
+							p.site--header-content Proving highly qualified and experienced investment advice so your corporate pension funds are off to a secure future.
+							.site--header-btn
+								a.site--header-link.btn.btn-primary(href='#', role="link") Find Out More
+		.card--summary
 			.container
 				.row
 					.col-sm-12
-						.site--content-wrap
-							p
-								| Corporate Pension Funds content...
+						.text-center
+							h2.card--summary-heading(role="heading") Corporate Pension Funds. Why Argus Wealth Management?
+							p.card--summary-content AWM provides the operational management of The Argus Group balance sheet assets that are used to support the insurance liabilities of The Argus Group. Due to the history with The Argus Group, AWM are experts when it comes managing corporate pension funds. Our experience in this field is invaluable to any corporate client looking for an investment manager with an abundance of pooled funds experience.
+		.card--features.card--features-primary-bg
+			.container
+				.row
+					.col-sm-12
+						.text-center
+							p.card--features-caption
+								| We manage over 
+								strong $1 billion 
+								| in discretionary and advisory assets and provide pricing power by leveraging our relationships with investment managers internationally to benefit you in the following areas:
+							ul.card--features-list.row(role="list")
+								li.card--features-listitem.col-sm-4(role="listitem")
+									.card--features-wrap
+										header.card--features-header
+											img.card--features-thumb(src="../images/awm-feature-01-thumb.png", alt="High Net Worth Clients", role="img")
+										footer.card--features-footer
+											p.card--features-content &gt; Add B2B specific benefits &lt;
+											p.card--features-content (Joel to provide)
+								li.card--features-listitem.col-sm-4(role="listitem")
+									.card--features-wrap
+										header.card--features-header
+											img.card--features-thumb(src="../images/awm-feature-02-thumb.png", alt="Institutional Investors", role="img")
+										footer.card--features-footer
+											p.card--features-content Access to global best practice.
+											p.card--features-content
+												span.card--features-highlighter Trustworthy guidance to suit the moderate risk portfolio for long-term stable results.
+								li.card--features-listitem.col-sm-4(role="listitem")
+									.card--features-wrap
+										header.card--features-header
+											img.card--features-thumb(src="../images/awm-feature-03-thumb.png", alt="Corporate Pension Funds", role="img")
+										footer.card--features-footer
+											p.card--features-content
+												span.card--features-highlighter Accommodating more demanding reporting requirements.
+											p.card--features-content Well structured &amp; auditable, providing clarity about all costs and fees involved.
+							p.card--features-blurb
+								| If you would like to learn more about our products, please 
+								a.card--portfolio-link(href="#", role="link") click here
+								| .
+		.card--testimonial
+			.container
+				.row
+					.col-sm-7.col-sm-offset-5
+						.card--testimonial-wrap
+							blockquote.card--testimonial-blockquote
+								| “Simon from AWM has taken the time to listen to what matters most and has tailored an investment plan that aligns perfectly with our goals.”
+							cite.card--testimonial-cite
+								| ~ Sandy &amp; Jonathan Coralbank, Hamilton, Bermuda
+		.card--callout.card--callout-primary
+			.container
+				.row
+					.col-sm-12
+						.text-center
+							p.card--callout-content
+								| We can help you achieve your goals with our exceptional products and experienced team.
+							a.card--callout-link.btn.btn-primary(href='#', role="link") Let’s Discuss Your Needs
