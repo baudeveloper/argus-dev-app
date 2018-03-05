@@ -68,7 +68,6 @@
 // Font Awesome
 @import "../../node_modules/font-awesome/scss/font-awesome.scss";
 
-
 // AWM Site Branding Overrides
 
 // COLORS
@@ -378,6 +377,32 @@ footer {
     &:visited,
     &:focus {
       color: $blue-AE;
+    }
+  }
+}
+.site--footer {
+  @media screen and (max-width: 768px) {
+    .footer-flag,
+    .footer-info {
+      text-align: left;
+    }
+    &-footlinks {
+      display: inline-block;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    &-footlinks {
+      display: inline-block;
+    }
+  }
+  &-copyright {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      font-size: 14px;
+    }
+    @media screen and (max-width: 768px) {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
   }
 }
