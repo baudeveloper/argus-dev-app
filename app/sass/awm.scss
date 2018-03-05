@@ -1253,11 +1253,20 @@ footer {
 .modal {
   &-thumb {
     margin-bottom: 15px;
+    @media screen and (max-width: 768px) {
+      max-width: 100%;
+    }
   }
   &-designation {
     margin-bottom: 0;
   }
   &-body {
+    @media screen and (max-width: 768px) {
+      .nav-tabs a {
+        font-size: 16px;
+        line-height: normal;
+      }
+    }
     p:last-of-type {
       margin-bottom: 0;
     }
