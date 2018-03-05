@@ -91,6 +91,7 @@ $red-AA: #ff5959;
 $green-AA: #dcd087;
 $green-AB: #817f6f;
 $green-AC: #aab2a9;
+$green-AD: #a2e7a7;
 
 // --- GENERAL STYLES
 .awm-background,
@@ -696,6 +697,11 @@ footer {
     font-size: 16px;
     line-height: normal;
     font-weight: normal;
+  }
+  &-highlighter {
+    padding: 5px;
+    display: inline-block;
+    background: $green-AD;
   }
   &-link {
     color: $blue-AE;
