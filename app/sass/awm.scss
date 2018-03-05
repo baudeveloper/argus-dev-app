@@ -114,8 +114,43 @@ footer {
 .header-v8 .nav > li > a {
   color: $blue-AD;
 }
+.awm-navigation {
+  .call-to-action {
+    font-family: "Interstate";
+    font-weight: bold!important;
+  }
+}
 
 // SECTION
+.site--slider {
+  @media screen and (max-width: 768px) and (max-width: 992px) {
+    #heronav {
+      top: 40%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .carousel .carousel-indicators {
+      bottom: 0;
+    }
+  }
+  &-text {
+    display: block;
+  }
+  &-summary {
+    font-weight: normal;
+  }
+  &-link {
+    font-family: "Interstate";
+    font-weight: bold;
+    min-width: 274px;
+    width: auto!important;
+    @media screen and (max-width: 480px) {
+      display: block;
+      margin-bottom: 60px;
+      width: 100%!important;
+    }
+  }
+}
 .site--header {
   position: relative;
   // background: $silver-AF;
@@ -336,6 +371,15 @@ footer {
       padding-bottom: 30px;
     }
   }
+  &-link {
+    color: $blue-AE;
+    &:link,
+    &:active
+    &:visited,
+    &:focus {
+      color: $blue-AE;
+    }
+  }
 }
 
 // CARDS
@@ -502,10 +546,14 @@ footer {
     font-weight: normal;
   }
   &-link {
+    color: $blue-AE;
     font-size: 16px;
     line-height: normal;
     text-transform: uppercase;
-    &:link {
+    &:link,
+    &:active
+    &:visited,
+    &:focus {
       color: $blue-AE;
     }
   }
@@ -633,7 +681,10 @@ footer {
     padding: 0;
   }
   &-link {
-    &:link {
+    &:link,
+    &:active
+    &:visited,
+    &:focus {
       font-size: inherit;
       color: $blue-AD;
       text-decoration: underline;
@@ -708,6 +759,12 @@ footer {
     display: block;
     font-size: 16px;
     text-transform: uppercase;
+    &:link,
+    &:active
+    &:visited,
+    &:focus {
+      color: $blue-AE;
+    }
   }
   &-wrap {
     height: 100%;
@@ -829,7 +886,11 @@ footer {
     }
   }
   &-link {
-    &:link {
+    color: $blue-AE;
+    &:link,
+    &:active
+    &:visited,
+    &:focus {
       color: $blue-AE;
       text-decoration: underline;
       // font-family: "Interstate";
