@@ -231,6 +231,8 @@ footer {
   }
   &-link {
     min-width: 270px;
+    font-weight: bold;
+    font-family: "Interstate";
   }
 }
 .site--banner {
@@ -603,17 +605,23 @@ footer {
   }
   &-wrap {
     height: 100%;
-    padding: 30px;
+    padding: 40px;
     background-color: $white;
   }
   &-heading {
     color: $silver-AA;
     font-size: 20px;
     line-height: normal;
+    font-weight: normal;
+    margin: 15px 0;
+    padding: 0;
   }
   &-content {
     color: $silver-AA;
     font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
   }
   &-link {
     &:link {
@@ -805,6 +813,8 @@ footer {
     &:link {
       color: $blue-AE;
       text-decoration: underline;
+      // font-family: "Interstate";
+      // font-weight: bold;
     }
   }
 }
@@ -915,6 +925,7 @@ footer {
     font-weight: bold;
     font-size: 16px;
     min-width: 250px;
+    font-family: "Interstate";
   }
   &-primary {
     background: $silver-AB;
