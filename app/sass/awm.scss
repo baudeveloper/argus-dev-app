@@ -195,11 +195,11 @@ footer {
     background: linear-gradient(to right, rgba(232,233,238,1) 0%, rgba(232,233,238,0.52) 48%, rgba(232,233,238,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e9ee', endColorstr='#e8e9ee', GradientType=1 );
   }
-  @media screen and (min-width: 960px) and (max-width: 1200px) {
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  @media screen and (min-width: 768px) and (max-width: 960px) {
+  @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -226,11 +226,11 @@ footer {
     font-weight: bold;
     line-height: normal;
     text-transform: uppercase;
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 20px;
       margin: 0 0 20px;
     }
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 18px;
       margin: 0 0 20px;
     }
@@ -250,11 +250,11 @@ footer {
     &-text {
       display: block;
     }
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 50px;
       margin: 0 0 20px;
     }
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 36px;
       margin: 0 0 20px;
     }
@@ -272,11 +272,11 @@ footer {
     font-size: 24px;
     font-weight: 300;
     line-height: normal;
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 20px;
       margin: 0 0 20px;
     }
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 18px;
       margin: 0 0 20px;
     }
@@ -312,11 +312,11 @@ footer {
   &-wrap {
     padding-top: 60px;
     padding-bottom: 60px;
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       padding-top: 50px;
       padding-bottom: 50px;
     }
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       padding-top: 40px;
       padding-bottom: 40px;
     }
@@ -332,11 +332,11 @@ footer {
     font-size: 50px;
     font-weight: 300;
     line-height: normal;
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 36px;
       margin: 0 0 20px;
     }
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 24px;
       margin: 0 0 20px;
     }
@@ -352,10 +352,10 @@ footer {
     font-size: 24px;
     font-weight: 300;
     line-height: normal;
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 20px;
     }
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 18px;
     }
     @media screen and (max-width: 768px) {
@@ -365,10 +365,10 @@ footer {
   &-compact {
     .site--banner-heading {
       margin: 0;
-      @media screen and (min-width: 960px) and (max-width: 1200px) {
+      @media screen and (min-width: 992px) and (max-width: 1200px) {
         margin: 0;
       }
-      @media screen and (min-width: 768px) and (max-width: 960px) {
+      @media screen and (min-width: 768px) and (max-width: 992px) {
         margin: 0;
       }
       @media screen and (max-width: 768px) {
@@ -381,11 +381,11 @@ footer {
   &-wrap {
     padding-top: 60px;
     padding-bottom: 60px;
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       padding-top: 50px;
       padding-bottom: 50px;
     }
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       padding-top: 40px;
       padding-bottom: 40px;
     }
@@ -436,11 +436,11 @@ footer {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: $silver-AE;
-  @media screen and (min-width: 960px) and (max-width: 1200px) {
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  @media screen and (min-width: 768px) and (max-width: 960px) {
+  @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -453,10 +453,10 @@ footer {
     color: $blue-AD;
     line-height: normal;
     text-transform: uppercase;
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 24px;
     }
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 22px;
     }
     @media screen and (max-width: 768px) {
@@ -468,10 +468,10 @@ footer {
     color: $blue-AD;
     font-weight: 300;
     margin-bottom: 30px;
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 20px;
     }
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 18px;
     }
     @media screen and (max-width: 768px) {
@@ -495,12 +495,12 @@ footer {
         font-size: 24px;
       }
     }
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       td {
         font-size: 20px;
       }
     }
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       td {
         font-size: 18px;
       }
@@ -541,7 +541,7 @@ footer {
   padding-bottom: 90px;
   background: $silver-AE no-repeat url("../images/awm-team-bg.png");
   background-position: bottom right;
-  @media screen and (min-width: 768px) and (max-width: 960px) {
+  @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -573,12 +573,12 @@ footer {
     @media screen and (min-width: 1200px) {
       max-width: 100%;
     }
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 20px;
       margin-bottom: 15px;
       max-width: 750px;
     }
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 992px) {
       font-size: 16px;
       margin-bottom: 15px;
     }
@@ -669,7 +669,7 @@ footer {
   // background-color: $silver-AC;
   background: $silver-AE no-repeat url("../images/awm-team-bg.png");
   background-position: bottom right;
-  @media screen and (min-width: 768px) and (max-width: 960px) {
+  @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -687,12 +687,12 @@ footer {
     @media screen and (min-width: 1200px) {
       max-width: 100%;
     }
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 20px;
       margin-bottom: 15px;
       max-width: 750px;
     }
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 992px) {
       font-size: 16px;
       margin-bottom: 15px;
     }
@@ -746,7 +746,7 @@ footer {
     margin: 50px 0 0;
     padding: 0;
     line-height: normal;
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       margin: 30px 0 0;
       font-size: 20px;
     }
@@ -761,7 +761,7 @@ footer {
   padding-bottom: 90px;
   background: transparent no-repeat url("../images/awm-team-bg.png");
   background-position: bottom right;
-  @media screen and (min-width: 768px) and (max-width: 960px) {
+  @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -917,7 +917,7 @@ footer {
   padding-bottom: 90px;
   background: transparent no-repeat url("../images/awm-team-bg.png");
   background-position: bottom right;
-  @media screen and (min-width: 768px) and (max-width: 960px) {
+  @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -978,7 +978,7 @@ footer {
     margin: 50px 0 0;
     padding: 0;
     line-height: normal;
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       margin: 30px 0 0;
       font-size: 20px;
     }
@@ -1055,11 +1055,11 @@ footer {
 .card--summary {
   padding-top: 110px;
   padding-bottom: 110px;
-  @media screen and (min-width: 960px) and (max-width: 1200px) {
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  @media screen and (min-width: 768px) and (max-width: 960px) {
+  @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -1073,10 +1073,10 @@ footer {
     margin-bottom: 20px;
     line-height: normal;
     text-transform: uppercase;
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 24px;
     }
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 22px;
     }
     @media screen and (max-width: 768px) {
@@ -1088,10 +1088,10 @@ footer {
     font-weight: 300;
     font-size: 24px;
     margin-bottom: 20px;
-    @media screen and (min-width: 960px) and (max-width: 1200px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 20px;
     }
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 18px;
     }
     @media screen and (max-width: 768px) {
@@ -1136,11 +1136,11 @@ footer {
     background-size: cover;
     background-position: -200px center;
   }
-  @media screen and (min-width: 960px) and (max-width: 1200px) {
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
     background-size: cover;
     background-position: -200px center;
   }
-  @media screen and (min-width: 768px) and (max-width: 960px) {
+  @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 60px;
     padding-bottom: 60px;
     background-size: cover;
@@ -1204,7 +1204,7 @@ footer {
   background: $silver-AB;
   padding-top: 100px;
   padding-bottom: 100px;
-  @media screen and (min-width: 768px) and (max-width: 960px) {
+  @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -1218,7 +1218,7 @@ footer {
     color: $silver-AC;
     margin: 0 auto 30px;
     max-width: 600px;
-    @media screen and (min-width: 768px) and (max-width: 960px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 20px;
     }
     @media screen and (max-width: 768px) {
