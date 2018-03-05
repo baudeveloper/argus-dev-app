@@ -5,15 +5,26 @@
 				button.close(type='button', data-dismiss='modal', aria-label='Close')
 					span(aria-hidden='true') &times;
 				h4.modal-title David H. Tavares
-				p Financial Analyst
+				p.modal-designation Financial Analyst
 			.modal-body
-				p David joined AFL Investments in June 2015. Prior to joining AFL, he worked for Argus as both a Research Analyst and Group Benefits Underwriter. Before joining Argus, David worked for Sun Life Financial at their U.S. Headquarters in Massachusetts, having spent the better part of a decade living and working in the Boston area. In his current role David supports the investment team through financial analysis of market developments, due diligence and compliance with guidelines. He is also responsible for the production of scheduled and bespoke reports showing how movements in the financial markets affect The Argus Group’s portfolio of investments.
-				p David holds a Bachelor’s Degree in Business from Mount Saint Vincent University in Halifax, Canada, and is currently a level 3 candidate working toward his CFA® designation.
-				p David, a Bermudian, is married and enjoys spending time outdoors. On any given weekend you can find him on the beach, playing tennis, sailing or SCUBA diving. He is also slightly obsessed with ridding the local waters of the invasive lionfish.
-				p
-					| Phone: +1 (441) 298-0836
-					br
-					a(href='mailto:dtavares@afl.bm') dtavares@afl.bm
+				img.modal-thumb(src="images/awm-team-thumb.png", alt="David H. Tavares")
+				div
+					// Nav tabs
+					ul.nav.nav-tabs(role='tablist')
+						li.active(role='presentation')
+							a(href='#david-bio', aria-controls='david-bio', role='tab', data-toggle='tab') Bio
+						li(role='presentation')
+							a(href='#david-contact', aria-controls='david-contact', role='tab', data-toggle='tab') Contact
+					// Tab panes
+					.tab-content
+						#david-bio.tab-pane.active(role='tabpanel')
+							p David joined AFL Investments in June 2015. Prior to joining AFL, he worked for Argus as both a Research Analyst and Group Benefits Underwriter. Before joining Argus, David worked for Sun Life Financial at their U.S. Headquarters in Massachusetts, having spent the better part of a decade living and working in the Boston area. In his current role David supports the investment team through financial analysis of market developments, due diligence and compliance with guidelines. He is also responsible for the production of scheduled and bespoke reports showing how movements in the financial markets affect The Argus Group’s portfolio of investments.
+							p David holds a Bachelor’s Degree in Business from Mount Saint Vincent University in Halifax, Canada, and is currently a level 3 candidate working toward his CFA® designation.
+							p David, a Bermudian, is married and enjoys spending time outdoors. On any given weekend you can find him on the beach, playing tennis, sailing or SCUBA diving. He is also slightly obsessed with ridding the local waters of the invasive lionfish.
+						#david-contact.tab-pane(role='tabpanel')
+							p
+								| Phone: +1 (441) 298-0836
+								br
+								a(href='mailto:dtavares@afl.bm') dtavares@afl.bm
 			.modal-footer
-				button.btn.btn-default(type='button', data-dismiss='modal') Close
-				button.btn.btn-primary(type='button') Save changes
+				button.btn.btn-primary(type='button', data-dismiss='modal') Close

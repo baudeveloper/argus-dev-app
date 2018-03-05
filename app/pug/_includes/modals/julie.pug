@@ -5,16 +5,27 @@
 				button.close(type='button', data-dismiss='modal', aria-label='Close')
 					span(aria-hidden='true') &times;
 				h4.modal-title Julie B.V. Preece, BA, MA
-				p Wealth Manager
+				p.modal-designation Wealth Manager
 			.modal-body
-				p Julie joined AFL as a Wealth Manager in September 2014. Julie brings to the team extensive industry and client servicing experience from the financial and regulatory sectors. She is primarily responsible for client services at AFL.
-				p Prior to joining AFL, Julie worked in a marketing and business development role for 2 years, in education and training at the Bermuda Insurance Institute for 8 years and also served as Head of Insurance for the Bermuda Monetary Authority (BMA) for 9 years. Prior to the BMA, she was an Officer at Bank of Bermuda, the predecessor to HSBC Bank Bermuda, where she worked in various departments in positions of increasing responsibility for 12 years.
-				p Julie, a Bermudian, has a Master’s Degree in Management and Human Relations from Webster University and a Bachelor’s Degree in Economics and Psychology from Queen’s University, Kingston, Ontario, Canada. Julie holds the CFA Investment Foundation Certificate.
-				p Julie is married and enjoys all types of outdoor activities and travelling.
-				p
-					| Phone: +1 (441) 294-5738
-					br
-					a(href='mailto:jpreece@afl.bm') jpreece@afl.bm
+				img.modal-thumb(src="images/awm-team-thumb.png", alt="Julie B.V. Preece, BA, MA")
+				div
+					// Nav tabs
+					ul.nav.nav-tabs(role='tablist')
+						li.active(role='presentation')
+							a(href='#julie-bio', aria-controls='julie-bio', role='tab', data-toggle='tab') Bio
+						li(role='presentation')
+							a(href='#julie-contact', aria-controls='julie-contact', role='tab', data-toggle='tab') Contact
+					// Tab panes
+					.tab-content
+						#julie-bio.tab-pane.active(role='tabpanel')
+							p Julie joined AFL as a Wealth Manager in September 2014. Julie brings to the team extensive industry and client servicing experience from the financial and regulatory sectors. She is primarily responsible for client services at AFL.
+							p Prior to joining AFL, Julie worked in a marketing and business development role for 2 years, in education and training at the Bermuda Insurance Institute for 8 years and also served as Head of Insurance for the Bermuda Monetary Authority (BMA) for 9 years. Prior to the BMA, she was an Officer at Bank of Bermuda, the predecessor to HSBC Bank Bermuda, where she worked in various departments in positions of increasing responsibility for 12 years.
+							p Julie, a Bermudian, has a Master’s Degree in Management and Human Relations from Webster University and a Bachelor’s Degree in Economics and Psychology from Queen’s University, Kingston, Ontario, Canada. Julie holds the CFA Investment Foundation Certificate.
+							p Julie is married and enjoys all types of outdoor activities and travelling.
+						#julie-contact.tab-pane(role='tabpanel')
+							p
+								| Phone: +1 (441) 294-5738
+								br
+								a(href='mailto:jpreece@afl.bm') jpreece@afl.bm
 			.modal-footer
-				button.btn.btn-default(type='button', data-dismiss='modal') Close
-				button.btn.btn-primary(type='button') Save changes
+				button.btn.btn-primary(type='button', data-dismiss='modal') Close

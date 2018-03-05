@@ -5,15 +5,26 @@
 				button.close(type='button', data-dismiss='modal', aria-label='Close')
 					span(aria-hidden='true') &times;
 				h4.modal-title Simon Giffen, CFA, TEP
-				p Group Investment Manager
+				p.modal-designation Group Investment Manager
 			.modal-body
-				p Simon joined AFL Investments in September 2014. As well as working with AFL’s clients, Simon has day to day oversight of The Argus Group investment portfolio. Prior to joining AFL, he worked for five years at Gray Philanthropies Limited and Orbis Investment Management Limited in a family office role advising the Chairman. Previously, Simon worked at HSBC Bermuda and its predecessor, Bank of Bermuda, for 11 years in a variety of client-facing roles dealing with High Net Worth and Institutional Clients. His final role at HSBC was on a secondment to the New York office of HSBC Global Asset Management in the capacity of Head of Client Services.
-				p Simon holds a BA (Hons) degree in Law and Accounting from Kingston University and a Post-Graduate Diploma in Legal Practice from The College of Law, Guildford. Simon is a CFA® charter holder and member of the Bermuda CFA Society. Additionally, Simon holds the Trust and Estate Practitioner (TEP) professional designation.
-				p Simon, a Bermudian, is married, with a son and a daughter. He is a fitness enthusiast and an avid Bridge player, having served on the local board of the American Contract Bridge League for five years.
-				p
-					| Phone: +1 (441) 294-5716
-					br
-					a(href='mailto:sgiffen@afl.bm') sgiffen@afl.bm
+				img.modal-thumb(src="images/awm-team-thumb.png", alt="Simon Giffen, CFA, TEP")
+				div
+					// Nav tabs
+					ul.nav.nav-tabs(role='tablist')
+						li.active(role='presentation')
+							a(href='#simon-bio', aria-controls='simon-bio', role='tab', data-toggle='tab') Bio
+						li(role='presentation')
+							a(href='#simon-contact', aria-controls='simon-contact', role='tab', data-toggle='tab') Contact
+					// Tab panes
+					.tab-content
+						#simon-bio.tab-pane.active(role='tabpanel')
+							p Simon joined AFL Investments in September 2014. As well as working with AFL’s clients, Simon has day to day oversight of The Argus Group investment portfolio. Prior to joining AFL, he worked for five years at Gray Philanthropies Limited and Orbis Investment Management Limited in a family office role advising the Chairman. Previously, Simon worked at HSBC Bermuda and its predecessor, Bank of Bermuda, for 11 years in a variety of client-facing roles dealing with High Net Worth and Institutional Clients. His final role at HSBC was on a secondment to the New York office of HSBC Global Asset Management in the capacity of Head of Client Services.
+							p Simon holds a BA (Hons) degree in Law and Accounting from Kingston University and a Post-Graduate Diploma in Legal Practice from The College of Law, Guildford. Simon is a CFA® charter holder and member of the Bermuda CFA Society. Additionally, Simon holds the Trust and Estate Practitioner (TEP) professional designation.
+							p Simon, a Bermudian, is married, with a son and a daughter. He is a fitness enthusiast and an avid Bridge player, having served on the local board of the American Contract Bridge League for five years.
+						#simon-contact.tab-pane(role='tabpanel')
+							p
+								| Phone: +1 (441) 294-5716
+								br
+								a(href='mailto:sgiffen@afl.bm') sgiffen@afl.bm
 			.modal-footer
-				button.btn.btn-default(type='button', data-dismiss='modal') Close
-				button.btn.btn-primary(type='button') Save changes
+				button.btn.btn-primary(type='button', data-dismiss='modal') Close

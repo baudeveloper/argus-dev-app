@@ -5,15 +5,26 @@
 				button.close(type='button', data-dismiss='modal', aria-label='Close')
 					span(aria-hidden='true') &times;
 				h4.modal-title Sara Burnett-Herkes
-				p Operations Associate
+				p.modal-designation Operations Associate
 			.modal-body
-				p Sara joined AFL Investments in January 2014. She brings to the team a wealth of customer relationship and executive administrative experience from several industries which include: Investments, real estate finance, marketing and the not-for-profit sector. Before joining AFL Sara was the Capital Campaign Co-ordinator for the Masterworks Museum of Bermuda Art. This position not only required strong organisational skills, but also the ability to communicate the Museum’s ethos passionately and effectively to donors and visitors. Prior to working for the Museum, she was the Executive Assistant to the Head of a local private school and managed the human resource function for over 130 faculty and staff.
-				p Sara has a B.Sc. in Sports and Recreation management from the University of Colorado and recently pursued a Masters degree in Institutional Management and Leadership at the University of Southampton in the United Kingdom.
-				p Sara is married with two sons. In her free time she enjoys a variety of sports/games, reading, volunteering and spending time with friends and family.
-				p
-					| Phone: +1 (441) 294-5737
-					br
-					a(href='mailto:sherkes@afl.bm') sherkes@afl.bm
+				img.modal-thumb(src="images/awm-team-thumb.png", alt="Sara Burnett-Herkes")
+				div
+					// Nav tabs
+					ul.nav.nav-tabs(role='tablist')
+						li.active(role='presentation')
+							a(href='#sara-bio', aria-controls='sara-bio', role='tab', data-toggle='tab') Bio
+						li(role='presentation')
+							a(href='#sara-contact', aria-controls='sara-contact', role='tab', data-toggle='tab') Contact
+					// Tab panes
+					.tab-content
+						#sara-bio.tab-pane.active(role='tabpanel')
+							p Sara joined AFL Investments in January 2014. She brings to the team a wealth of customer relationship and executive administrative experience from several industries which include: Investments, real estate finance, marketing and the not-for-profit sector. Before joining AFL Sara was the Capital Campaign Co-ordinator for the Masterworks Museum of Bermuda Art. This position not only required strong organisational skills, but also the ability to communicate the Museum’s ethos passionately and effectively to donors and visitors. Prior to working for the Museum, she was the Executive Assistant to the Head of a local private school and managed the human resource function for over 130 faculty and staff.
+							p Sara has a B.Sc. in Sports and Recreation management from the University of Colorado and recently pursued a Masters degree in Institutional Management and Leadership at the University of Southampton in the United Kingdom.
+							p Sara is married with two sons. In her free time she enjoys a variety of sports/games, reading, volunteering and spending time with friends and family.
+						#sara-contact.tab-pane(role='tabpanel')
+							p
+								| Phone: +1 (441) 294-5737
+								br
+								a(href='mailto:sherkes@afl.bm') sherkes@afl.bm
 			.modal-footer
-				button.btn.btn-default(type='button', data-dismiss='modal') Close
-				button.btn.btn-primary(type='button') Save changes
+				button.btn.btn-primary(type='button', data-dismiss='modal') Close

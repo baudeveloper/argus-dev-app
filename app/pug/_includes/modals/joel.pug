@@ -5,14 +5,26 @@
 				button.close(type='button', data-dismiss='modal', aria-label='Close')
 					span(aria-hidden='true') &times;
 				h4.modal-title Joel P. Schaefer, CFA
-				p President &amp; CEO
+				p.modal-designation President &amp; CEO
 			.modal-body
-				p Joel joined AFL Investments in 2014. He has an extensive investment background with over twenty years of direct investment experience as well as having served in a senior capacity within the industry. He is responsible for all segments of the investment business including execution of the strategic plan and management of discretionary accounts for high net worth clients, institutions and foundations.
-				p Joel earned his Chartered Financial Analyst® designation in 1997 and has a Bachelor’s Degree in Economics from Wesleyan University. Prior to joining AFL, Joel managed the private investments of a European family. Joel was the president and CEO of Capital G Investments Ltd. for ten years where he established the investment process of the company, and was responsible for the growth, regulatory compliance and profitability of the business. Professional affiliations include the CFA Society of Bermuda and the Institute of Directors.
-				p Joel, a Bermudian, enjoys family life and is actively involved in the community. He serves on the investment committees of the Bermuda High School for Girls and the Bermuda Hotel Pension Fund. He also serves on the Listing Committee of the Bermuda Stock Exchange. Joel enjoys fitness and water-sports.
-				p
-					| Phone: +1 (441) 294-5712
-					br
-					a(href='mailto:jschaefer@afl.bm') jschaefer@afl.bm
+				img.modal-thumb(src="images/awm-team-thumb.png", alt="Joel P. Schaefer, CFA")
+				div
+					// Nav tabs
+					ul.nav.nav-tabs(role='tablist')
+						li.active(role='presentation')
+							a(href='#joel-bio', aria-controls='joel-bio', role='tab', data-toggle='tab') Bio
+						li(role='presentation')
+							a(href='#joel-contact', aria-controls='joel-contact', role='tab', data-toggle='tab') Contact
+					// Tab panes
+					.tab-content
+						#joel-bio.tab-pane.active(role='tabpanel')
+							p Joel joined AFL Investments in 2014. He has an extensive investment background with over twenty years of direct investment experience as well as having served in a senior capacity within the industry. He is responsible for all segments of the investment business including execution of the strategic plan and management of discretionary accounts for high net worth clients, institutions and foundations.
+							p Joel earned his Chartered Financial Analyst® designation in 1997 and has a Bachelor’s Degree in Economics from Wesleyan University. Prior to joining AFL, Joel managed the private investments of a European family. Joel was the president and CEO of Capital G Investments Ltd. for ten years where he established the investment process of the company, and was responsible for the growth, regulatory compliance and profitability of the business. Professional affiliations include the CFA Society of Bermuda and the Institute of Directors.
+							p Joel, a Bermudian, enjoys family life and is actively involved in the community. He serves on the investment committees of the Bermuda High School for Girls and the Bermuda Hotel Pension Fund. He also serves on the Listing Committee of the Bermuda Stock Exchange. Joel enjoys fitness and water-sports.
+						#joel-contact.tab-pane(role='tabpanel')
+							p
+								| Phone: +1 (441) 294-5712
+								br
+								a(href='mailto:jschaefer@afl.bm') jschaefer@afl.bm
 			.modal-footer
 				button.btn.btn-primary(type='button', data-dismiss='modal') Close
