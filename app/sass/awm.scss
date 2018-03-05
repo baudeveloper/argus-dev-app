@@ -72,12 +72,14 @@
 
 // COLORS
 $white: #fff;
+$grey-AA: #231f20;
 $silver-AA: #5d6770;
 $silver-AB: #e9e7e7;
 $silver-AC: #5d6770;
 $silver-AD: #3d4144;
 $silver-AE: #dadada;
 $silver-AF: #e8e9ee;
+$silver-AG: #939598;
 $blue-AA: #2c3950;
 $blue-AB: #d6f9ff;
 $blue-AC: #0079c1;
@@ -86,11 +88,15 @@ $blue-AE: #1f71ac;
 $blue-AF: #d2e3ee;
 $blue-AG: #1178bb;
 $blue-AH: #409ad0;
+$blue-AI: #25aae1;
 $red-AA: #ff5959;
+$orange-AA: #f68b1e;
 $green-AA: #dcd087;
 $green-AB: #817f6f;
 $green-AC: #aab2a9;
 $green-AD: #a2e7a7;
+$green-AE: #22b24c;
+$purple-AA: #ac2088;
 
 // --- GENERAL STYLES
 .awm-background,
@@ -735,6 +741,162 @@ footer {
       margin: 0;
       font-size: 18px;
     }
+  }
+}
+.card--funds {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: transparent no-repeat url("../images/awm-team-bg.png");
+  background-position: bottom right;
+  @media screen and (min-width: 768px) and (max-width: 960px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  &-thumb {
+    width: auto;
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+      max-width: 150px;
+    }
+    @media screen and (max-width: 768px) {
+      max-width: 130px;
+    }
+  }
+  &-caption {
+    color: $blue-AD;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width: 1200px) {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    @media screen and (min-width: 768px) {
+      max-width: 750px;
+    }
+  }
+  &-wrap {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  &-header {
+    @media screen and (max-width: 768px) {
+      text-align: left;
+    }
+  }
+  &-section {
+    text-align: left;
+    margin: 0 60px 0 40px;
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      margin: 0 30px 0 15px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+      margin: 0 15px;
+    }
+    @media screen and (max-width: 768px) {
+      margin: 0;
+    }
+  }
+  &-footer {
+    background-color: transparent;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      align-self: center;
+    }
+  }
+  &-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  &-h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 24px;
+    line-height: normal;
+    text-transform: uppercase;
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      font-size: 20px;
+      margin: 0 0 10px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+      font-size: 20px;
+      margin: 0 0 10px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+      margin: 20px 0 10px;
+    }
+  }
+  &-h3 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: $grey-AA;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      font-size: 18px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+      font-size: 18px;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+  &-p {
+    margin: 0;
+    padding: 0;
+    color: $silver-AD;
+    font-weight: normal;
+    line-height: normal;
+  }
+  &-listitem {
+    margin-bottom: 20px;
+    &-conservative {
+      .card--funds-h2 {
+        color: $silver-AG;
+      }
+    }
+    &-balanced {
+      .card--funds-h2 {
+        color: $blue-AI;
+      }
+    }
+    &-growth {
+      .card--funds-h2 {
+        color: $green-AE;
+      }
+    }
+    &-aggressive {
+      .card--funds-h2 {
+        color: $orange-AA;
+      }
+    }
+    &-moderate {
+      .card--funds-h2 {
+        color: $purple-AA;
+      }
+    }
+  }
+  &-listitem:last-of-type {
+    .card--funds-wrap {
+      margin-bottom: 0;
+    }
+  }
+  &.card--funds-primary-bg {
+    background-color: $silver-AE;
+  }
+  &.card--funds-secondary-bg {
+    background-color: $blue-AF;
   }
 }
 .card--features {

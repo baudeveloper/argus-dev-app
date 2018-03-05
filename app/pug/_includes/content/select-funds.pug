@@ -1,16 +1,99 @@
 .umb-grid
 	.grid-section
-		.site--banner.site--banner-compact(data-js="site-banner", role="banner")
+		.site--header(data-js="site-header", role="banner")
 			.container
 				.row
 					.col-sm-12
-						.site--banner-wrap
-							h1.site--banner-heading(role="heading")
-								| Select Funds
-		.site--content
+						.site--header-wrap
+							img.site--header-img.hidden(src="images/awm-banner-bg.png", alt="Investment Philosophy", role="img")
+							p.site--header-label Select Funds
+							h1.site--header-heading(role="heading")
+								span.site--header-heading-text Simplicity.
+								span.site--header-heading-text Best Practice.
+							p.site--header-content A simple structure enables you to make more impactful decision while benefitting from global exposure at lower fees.
+							.site--header-btn
+								a.site--header-link.btn.btn-primary(href='#', role="link") Find Out More
+		.card--summary
 			.container
 				.row
 					.col-sm-12
-						.site--content-wrap
-							p
-								| Select Funds content...
+						.text-center
+							h2.card--summary-heading(role="heading") Argus Select Funds
+							p.card--summary-content Our mission is to obtain the best long-term results for you. In a rigorous process we created a selection of funds matching varying levels of risk to help us achieve this goal. A simple structure enables you to make fewer but more impactful decisions. At the same time, it lets you benefit from leveraging our pricing power with investment managers, keeping fees low.
+		.card--funds.card--funds-primary-bg
+			.container
+				.row
+					.col-sm-12
+						.text-center
+							p.card--funds-caption
+								| Argus Wealth Management manages over 
+								strong $1 billion 
+								| in discretionary and advisory assets and provides a range of investment solution for varying investor profiles. Here is an overview of our Select Funds:
+							ul.card--funds-list.row(role="list")
+								li.card--funds-listitem.card--funds-listitem-conservative.col-sm-12(role="listitem")
+									.card--funds-wrap
+										header.card--funds-header
+											img.card--funds-thumb(src="images/funds-thumb.jpg", alt="Conservation Fund (Class V)", role="img")
+										section.card--funds-section
+											h2.card--funds-h2 Conservation Fund (Class V)
+											h3.card--funds-h3 Fund Objective
+											p.card--funds-p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium a expedita quo delectus architecto minima reprehenderit nihil velit recusandae dolor quia voluptatem, porro exercitationem, laboriosam cumque officia ad rem asperiores?
+										footer.card--funds-footer
+											img.card--funds-thumb(src="images/funds-graph-thumb.jpg", alt="Conservation Fund (Class V)", role="img")
+								li.card--funds-listitem.card--funds-listitem-moderate.col-sm-12(role="listitem")
+									.card--funds-wrap
+										header.card--funds-header
+											img.card--funds-thumb(src="images/funds-thumb.jpg", alt="Moderate Fund (Class W)", role="img")
+										section.card--funds-section
+											h2.card--funds-h2 Moderate Fund (Class W)
+											h3.card--funds-h3 Fund Objective
+											p.card--funds-p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium a expedita quo delectus architecto minima reprehenderit nihil velit recusandae dolor quia voluptatem, porro exercitationem, laboriosam cumque officia ad rem asperiores?
+										footer.card--funds-footer
+											img.card--funds-thumb(src="images/funds-graph-thumb.jpg", alt="Moderate Fund (Class W)", role="img")
+								li.card--funds-listitem.card--funds-listitem-balanced.col-sm-12(role="listitem")
+									.card--funds-wrap
+										header.card--funds-header
+											img.card--funds-thumb(src="images/funds-thumb.jpg", alt="Balanced Fund (Class X)", role="img")
+										section.card--funds-section
+											h2.card--funds-h2 Balanced Fund (Class X)
+											h3.card--funds-h3 Fund Objective
+											p.card--funds-p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium a expedita quo delectus architecto minima reprehenderit nihil velit recusandae dolor quia voluptatem, porro exercitationem, laboriosam cumque officia ad rem asperiores?
+										footer.card--funds-footer
+											img.card--funds-thumb(src="images/funds-graph-thumb.jpg", alt="Balanced Fund (Class X)", role="img")
+								li.card--funds-listitem.card--funds-listitem-growth.col-sm-12(role="listitem")
+									.card--funds-wrap
+										header.card--funds-header
+											img.card--funds-thumb(src="images/funds-thumb.jpg", alt="Growth Fund (Class Y)", role="img")
+										section.card--funds-section
+											h2.card--funds-h2 Growth Fund (Class Y)
+											h3.card--funds-h3 Fund Objective
+											p.card--funds-p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium a expedita quo delectus architecto minima reprehenderit nihil velit recusandae dolor quia voluptatem, porro exercitationem, laboriosam cumque officia ad rem asperiores?
+										footer.card--funds-footer
+											img.card--funds-thumb(src="images/funds-graph-thumb.jpg", alt="Growth Fund (Class Y)", role="img")
+								li.card--funds-listitem.card--funds-listitem-aggressive.col-sm-12(role="listitem")
+									.card--funds-wrap
+										header.card--funds-header
+											img.card--funds-thumb(src="images/funds-thumb.jpg", alt="Aggressive Fund (Class Z)", role="img")
+										section.card--funds-section
+											h2.card--funds-h2 Aggressive Fund (Class Z)
+											h3.card--funds-h3 Fund Objective
+											p.card--funds-p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium a expedita quo delectus architecto minima reprehenderit nihil velit recusandae dolor quia voluptatem, porro exercitationem, laboriosam cumque officia ad rem asperiores?
+										footer.card--funds-footer
+											img.card--funds-thumb(src="images/funds-graph-thumb.jpg", alt="Aggressive Fund (Class Z)", role="img")
+		.card--testimonial
+			.container
+				.row
+					.col-sm-7.col-sm-offset-5
+						.card--testimonial-wrap
+							blockquote.card--testimonial-blockquote
+								| “Simon from AWM has taken the time to listen to what matters most and has tailored an investment plan that aligns perfectly with our goals.”
+							cite.card--testimonial-cite
+								| ~ Sandy &amp; Jonathan Coralbank, Hamilton, Bermuda
+		.card--callout.card--callout-primary
+			.container
+				.row
+					.col-sm-12
+						.text-center
+							p.card--callout-content
+								| We can help you achieve your goals with our exceptional products and experienced team.
+							a.card--callout-link.btn.btn-primary(href='#', role="link") Let’s Discuss Your Needs
