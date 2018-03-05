@@ -99,6 +99,19 @@ $green-AE: #22b24c;
 $purple-AA: #ac2088;
 
 // --- GENERAL STYLES
+// Universal
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*::-moz-selection,
+*::selection {
+  color: $white;
+  background-color: $red-AA;
+}
 .awm-background,
 footer {
   background-color: $blue-AA;
