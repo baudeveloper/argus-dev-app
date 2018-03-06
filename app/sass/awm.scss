@@ -434,7 +434,8 @@ footer {
       font-size: 16px;
     }
   }
-  a {
+  a:not(.btn),
+  a:not(.btn-primary) {
     color: $blue-AE;
     font-size: inherit;
     &:link,
