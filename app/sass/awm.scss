@@ -318,8 +318,8 @@ footer {
     position: absolute;
   }
   &-wrap {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     @media screen and (min-width: 992px) and (max-width: 1200px) {
       padding-top: 50px;
       padding-bottom: 50px;
@@ -345,11 +345,11 @@ footer {
       margin: 0 0 20px;
     }
     @media screen and (min-width: 768px) and (max-width: 992px) {
-      font-size: 24px;
+      font-size: 28px;
       margin: 0 0 20px;
     }
     @media screen and (max-width: 768px) {
-      font-size: 20px;
+      font-size: 24px;
       margin: 0 0 15px;
     }
   }
