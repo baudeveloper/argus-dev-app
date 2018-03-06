@@ -667,10 +667,11 @@ footer {
     }
   }
   &-wrap {
-    height: 100%;
+    // height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1;
     background-color: $white;
     margin-bottom: 30px;
     @media screen and (max-width: 768px) {
@@ -709,6 +710,10 @@ footer {
     @media screen and (min-width: 768px) {
       display: flex;
       flex-wrap: wrap;
+      &:before,
+      &:after {
+        content: normal;
+      }
     }
   }
   &-listitem {
@@ -764,13 +769,28 @@ footer {
     @media screen and (min-width: 768px) {
       display: flex;
       flex-wrap: wrap;
+      &:before,
+      &:after {
+        content: normal;
+      }
     }
   }
   &-listitem {
     margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
+  // &-listitem {
+  //   margin-bottom: 30px;
+  // }
   &-wrap {
-    height: 100%;
+    // height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
     padding: 40px;
     background-color: $white;
   }
@@ -1089,10 +1109,11 @@ footer {
     }
   }
   &-wrap {
-    height: 100%;
+    // height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1;
     background-color: $white;
     // @media screen and (max-width: 768px) {
     //   margin-bottom: 30px;
@@ -1131,9 +1152,13 @@ footer {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    @media screen and (min-width: 768px) {
-      display: flex;
-    }
+    // @media screen and (min-width: 768px) {
+    //   display: flex;
+    //   &:before,
+    //   &:after {
+    //     content: normal;
+    //   }
+    // }
   }
   &-listitem {
     margin-bottom: 30px;
