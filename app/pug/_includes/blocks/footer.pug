@@ -13,6 +13,9 @@ footer.site--footer
             .thumb-headline
               a(href='/product-offering.html')
                 h2 Product Offering
+          ul.list-unstyled.simple-list.margin-bottom-20
+            li.ag-footer-link-item
+              a(href='/select-funds.html') Select Funds
         .col-md-2.col-sm-2.md-margin-bottom-40.ag-footer-links
           .margin-bottom-30
             .thumb-headline
@@ -61,8 +64,16 @@ footer.site--footer
         hr
         .panel-title
           .accordion-links.margin-bottom-10
-            a.collapsed(href='/product-offering.html')
+            a.collapsed(data-toggle='collapse', data-parent='#accordion', href='#accordion0')
               | Product Offering
+              span.glyphicon.glyphicon-menu-down.pull-right.arrow-icon
+        #accordion0.panel-collapse.collapse
+          div
+            ul.list-unstyled.margin-bottom-20
+              li.link-item
+                a(href='/product-offering.html') Product Offering
+              li.link-item
+                a(href='/select-funds.html') Select Funds
         hr
         .panel-title
           .accordion-links.margin-bottom-10
