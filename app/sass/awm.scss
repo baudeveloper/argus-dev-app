@@ -865,16 +865,28 @@ footer {
       display: flex;
       align-self: center;
     }
+    @media screen and (max-width: 768px) {
+      text-align: left;
+    }
   }
   &-list {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
+  &-listitem {
+    @media screen and (max-width: 768px) {
+      border-bottom: 1px solid $silver-AD;
+      &:last-of-type {
+        border-bottom: none;
+      }
+    }
+  }
   &-h2 {
     margin: 0 0 20px;
     padding: 0;
     font-size: 24px;
+    font-weight: bold;
     line-height: normal;
     text-transform: uppercase;
     @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -888,6 +900,14 @@ footer {
     @media screen and (max-width: 768px) {
       font-size: 18px;
       margin: 20px 0 10px;
+    }
+    &-medium {
+      text-transform: none;
+    }
+    &-small {
+      font-size: 18px;
+      font-weight: normal;
+      text-transform: none;
     }
   }
   &-h3 {
@@ -908,11 +928,24 @@ footer {
     }
   }
   &-p {
-    margin: 0;
+    margin: 0 0 15px;
     padding: 0;
     color: $silver-AD;
     font-weight: normal;
     line-height: normal;
+    @media screen and (max-width: 768px) {
+      margin: 0 0 10px;
+    }
+  }
+  &-link {
+    font-family: "Interstate";
+    font-weight: bold;
+    font-size: 16px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 10px;
+      max-width: 200px;
+      display: inline-block;
+    }
   }
   &-listitem {
     margin-bottom: 20px;
