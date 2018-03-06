@@ -30,14 +30,38 @@ header
 								li.dropdown.mega-menu-fullwidth.text-center
 									a(href='/product-offering.html')
 										span.overlay Product Offering
-								li.dropdown.mega-menu-fullwidth.text-center
-									a(href='/investor-profiles.html')
-										span.overlay Investor Profiles
-										img.sub-menu-indicator(src='https://argus.bm/Content/images/navigation.png')
+										img.sub-menu-indicator(src='images/navigation.png')
 									ul.dropdown-menu
 										// MEGA MENU STARTS
 										li
 											.row.display-table
+												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
+													.blog-grid.mega-menu-title
+												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
+													.blog-grid.mega-menu-title
+												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
+													.blog-grid.mega-menu-title
+												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
+													.blog-grid.mega-menu-title
+														a.heading-link(href='/product-offering.html') Product Offering
+														p Product Offering text here...
+														ul.mega-menu-list(id='')
+															li
+																a.list-item(href='/select-funds.html') Select Funds
+								li.dropdown.mega-menu-fullwidth.text-center
+									a(href='/investor-profiles.html')
+										span.overlay Investor Profiles
+										img.sub-menu-indicator(src='images/navigation.png')
+									ul.dropdown-menu
+										// MEGA MENU STARTS
+										li
+											.row.display-table
+												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
+													.blog-grid.mega-menu-title
+												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
+													.blog-grid.mega-menu-title
+												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
+													.blog-grid.mega-menu-title
 												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
 													.blog-grid.mega-menu-title
 														a.heading-link(href='/investor-profiles.html') Investor Profiles
@@ -49,12 +73,31 @@ header
 																a.list-item(href='/institutional-investors.html') Institutional Investors
 															li
 																a.list-item(href='/corporate-pension-funds.html') Corporate Pension Funds
+								li.dropdown.mega-menu-fullwidth.text-center
+									a(href='/market-and-macro-outlook.html')
+										span.overlay Market &amp; Macro Outlook
+										img.sub-menu-indicator(src='images/navigation.png')
+									ul.dropdown-menu
+										// MEGA MENU STARTS
+										li
+											.row.display-table
 												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
 													.blog-grid.mega-menu-title
 												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
 													.blog-grid.mega-menu-title
 												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
 													.blog-grid.mega-menu-title
+												.col-sm-3.md-margin-bottom-30.border-right.mega-menu-column.table-cell
+													.blog-grid.mega-menu-title
+														a.heading-link(href='/market-commentar.html') Market Review &amp; Outlook
+														p Market &amp; Macro Outlook text here...
+														ul.mega-menu-list(id='')
+															li
+																a.list-item(href='/market-commentary.html') Market Commentary
+															li
+																a.list-item(href='/macro-and-market-outlook.html') Macro and Market Outlook
+															li
+																a.list-item(href='/the-journal.html') The Journal
 .visible-xs.visible-sm.visible-md
 	#site-menu.ag-site-menu.mobile
 		.ag-mobile-menu
@@ -71,6 +114,10 @@ header
 				li.dropdown.level-1.top-level(data-level='1')
 					a(href='/product-offering.html')
 						.ag-link-name Product Offering 
+						span.js-ag-link-toggle.toggle-arrow.arrow-down
+					ul.hidden.ag-menu-level-2.ag-menu-sublevel.list-unstyled.nav.nav-stacked
+						li.dropdown.level-2(data-level='2')
+							a.ag-link-name(href='/select-funds.html') Select Funds
 				li.dropdown.level-1.top-level(data-level='1')
 					a(href='/investor-profiles.html')
 						.ag-link-name Investor Profiles 
