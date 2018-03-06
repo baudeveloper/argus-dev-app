@@ -1331,33 +1331,32 @@ footer {
 
 // MODALS
 .modal {
-  &-thumb {
-    margin-bottom: 15px;
-    @media screen and (max-width: 768px) {
-      max-width: 100%;
+  @media screen and (min-width: 992px) {
+    .modal-dialog {
+      width: 950px;
+      margin: 30px auto;
     }
+  }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .modal-dialog {
+      width: 750px;
+      margin: 30px auto;
+    }
+  }
+  &-thumb {
+    max-width: 100%;
+    margin-bottom: 15px;
   }
   &-designation {
     margin-bottom: 0;
   }
   &-body {
-    @media screen and (max-width: 768px) {
-      .nav-tabs a {
-        font-size: 16px;
-        line-height: normal;
-      }
+    p {
+      font-weight: normal;
+      font-size: 14px;
     }
     p:last-of-type {
       margin-bottom: 0;
-    }
-    .tab-pane {
-      padding-top: 15px;
-    }
-  }
-  &-footer {
-    button {
-      font-family: "Interstate";
-      font-weight: bold;
     }
   }
 }

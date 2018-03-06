@@ -10,25 +10,17 @@
 					br
 					| Life &amp; Pensions
 			.modal-body
-				img.modal-thumb(src="images/awm-team-thumb.png", alt="Angela J. Joell, BA, MSM, IRMCert")
-				div
-					// Nav tabs
-					ul.nav.nav-tabs(role='tablist')
-						li.active(role='presentation')
-							a(href='#angela-bio', aria-controls='angela-bio', role='tab', data-toggle='tab') Bio
-						li(role='presentation')
-							a(href='#angela-contact', aria-controls='angela-contact', role='tab', data-toggle='tab') Contact
-					// Tab panes
-					.tab-content
-						#angela-bio.tab-pane.active(role='tabpanel')
+				.row
+					.col-sm-6.col-md-4
+						img.modal-thumb(src="images/awm-team-thumb.png", alt="Angela J. Joell, BA, MSM, IRMCert")
+					.col-sm-6.col-md-8
+						.modal-wrap
 							p Angela joined AFL in June 2016, bringing to the team an extensive background in both banking and adult education. Prior to joining AFL, her banking career spanned 30 years, which included 15 years at Bank of Bermuda Limited. She recently held the position of Senior Business Analyst at HSBC Bermuda Limited, where she implemented and embedded regulated Customer Due Diligence requirements to the Bank’s Global standards. Prior to this role she worked in the capacity as the Senior Vice President, Banking Operations at Capital G Bank Limited. Her initial career in banking led to the position of Assistant Vice President responsible for managing the Bank of Bermuda’s mutual fund Service Desk.
 							p Angela’s parallel career in adult education includes: Working as the Head of Training for the Government of Bermuda and delivering workshops in professional and personal development from the Franklin Covey suite of course work, both within Bank of Bermuda Limited as well as independently.
 							p Angela holds a Master’s degree in Management Science from Boston University as well as a Bachelor of Art’s degree in Psychology from Mount Saint Vincent University in Canada. Additionally, she holds a master certification in Training and Facilitation from Friesen Kay and Associates of Canada, and a designation in Risk Management from the Institute of Risk Management in the UK.
 							p Angela has an active family life with her three sons. She has recently stepped down after serving for four years on the Board of Directors of the Bermuda Center Against Abuse and continues to work actively in the community for charitable causes. She is a member of both a voice and bell choir. She loves dance and the arts, having performed both locally and abroad.
-						#angela-contact.tab-pane(role='tabpanel')
 							p
-								| Phone: +1 (441) 294-5708
+								strong Phone: 
+								| +1 (441) 294-5708
 								br
-								a(href='mailto:ajoell@afl.bm') ajoell@afl.bm
-			.modal-footer
-				button.btn.btn-primary(type='button', data-dismiss='modal') Close
+								a(href='mailto:ajoell@afl.bm', role="link") ajoell@afl.bm

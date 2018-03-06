@@ -7,24 +7,16 @@
 				h4.modal-title Louis Millar, CFA, CPA
 				p.modal-designation Head of Operations
 			.modal-body
-				img.modal-thumb(src="images/awm-team-thumb.png", alt="Louis Millar, CFA, CPA")
-				div
-					// Nav tabs
-					ul.nav.nav-tabs(role='tablist')
-						li.active(role='presentation')
-							a(href='#louis-bio', aria-controls='louis-bio', role='tab', data-toggle='tab') Bio
-						li(role='presentation')
-							a(href='#louis-contact', aria-controls='louis-contact', role='tab', data-toggle='tab') Contact
-					// Tab panes
-					.tab-content
-						#louis-bio.tab-pane.active(role='tabpanel')
+				.row
+					.col-sm-6.col-md-4
+						img.modal-thumb(src="images/awm-team-thumb.png", alt="Louis Millar, CFA, CPA")
+					.col-sm-6.col-md-8
+						.modal-wrap
 							p Louis joined AFL Investments in October 2007. He previously worked as an Analyst at Cidel in Barbados where he gained extensive knowledge and experience in banking, investment administration and fund management. Prior to joining Cidel in January 2006, he worked for several years as an Examiner with the Bank Supervision Department of the Central Bank of Barbados. Core responsibilities included bank surveillance and regulation.
 							p Louis holds a BSc. (Hons) in Economics and Accounting from the University of the West Indies in Barbados, and a MSc. (Distinction) in Banking and International Finance from the Cass Business School, City University in London. Louis is a CFA® charter holder and is a member of the Bermuda CFA Society. He is also a certified accountant, being a member of CPA British Columbia and Bermuda.
 							p Louis is married and enjoys basketball, golf and travelling and has an interest in art and photography.
-						#louis-contact.tab-pane(role='tabpanel')
 							p
-								| Phone: +1 (441) 298-0862
+								strong Phone: 
+								| +1 (441) 298-0862
 								br
-								a(href='mailto:lmillar@afl.bm') lmillar@afl.bm
-			.modal-footer
-				button.btn.btn-primary(type='button', data-dismiss='modal') Close
+								a(href='mailto:lmillar@afl.bm', role="link") lmillar@afl.bm
