@@ -419,6 +419,12 @@ footer {
       display: inline-block;
     }
   }
+  .footer-flag {
+    img {
+      width: 23px;
+      height: 16px;
+    }
+  }
   &-copyright {
     @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 14px;
