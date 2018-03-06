@@ -146,6 +146,30 @@ footer {
     margin-left: 0;
   }
 }
+.top-nav-container {
+  .topbar-list {
+    .link {
+      margin-right: 8px;
+      padding: 13px 3px 3px 3px;
+      border-bottom: 4px solid transparent;
+      // padding: 20px 3px 10px;
+      &--btn {
+        padding: 7px 0 7px 10px;
+      }
+    }
+    .current {
+      border-bottom: 4px solid $red-AA;
+      padding: 25px 3px 15px;
+    }
+  }
+}
+// .header-v8 {
+//   .nav > li a:active,
+//   .nav > li a.active {
+//     background-color: #eee;
+//   }
+// }
+
 
 // SECTION
 .site--slider {

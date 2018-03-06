@@ -23,12 +23,12 @@ header
 						.collapse.navbar-collapse.navbar-responsive-collapse
 							ul#menu-list.nav.navbar-nav.static-position.bm-nav-menu
 								li.dropdown.mega-menu-fullwidth.visible-xs.visible-sm
-									a(href='https://aflonline.aflinvestments.bm/login.asp') Client Login
+									a(href='/client-login.html') Client Login
 								li.dropdown.mega-menu-fullwidth.text-center
-									a(href='/investment-philosophy.html')
+									a(href='/investment-philosophy.html', class=(bodyClass === 'investment-philosophy' ? 'active' : ''))
 										span.overlay Investment Philosphy
 								li.dropdown.mega-menu-fullwidth.text-center
-									a(href='/product-offering.html')
+									a(href='/product-offering.html', class=(bodyClass === 'product-offering' ? 'active' : ''))
 										span.overlay Product Offering
 										img.sub-menu-indicator(src='images/navigation.png')
 									ul.dropdown-menu
@@ -49,7 +49,7 @@ header
 															li
 																a.list-item(href='/select-funds.html') Select Funds
 								li.dropdown.mega-menu-fullwidth.text-center
-									a(href='/investor-profiles.html')
+									a(href='/investor-profiles.html', class=(bodyClass === 'investor-profiles' ? 'active' : ''))
 										span.overlay Investor Profiles
 										img.sub-menu-indicator(src='images/navigation.png')
 									ul.dropdown-menu
@@ -74,7 +74,7 @@ header
 															li
 																a.list-item(href='/corporate-pension-funds.html') Corporate Pension Funds
 								li.dropdown.mega-menu-fullwidth.text-center
-									a(href='/market-commentary.html')
+									a(href='/market-commentary.html', class=(bodyClass === 'market-commentary' ? 'active' : ''))
 										span.overlay Market &amp; Macro Outlook
 										img.sub-menu-indicator(src='images/navigation.png')
 									ul.dropdown-menu
