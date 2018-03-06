@@ -12,68 +12,65 @@
 			.container
 				.row
 					.col-sm-12.col-md-4
-						.site--content-wrap
-							form#simpleContactForm.form.has-validation-callback.disabled-with-errors(action='/contact-us/', enctype='multipart/form-data', method='post')
-								.inline-contact-form.js-contact-form.padding-right
-									.row
-										.col-sm-12
-											input(name='PreferredContactMethod', value='Email', type='hidden')
-											input(name='Topic', value='Other', type='hidden')
-											.form-group
-												label.required(for='FullName') Full Name
-												input#FirstName.form-control(value='', name='FirstName', required='', data-validation='required', data-validation-event='keyup', type='text')
-									.row
-										.col-md-6.col-sm-12
-											.form-group
-												label.required(for='Phone') Phone
-												input#Phone.form-control(value='', name='Phone', required='', data-validation='required', data-validation-event='keyup', type='text')
-										.col-md-6.col-sm-12
-											.form-group
-												label(for='Email') Email
-												input#Email.form-control(value='', name='Email', required='', data-validation='required', data-validation-event='keyup', type='text')
-									.row
-										.col-sm-12
-											.form-group
-												label.required(for='Message') Message
-												textarea#Message.form-control(name='Message', maxlength='1000', rows='5', required='', data-validation='required', data-validation-event='keyup')
-											fieldset.form-group
-												label(for='recaptcha') Test if you are a human. Click the checkbox.
-												.g-recaptcha(data-sitekey='6Lee8AgUAAAAALY_ITcIajsUVapyOMJ5DgJ6OH7g')
-													div(style='width: 304px; height: 78px;')
-														div
-															iframe(src='https://www.google.com/recaptcha/api2/anchor?k=6Lee8AgUAAAAALY_ITcIajsUVapyOMJ5DgJ6OH7g&co=aHR0cHM6Ly9hcmd1cy5ibTo0NDM.&hl=en&v=v1519626662381&size=normal&cb=4glgk91u5g3z', role='presentation', scrolling='no', sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox', width='304', height='78', frameborder='0')
-														textarea#g-recaptcha-response.g-recaptcha-response(name='g-recaptcha-response', style='width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; ')
-												script(src='https://www.google.com/recaptcha/api.js')
-											.form-group
-												button.btn.btn-primary.btn-contact.disabled(type='submit', disabled='disabled') Send
-								input(name='ufprt', value='B4F4B83CBB53DA7251E8A880FF353671B7A23F943E797144C6E95BCB1742FFFDC4E4FC8F67A9FCCD83C54A267D548FCE6995250247036F7DD7901C8843895A31B27FE41EA7DF7DC79DC7161C687303E00AC8866895DBDF2F5C3657E7CC1305D746C9C82AFC207415D40FE488A9D85DA2CF4833170F90429EC1F23D30902A48F09FDE70026B034FB9970586F783EE6F62917602851F49591E0AD995D3717444F8B5FE4749', type='hidden')
+						form#simpleContactForm.form.has-validation-callback.disabled-with-errors(action='/contact-us/', enctype='multipart/form-data', method='post')
+							.inline-contact-form.js-contact-form.padding-right
+								.row
+									.col-sm-12
+										input(name='PreferredContactMethod', value='Email', type='hidden')
+										input(name='Topic', value='Other', type='hidden')
+										.form-group(style="margin-bottom:20px;")
+											label.required(for='FullName') Full Name
+											input#FirstName.form-control(value='', name='FirstName', required='', data-validation='required', data-validation-event='keyup', type='text')
+								.row
+									.col-md-6.col-sm-12
+										.form-group(style="margin-bottom:20px;")
+											label.required(for='Phone') Phone
+											input#Phone.form-control(value='', name='Phone', required='', data-validation='required', data-validation-event='keyup', type='text')
+									.col-md-6.col-sm-12
+										.form-group(style="margin-bottom:20px;")
+											label(for='Email') Email
+											input#Email.form-control(value='', name='Email', required='', data-validation='required', data-validation-event='keyup', type='text')
+								.row
+									.col-sm-12
+										.form-group(style="margin-bottom:20px;")
+											label.required(for='Message') Message
+											textarea#Message.form-control(name='Message', maxlength='1000', rows='5', required='', data-validation='required', data-validation-event='keyup')
+										fieldset.form-group(style="margin-bottom:20px;")
+											label(for='recaptcha') Test if you are a human. Click the checkbox.
+											.g-recaptcha(data-sitekey='6Lee8AgUAAAAALY_ITcIajsUVapyOMJ5DgJ6OH7g')
+												div(style='width: 304px; height: 78px;')
+													div
+														iframe(src='https://www.google.com/recaptcha/api2/anchor?k=6Lee8AgUAAAAALY_ITcIajsUVapyOMJ5DgJ6OH7g&co=aHR0cHM6Ly9hcmd1cy5ibTo0NDM.&hl=en&v=v1519626662381&size=normal&cb=4glgk91u5g3z', role='presentation', scrolling='no', sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox', width='304', height='78', frameborder='0')
+													textarea#g-recaptcha-response.g-recaptcha-response(name='g-recaptcha-response', style='width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; ')
+											script(src='https://www.google.com/recaptcha/api.js')
+										.form-group(style="margin-bottom:20px;")
+											button.btn.btn-primary.btn-contact.disabled(type='submit', disabled='disabled') Send
+							input(name='ufprt', value='B4F4B83CBB53DA7251E8A880FF353671B7A23F943E797144C6E95BCB1742FFFDC4E4FC8F67A9FCCD83C54A267D548FCE6995250247036F7DD7901C8843895A31B27FE41EA7DF7DC79DC7161C687303E00AC8866895DBDF2F5C3657E7CC1305D746C9C82AFC207415D40FE488A9D85DA2CF4833170F90429EC1F23D30902A48F09FDE70026B034FB9970586F783EE6F62917602851F49591E0AD995D3717444F8B5FE4749', type='hidden')
 					.col-sm-12.col-md-4
-						.site--content-wrap
-							h2.site--content-heading(role="heading") Get in Touch
-							p.site--content-paragraph Don't hesitate to reach out to us.
-							p.site--content-paragraph
-								strong Tel: 
-								| +1 (441) 295-9000
-								br
-								strong Fax: 
-								| +1 (441) 295-9001
-								br
-								strong Email: 
-								a.site--content-link(href="mailto:invest@afl.bm") invest@afl.bm
+						h2.site--content-heading(role="heading") Get in Touch
+						p.site--content-paragraph Don't hesitate to reach out to us.
+						p.site--content-paragraph
+							strong Tel: 
+							| +1 (441) 295-9000
+							br
+							strong Fax: 
+							| +1 (441) 295-9001
+							br
+							strong Email: 
+							a.site--content-link(href="mailto:invest@afl.bm") invest@afl.bm
 					.col-sm-12.col-md-4
-						.site--content-wrap
-							h2.site--content-heading(role="heading") Our Location
-							h3.site--content-caption(role="heading") Address
-							p.site--content-paragraph
-								| Maxwell Roberts Building
-								br
-								| 1 Church Street, 3rd Floor
-								br
-								| Hamilton HM11, Bermuda
-							h3.site--content-caption(role="heading") Send Mail To
-							p.site--content-paragraph
-								| P.O. Box HM 1064
-								br
-								| Hamilton HM EX
-								br
-								| BERMUDA
+						h2.site--content-heading(role="heading") Our Location
+						h3.site--content-caption(role="heading") Address
+						p.site--content-paragraph
+							| Maxwell Roberts Building
+							br
+							| 1 Church Street, 3rd Floor
+							br
+							| Hamilton HM11, Bermuda
+						h3.site--content-caption(role="heading") Send Mail To
+						p.site--content-paragraph
+							| P.O. Box HM 1064
+							br
+							| Hamilton HM EX
+							br
+							| BERMUDA
