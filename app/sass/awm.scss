@@ -140,7 +140,9 @@ footer {
 }
 
 // BOOTSTRAP OVERRIDES
-.btn.btn-primary {
+.btn.btn-primary,
+.btn.btn-secondary {
+  font-size: 16px;
   font-weight: bold;
   font-family: "Interstate";
 }
@@ -455,6 +457,15 @@ footer {
     &:visited,
     &:focus {
       color: $blue-AE;
+    }
+  }
+  .form-signin {
+    input {
+      margin: 0 0 15px;
+    }
+    input[type="password"] {
+      padding: 6px 12px;
+      height: 34px;
     }
   }
 }

@@ -1,6 +1,6 @@
 .umb-grid
 	.grid-section
-		.site--banner(data-js="site-banner", role="banner")
+		.site--banner.site--banner-compact(data-js="site-banner", role="banner")
 			.container
 				.row
 					.col-sm-12
@@ -8,21 +8,16 @@
 							img.site--banner-img.hidden(src="images/awm-banner-compact-bg.jpg", alt="Client Login", role="img")
 							h1.site--banner-heading(role="heading")
 								| Client Login
-							p.site--banner-content
-								| AFL Online offers a secure, confidential, convenient way for AFL clients to access their account and communicate with the AFL team. Clients may log on 24 hours a day, seven days a week to send &amp; receive mail, view balances, transaction history or statements, access AFL documentation, or read the latest investment commentary.
 		.site--content
 			.container
 				.row
-					.col-sm-12
-						.site--content-wrap
-							form.form-signin
-								span#reauth-email.reauth-email
-								input#inputEmail.form-control(type='email', placeholder='Email address', required='', autofocus='')
-								input#inputPassword.form-control(type='password', placeholder='Password', required='')
-								#remember.checkbox
-									label
-										input(type='checkbox', value='remember-me')
-										|  Remember me
-								button.btn.btn-lg.btn-primary.btn-signin(type='submit') Sign in
-							a.forgot-password(href='#')
-								| Forgot the password?
+					.col-sm-8
+						p AFL Online offers a secure, confidential, convenient way for AFL clients to access their account and communicate with the AFL team. Clients may log on 24 hours a day, seven days a week to send &amp; receive mail, view balances, transaction history or statements, access AFL documentation, or read the latest investment commentary.
+					.col-sm-4
+						form.form-signin
+							label(for="inputLogin") Login ID:
+							input#inputLogin.form-control(type='text', placeholder='Login', required)
+							label(for="inputPassword") Password:
+							input#inputPassword.form-control(type='password', placeholder='Password', required)
+							button.btn.btn-lg.btn-primary.btn-signin(type='submit') Login
+							button.btn.btn-lg.btn-secondary Cancel
