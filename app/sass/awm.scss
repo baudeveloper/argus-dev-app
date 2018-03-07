@@ -643,6 +643,11 @@ footer {
       margin-bottom: 15px;
     }
   }
+  &-highlighter {
+    padding: 5px;
+    display: inline-block;
+    background: $green-AD;
+  }
   &-heading {
     color: $silver-AA;
     font-size: 20px;
