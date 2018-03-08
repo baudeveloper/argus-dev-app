@@ -497,26 +497,26 @@ footer {
       font-weight: normal;
     }
   }
-  .form-signin {
-    input {
-      margin: 0 0 15px;
-    }
-    input[type="password"] {
-      padding: 6px 12px;
-      height: 34px;
-    }
-    @media screen and (min-width: 768px) and (max-width: 992px) {
-      .btn {
-        width: 100%;
-        &:first-of-type {
-          margin-bottom: 15px;
-        }
-      }
-    }
-    @media screen and (max-width: 768px) {
-      margin-bottom: 20px;
-    }
-  }
+  // .form-signin {
+  //   input {
+  //     margin: 0 0 15px;
+  //   }
+  //   input[type="password"] {
+  //     padding: 6px 12px;
+  //     height: 34px;
+  //   }
+  //   @media screen and (min-width: 768px) and (max-width: 992px) {
+  //     .btn {
+  //       width: 100%;
+  //       &:first-of-type {
+  //         margin-bottom: 15px;
+  //       }
+  //     }
+  //   }
+  //   @media screen and (max-width: 768px) {
+  //     margin-bottom: 20px;
+  //   }
+  // }
 }
 .site--footer {
   @media screen and (max-width: 768px) {

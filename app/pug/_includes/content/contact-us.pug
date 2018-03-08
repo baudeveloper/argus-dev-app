@@ -11,8 +11,8 @@
 		.site--content
 			.container
 				.row
-					.col-sm-12.col-md-4
-						form#simpleContactForm.form.has-validation-callback.disabled-with-errors(action='/contact-us/', enctype='multipart/form-data', method='post')
+					//- .col-sm-12.col-md-4
+					//- 	form#simpleContactForm.form.has-validation-callback.disabled-with-errors(action='/contact-us/', enctype='multipart/form-data', method='post')
 							.inline-contact-form.js-contact-form.padding-right
 								.row
 									.col-sm-12
@@ -46,7 +46,7 @@
 										.form-group(style="margin-bottom:20px;")
 											button.btn.btn-primary.btn-contact.disabled(type='submit', disabled='disabled') Send
 							input(name='ufprt', value='B4F4B83CBB53DA7251E8A880FF353671B7A23F943E797144C6E95BCB1742FFFDC4E4FC8F67A9FCCD83C54A267D548FCE6995250247036F7DD7901C8843895A31B27FE41EA7DF7DC79DC7161C687303E00AC8866895DBDF2F5C3657E7CC1305D746C9C82AFC207415D40FE488A9D85DA2CF4833170F90429EC1F23D30902A48F09FDE70026B034FB9970586F783EE6F62917602851F49591E0AD995D3717444F8B5FE4749', type='hidden')
-					.col-sm-12.col-md-4
+					.col-sm-12.col-md-6
 						h2.site--content-heading(role="heading") Get in Touch
 						p.site--content-paragraph Don't hesitate to reach out to us.
 						p.site--content-paragraph
@@ -58,7 +58,8 @@
 							br
 							strong Email: 
 							a.site--content-link(href="mailto:invest@afl.bm") invest@afl.bm
-					.col-sm-12.col-md-4
+					.col-sm-12.col-md-6
+						hr.visible-xs.visible-sm
 						h2.site--content-heading(role="heading") Our Location
 						h3.site--content-caption(role="heading") Address
 						p.site--content-paragraph
