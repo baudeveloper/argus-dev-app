@@ -129,8 +129,17 @@ footer {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-.header-v8 .nav > li > a {
-  color: $blue-AD;
+.header-v8 {
+  .nav > li > a {
+    color: $blue-AD;
+  }
+  @media screen and (min-width: 768px) {
+    .dropdown-menu {
+      top: 97px!important;
+      left: auto!important;
+      right: auto!important;
+    }
+  }
 }
 .awm-navigation {
   .call-to-action {
