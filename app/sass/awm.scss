@@ -464,8 +464,13 @@ footer {
       margin: 0;
     }
     @media screen and (max-width: 768px) {
+      .media-object {
+        margin-bottom: 0;
+      }
       .tab-content {
         margin-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
       }
       .media-body {
         padding-top: 15px;
