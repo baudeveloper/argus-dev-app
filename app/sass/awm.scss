@@ -169,12 +169,6 @@ footer {
     }
   }
 }
-// .header-v8 {
-//   .nav > li a:active,
-//   .nav > li a.active {
-//     background-color: #eee;
-//   }
-// }
 
 
 // SECTION
@@ -459,6 +453,36 @@ footer {
       color: $blue-AE;
     }
   }
+  &-journals {
+    .media {
+      margin-bottom: 0;
+    }
+    .media-object {
+      margin-bottom: 15px;
+    }
+    hr {
+      margin: 0;
+    }
+    @media screen and (max-width: 768px) {
+      .tab-content {
+        margin-top: 10px;
+      }
+      .media-body {
+        padding-top: 15px;
+      }
+    }
+    @media screen and (min-width: 768px) {
+      .nav-tabs {
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  &-client-login {
+    p {
+      font-weight: normal;
+    }
+  }
   .form-signin {
     input {
       margin: 0 0 15px;
@@ -467,6 +491,17 @@ footer {
       padding: 6px 12px;
       height: 34px;
     }
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+      .btn {
+        width: 100%;
+        &:first-of-type {
+          margin-bottom: 15px;
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+      margin-bottom: 20px;
+    }
   }
 }
 .site--footer {
@@ -474,9 +509,6 @@ footer {
     .footer-flag,
     .footer-info {
       text-align: left;
-    }
-    &-footlinks {
-      display: inline-block;
     }
   }
   @media screen and (max-width: 480px) {
@@ -498,6 +530,27 @@ footer {
       display: block;
       margin-top: 15px;
       margin-bottom: 15px;
+    }
+  }
+  &-footlinks {
+    &:after {
+      content: "|";
+      margin-right: 5px;
+      padding-left: 5px;
+    }
+    &:last-of-type {
+      &:after {
+        content: "";
+      }
+    }
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      &:after {
+        margin-right: 3px;
+        padding-left: 3px;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      display: inline-block;
     }
   }
 }
