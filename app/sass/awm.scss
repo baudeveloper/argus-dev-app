@@ -686,6 +686,11 @@ footer {
   @media screen and (max-width: 768px) {
     padding-top: 30px;
     padding-bottom: 30px;
+    &-listitem:last-of-type {
+      .card--team-wrap {
+        margin-bottom: 0;
+      }
+    }
   }
   &-thumb {
     width: 100%;
@@ -803,11 +808,6 @@ footer {
     @media screen and (min-width: 768px) {
       display: flex;
       flex-direction: column;
-    }
-  }
-  &-listitem:last-of-type {
-    .card--team-wrap {
-      margin-bottom: 0;
     }
   }
 }
