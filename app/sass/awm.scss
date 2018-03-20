@@ -868,6 +868,9 @@ footer {
   // &-listitem {
   //   margin-bottom: 30px;
   // }
+  &-thumb {
+    max-height: 80px;
+  }
   &-wrap {
     // height: 100%;
     display: flex;
@@ -882,8 +885,11 @@ footer {
     font-size: 20px;
     line-height: normal;
     font-weight: normal;
-    margin: 15px 0;
+    margin: 30px 0 15px;
     padding: 0;
+    @media screen and (max-width: 768px) {
+      margin: 20px 0 15px;
+    }
   }
   &-content {
     color: $silver-AA;
