@@ -689,7 +689,7 @@ footer {
 .card--team {
   padding-top: 90px;
   padding-bottom: 90px;
-  background: $silver-AE no-repeat url("../images/awm-team-bg.png");
+  background: $silver-AE no-repeat url("../images/building-gray.gif");
   background-position: bottom right;
   @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 60px;
@@ -827,7 +827,7 @@ footer {
   padding-top: 90px;
   padding-bottom: 90px;
   // background-color: $silver-AC;
-  background: $silver-AE no-repeat url("../images/awm-team-bg.png");
+  background: $silver-AE no-repeat url("../images/building-gray.gif");
   background-position: bottom right;
   @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 60px;
@@ -940,7 +940,7 @@ footer {
 .card--funds {
   padding-top: 90px;
   padding-bottom: 90px;
-  background: transparent no-repeat url("../images/awm-team-bg.png");
+  background: transparent no-repeat url("../images/building-gray.gif");
   background-position: bottom right;
   @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 60px;
@@ -1133,8 +1133,6 @@ footer {
 .card--features {
   padding-top: 90px;
   padding-bottom: 90px;
-  background: transparent no-repeat url("../images/awm-team-bg.png");
-  background-position: bottom right;
   @media screen and (min-width: 768px) and (max-width: 992px) {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1274,10 +1272,14 @@ footer {
     }
   }
   &.card--features-primary-bg {
-    background-color: $silver-AE;
+    // background-color: $silver-AE;
+    background: $silver-AE no-repeat url("../images/building-gray.gif");
+    background-position: bottom right;
   }
   &.card--features-secondary-bg {
-    background-color: $blue-AF;
+    // background-color: $blue-AF;
+    background: $blue-AF no-repeat url("../images/building-blue.gif");
+    background-position: bottom right;
   }
 }
 .card--summary {
