@@ -493,8 +493,20 @@ footer {
     }
   }
   &-client-login {
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .btn {
+      margin-bottom: 15px;
+    }
+    input {
+      width: 100%;
+      height: 34px;
+      margin: auto;
+      padding: 6px 12px;
+    }
     p {
-      font-weight: normal;
+      font-weight: 300;
     }
   }
   // .form-signin {
@@ -1312,6 +1324,9 @@ footer {
     }
     @media screen and (max-width: 768px) {
       font-size: 16px;
+    }
+    &:first-of-type~* {
+      font-size: 18px;
     }
     &:last-of-type {
       margin-bottom: 0;

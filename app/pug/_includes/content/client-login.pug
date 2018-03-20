@@ -13,10 +13,12 @@
 				.row
 					.col-sm-4
 						form.form-signin
-							label(for="inputLogin") Login ID:
-							input#inputLogin.form-control(type='text', placeholder='Login', required)
-							label(for="inputPassword") Password:
-							input#inputPassword.form-control(type='password', placeholder='Password', required)
+							.form-group
+								label(for="inputLogin") Login ID:
+								input#inputLogin.form-control(type='text', placeholder='Login', required)
+							.form-group
+								label(for="inputPassword") Password:
+								input#inputPassword.form-control(type='password', placeholder='Password', required)
 							button.btn.btn-lg.btn-primary.btn-signin(type='submit') Login
 							button.btn.btn-lg.btn-secondary Cancel
 					.col-sm-7.col-sm-offset-1
