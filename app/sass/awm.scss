@@ -492,6 +492,13 @@ footer {
       }
     }
   }
+  &-outlook {
+    margin-top: 10px;
+    text-align: right;
+    @media screen and (max-width: 768px) {
+      text-align: left;
+    }
+  }
   &-client-login {
     .form-group {
       margin-bottom: 15px;
