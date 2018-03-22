@@ -319,18 +319,25 @@ footer {
   &-content {
     margin: 0 0 30px;
     padding: 0;
-    max-width: 600px;
     color: $silver-AD;
     font-size: 24px;
     font-weight: 300;
     line-height: normal;
+    @media screen and (min-width: 1400px) {
+      max-width: 600px;
+    }
+    @media screen and (min-width: 1200px) and (max-width: 1400px) {
+      max-width: 480px;
+    }
     @media screen and (min-width: 992px) and (max-width: 1200px) {
       font-size: 20px;
       margin: 0 0 20px;
+      max-width: 400px;
     }
     @media screen and (min-width: 768px) and (max-width: 992px) {
       font-size: 18px;
       margin: 0 0 20px;
+      max-width: 275px;
     }
     @media screen and (max-width: 768px) {
       font-size: 16px;
