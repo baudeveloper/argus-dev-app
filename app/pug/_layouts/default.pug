@@ -32,5 +32,22 @@ html(lang="en")
     //-   window.cookieconsent_options = { "message": "To ensure you get the best experience on our website, this website uses cookies. By using our website you agree to the terms of our", "dismiss": "Got it!", "learnMore": "Privacy Policy", "link": "/privacy-policy", "theme": "light-top" };
     //- script(src="js/vendor/cookie-consent.js")
     //- script(src="js/vendor/cookie-consent-2.js")
+    script.
+      function initMap() {
+      var uluru = {
+        lat: 32.294604, lng: -64.786669
+      };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 16,
+        center: uluru,
+        scrollwheel: false
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+        title: 'The Argus Building'
+      });
+      }
+    script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDENXPvX7G8399dcrtSTVCd7MdhWz0EXjU&callback=initMap')
     script(src="js/vendor/scripts.js")
     script(src="js/custom.js")
