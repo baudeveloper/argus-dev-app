@@ -964,6 +964,7 @@ footer {
     }
     @media screen and (max-width: 768px) {
       max-width: 130px;
+      margin-bottom: 20px;
     }
   }
   &-caption {
@@ -1094,7 +1095,8 @@ footer {
     @media screen and (max-width: 768px) {
       margin-bottom: 10px;
       max-width: 200px;
-      display: inline-block;
+      // display: inline-block;
+      display: block;
     }
   }
   &-listitem {
