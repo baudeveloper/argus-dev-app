@@ -544,6 +544,22 @@ footer {
     p {
       font-weight: 300;
     }
+    .form-signin {
+      .btn-signin {
+        border: 2px solid #ff5959;
+        &:active,
+        &:hover,
+        &:focus {
+          background-color: #f04c4c;
+          border: 2px solid #f04c4c;
+        }
+      }
+      @media screen and (min-width: 768px) and (max-width: 992px) {
+        .btn {
+          min-width: 130px;
+        }
+      }
+    }
   }
   // .form-signin {
   //   input {
