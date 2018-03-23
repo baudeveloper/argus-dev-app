@@ -153,6 +153,11 @@ footer {
 .mobile-menu-nav-header .mobile-logo {
   width: 160px;
 }
+@media screen and (max-width: 768px) {
+  .ag .carousel .carousel-caption h1 {
+    font-size: 24px;
+  }
+}
 
 // BOOTSTRAP OVERRIDES
 .btn.btn-primary,
