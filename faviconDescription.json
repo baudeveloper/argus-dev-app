@@ -1,6 +1,6 @@
 {
 	"masterPicture": "app/images/master_picture.png",
-	"iconsPath": "",
+	"iconsPath": "./",
 	"design": {
 		"ios": {
 			"pictureAspect": "noChange",
