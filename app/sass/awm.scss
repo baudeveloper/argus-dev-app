@@ -607,7 +607,9 @@ footer {
 }
 .site--footer {
   .footer-info {
-    color: #bbb;
+    span {
+      color: #bbb;
+    }
   }
   @media screen and (max-width: 768px) {
     .footer-flag,
