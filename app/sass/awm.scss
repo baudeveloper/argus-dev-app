@@ -178,7 +178,7 @@ footer {
 .top-nav-container {
   .topbar-list {
     .topbar-dropdown {
-      top: 48px;
+      top: 62px;
       padding: 10px;
       background-color: #fff;
       box-shadow: 3px 4px 9px #888;
@@ -198,7 +198,8 @@ footer {
     }
     .link {
       margin-right: 8px;
-      padding: 7px 3px 3px 3px;
+      padding: 22px 3px 18px;
+      // padding: 7px 3px 3px 3px;
       border-bottom: 4px solid transparent;
       // padding: 20px 3px 10px;
       &--btn {
@@ -207,10 +208,10 @@ footer {
     }
     .current {
       border-bottom: 4px solid $red-AA;
-      padding: 22px 3px 18px;
-      .topbar-dropdown {
-        top: 62px;
-      }
+      // padding: 22px 3px 18px;
+      // .topbar-dropdown {
+      //   top: 62px;
+      // }
     }
   }
 }
