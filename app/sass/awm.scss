@@ -606,6 +606,9 @@ footer {
   // }
 }
 .site--footer {
+  .footer-info {
+    color: #bbb;
+  }
   @media screen and (max-width: 768px) {
     .footer-flag,
     .footer-info {
@@ -1072,9 +1075,9 @@ footer {
     }
   }
   &-header {
-    @media screen and (max-width: 768px) {
-      text-align: left;
-    }
+    // @media screen and (max-width: 768px) {
+    //   text-align: left;
+    // }
   }
   &-section {
     text-align: left;
@@ -1086,6 +1089,7 @@ footer {
       margin: 0 15px;
     }
     @media screen and (max-width: 768px) {
+      text-align: center;
       margin: 0;
     }
   }
@@ -1095,9 +1099,9 @@ footer {
       display: flex;
       align-self: center;
     }
-    @media screen and (max-width: 768px) {
-      text-align: left;
-    }
+    // @media screen and (max-width: 768px) {
+    //   text-align: left;
+    // }
   }
   &-list {
     margin: 0;
@@ -1105,8 +1109,19 @@ footer {
     list-style-type: none;
   }
   &-listitem {
+    margin-bottom: 20px;
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+      margin-bottom: 40px;
+      &:first-of-type {
+        padding-top: 20px;
+      }
+    }
     @media screen and (max-width: 768px) {
       border-bottom: 1px solid $silver-AD;
+      &:first-of-type {
+        padding-top: 20px;
+        border-top: 1px solid $silver-AD;
+      }
       &:last-of-type {
         border-bottom: none;
       }
@@ -1172,6 +1187,7 @@ footer {
     font-weight: bold;
     font-size: 16px;
     @media screen and (max-width: 768px) {
+      margin: auto;
       margin-bottom: 10px;
       max-width: 200px;
       // display: inline-block;
@@ -1179,7 +1195,6 @@ footer {
     }
   }
   &-listitem {
-    margin-bottom: 20px;
     &-conservative {
       .card--funds-h2 {
         color: $silver-AG;
