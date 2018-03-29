@@ -570,6 +570,7 @@ footer {
     .form-signin {
       .btn-signin {
         border: 2px solid #ff5959;
+        margin-right:15px;
         &:active,
         &:hover,
         &:focus {
@@ -604,6 +605,9 @@ footer {
   //     margin-bottom: 20px;
   //   }
   // }
+}
+.client-login .site--footer {
+  padding-top:80px;
 }
 .site--footer {
   .footer-info {

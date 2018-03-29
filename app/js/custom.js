@@ -19,4 +19,9 @@ $(function() {
 	// 	var target = $(this).attr("href");
 	// 	$("a[data-toggle=tab][href=" + target + "]").tab("show");
 	// });
+	
 })();
+
+function goBack() {
+	window.history.back();
+}
