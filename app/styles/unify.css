@@ -15937,7 +15937,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 ---------------------------------------------------- */
 
 .blog-topbar {
-  background: #0079c1;
+  background: #00558C;
   margin-top: -10px;
 }
 .blog-topbar .container,
@@ -16319,7 +16319,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 }
 .header-v8 .nav > li > a:hover,
 .header-v8 .nav > li > a:focus {
-  background: #0079c1;
+  background: #00558C;
 }
 /*--------------------------------------------------
 [4. Header - Responsive Navbar Style]
@@ -16495,7 +16495,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
     padding: 15px 0;
     min-width: 230px;
     border-radius: 0;
-    background: #0079c1;
+    background: #00558C;
     z-index: 9999 !important;
   }
   .header-v8 .dropdown-menu > li > a {
@@ -16868,7 +16868,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
   padding: 5px 9px;
 }
 .light-blue {
-  color: #0079c1;
+  color: #00558C;
 }
 .community-show-hide {
   display: none;
@@ -16879,7 +16879,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
   }
   .community-show-hide {
     display: block;
-    color: #0079c1;
+    color: #00558C;
   }
 }
 .owl-theme .owl-buttons i {
@@ -17662,7 +17662,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 /*Header Box Start*/
 
 .pagehead {
-  background: #0079c1;
+  background: #00558C;
   margin: 0px;
 }
 .pagehead h1 {
@@ -17784,7 +17784,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 #producttable .list-group-item:first-child {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: #0079c1;
+  background-color: #00558C;
   color: white;
   padding-bottom: 0;
   height: 200px;
@@ -17792,7 +17792,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
 .summary-table .list-group-item:first-child {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-color: #0079c1;
+  background-color: #00558C;
   color: white;
   padding-bottom: 0;
 }
@@ -17824,7 +17824,7 @@ body.dark .call-action-v1 .btn-u.btn-brd {
   line-height: 11px;
 }
 .thead {
-  background-color: #0079c1;
+  background-color: #00558C;
   font-size: 20px;
   line-height: 40px;
   color: white;
@@ -17912,7 +17912,7 @@ th {
 }
 .nav-sidebar .active a {
   cursor: default;
-  background-color: #0079c1;
+  background-color: #00558C;
   color: white;
 }
 .sub-icon {
@@ -17920,7 +17920,7 @@ th {
   color: #dddddd;
 }
 .nav-sidebar .active a:hover {
-  background-color: #0079c1;
+  background-color: #00558C;
 }
 .nav-sidebar .text-overflow a,
 .nav-sidebar .text-overflow .media-body {
@@ -18152,7 +18152,7 @@ th {
 
 .border-blue-top {
   border-top-width: 10px;
-  border-top-color: #0079c1;
+  border-top-color: #00558C;
 }
 .border-orange-top {
   border-top-width: 10px;
@@ -18305,7 +18305,7 @@ a:hover {
 }
 .header-v8 .nav > li:hover > a,
 .header-v8 .nav > li > a:focus {
-  background: #0079c1;
+  background: #00558C;
   color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -18357,7 +18357,7 @@ a:hover {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  background: #0079c1;
+  background: #00558C;
   color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -18371,14 +18371,14 @@ a:hover {
   border-style: solid;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  border-color: #0079c1;
+  border-color: #00558C;
 }
 .nav-pills > li:last-child {
   border-right: 2px;
   border-style: solid;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  border-color: #0079c1;
+  border-color: #00558C;
 }
 .nav-pills > li {
   border-style: solid;
@@ -18386,7 +18386,7 @@ a:hover {
   margin-right: -5px;
   border-right: 0;
   border-left: 0;
-  border-color: #0079c1;
+  border-color: #00558C;
 }
 .topbar-list .topbar-dropdown {
   top: 30px;
@@ -18605,9 +18605,9 @@ footer {
   padding-bottom: 15px;
 }
 .btn-default {
-  color: #0079c1;
+  color: #00558C;
   background-color: white;
-  border-color: #0079c1;
+  border-color: #00558C;
   border-radius: 5px;
   font-size: 16px;
 }

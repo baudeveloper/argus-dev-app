@@ -228,11 +228,11 @@
   color:#002d72
  }
  .header-v8 .nav>li a:active,.header-v8 .nav>li a.active {
-  color:#0079c1
+  color:#00558C
  }
  .header-v8 .nav>li:hover>a {
   background:none;
-  color:#0079c1
+  color:#00558C
  }
  .header-v8 .nav>li:hover>a .sub-menu-indicator {
   display:block;
@@ -453,7 +453,7 @@
   display:none;
   padding:0;
   font-weight:bold;
-  background-color:#0079c1
+  background-color:#00558C
  }
  .ag-login-dropdown-cntr .ag-dropdown-submenu .inner-list-node {
   padding-right:10px
@@ -505,7 +505,7 @@
    border-top:1px solid #eee
   }
   .header-v8 .mega-menu .mega-menu-fullwidth .dropdown-menu li a:hover {
-   background:#0079c1;
+   background:#00558C;
    color:#fff
   }
   ul.dropdown-menu {
@@ -1022,7 +1022,7 @@
   border-color:#002d72
  }
  .progress-circles .progress-circle.active {
-  background:#0079c1;
+  background:#00558C;
   border-color:#002d72
  }
  .progress-circles>li.progress-prefix {
@@ -1385,7 +1385,7 @@
  }
  .ag-document-switcher-cntr .nav-pills-header,.ag-shareholders-page .nav-pills-header {
   color:#fff;
-  background-color:#0079c1;
+  background-color:#00558C;
   padding:10px 15px;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
@@ -1451,7 +1451,7 @@
  .tab-v1 .nav-tabs {
   border:none;
   background:none;
-  border-bottom:solid 2px #0079c1
+  border-bottom:solid 2px #00558C
  }
  .tab-v1 .nav-tabs a {
   font-size:16px;
@@ -1460,12 +1460,12 @@
   border-top-right-radius:5px
  }
  .tab-v1 .nav-tabs>li>a:hover {
-  background:#0079c1
+  background:#00558C
  }
  .tab-v1 .nav-tabs>.active>a,.tab-v1 .nav-tabs>.active>a:hover,.tab-v1 .nav-tabs>.active>a:focus {
   color:#fff;
   border:none;
-  background:#0079c1
+  background:#00558C
  }
  .container .container,.container .container .container {
   padding-left:0;
@@ -1989,7 +1989,7 @@
  }
  .ag-pdf-view .nav-pills-header,.ag-document-switcher-cntr .nav-pills-header,.ag-shareholders-page .nav-pills-header {
   color:#fff;
-  background-color:#0079c1;
+  background-color:#00558C;
   padding:10px 15px;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
@@ -3073,7 +3073,7 @@
   border-color:#002d72
  }
  .wizard li .step.active {
-  background:#0079c1;
+  background:#00558C;
   border-color:#002d72
  }
  .wizard li .label {
@@ -3589,7 +3589,7 @@
   color:#004b8d
  }
  h1 span.light-blue,.light-blue {
-  color:#0079c1
+  color:#00558C
  }
  .cyan-blue {
   color:#00adf0
@@ -3610,7 +3610,7 @@
   color:#c3c3c3
  }
  .light-blue-background {
-  background-color:#0079c1
+  background-color:#00558C
  }
  .dark-blue-background {
   background-color:#002d72
