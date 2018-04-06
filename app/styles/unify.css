@@ -18921,7 +18921,7 @@ footer {
   left: 0px;
 }
 .topbar-list .dropdown.has-children:hover {
-  background: #002d72;
+  background: #003057;
 }
 .topbar-list .dropdown.has-children:hover > .topbar-dropdown {
   z-index: 10;
@@ -19061,7 +19061,7 @@ input[type=button] {
   line-height: 35px;
 }
 #notify-blue {
-  background-color: #002d72;
+  background-color: #003057;
 }
 #notify-green {
   background-color: green;

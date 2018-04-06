@@ -82,7 +82,7 @@
   justify-content:flex-end
  }
  .topbar-menu.topbar-list .topbar-dropdown {
-  background-color:#002d72
+  background-color:#003057
  }
  .topbar-menu.topbar-list>li {
   padding:0
@@ -124,7 +124,7 @@
  }
  @media(min-width:1200px) {
   .topbar-menu.topbar-list .topbar-dropdown {
-   background-color:#002d72
+   background-color:#003057
   }
   .topbar-menu.topbar-list>li {
    padding:0
@@ -225,7 +225,7 @@
  }
  .header-v8 .nav>li a:hover,.header-v8 .nav>li a:focus {
   background:none;
-  color:#002d72
+  color:#003057
  }
  .header-v8 .nav>li a:active,.header-v8 .nav>li a.active {
   color:#00558C
@@ -493,11 +493,11 @@
  }
  @media(max-width:991px) {
   .header-v8 .navbar-nav>.open>a,.header-v8 .navbar-nav>.open>a:hover,.header-v8 .navbar-nav>.open>a:focus {
-   color:#002d72;
+   color:#003057;
    font-size:16px
   }
   .header-v8 .mega-menu .mega-menu-fullwidth .dropdown-menu li a {
-   color:#002d72;
+   color:#003057;
    font-size:16px;
    font-weight:bold;
    padding:5px 0 5px 0;
@@ -637,7 +637,7 @@
   font-size:23px
  }
  footer {
-  background:#002d72;
+  background:#003057;
   padding:10px 0
  }
  .footer-distributed {
@@ -971,10 +971,10 @@
   border-color:#5cb85c
  }
  .ag-request-health-quote .ag-add-more.bg-info {
-  border-color:#002d72
+  border-color:#003057
  }
  .ag-request-health-quote .progress-circle.bg-info {
-  background-color:#002d72;
+  background-color:#003057;
   color:#fff
  }
  .ag-request-health-quote .progress-circle.bg-success {
@@ -1019,11 +1019,11 @@
  }
  .progress-circles .progress-circle.visited {
   background:#00adf0;
-  border-color:#002d72
+  border-color:#003057
  }
  .progress-circles .progress-circle.active {
   background:#00558C;
-  border-color:#002d72
+  border-color:#003057
  }
  .progress-circles>li.progress-prefix {
   padding:0;
@@ -1291,14 +1291,14 @@
   padding:0 10px
  }
  .ag-eft-form .ag-form-section-heading h4 {
-  color:#002d72
+  color:#003057
  }
  .ag-eft-form .help-block.form-error {
   display:none
  }
  .ag-eft-form .ag-next,.ag-eft-form .ag-previous,.ag-eft-form .btn.ag-submit {
   padding:10px 20px;
-  background-color:#002d72;
+  background-color:#003057;
   width:12%;
   text-align:center;
   font-weight:bold;
@@ -1318,7 +1318,7 @@
   display:none
  }
  .ag-eft-form .ag-gov-id {
-  border:1px dotted #002d72;
+  border:1px dotted #003057;
   padding:20px 10px
  }
  .ag-eft-form .ag-gov-id .ag-gov-id-inner {
@@ -1676,7 +1676,7 @@
  }
  .article-main-content p strong span {
   font-size:20px;
-  color:#002d72;
+  color:#003057;
   font-weight:400
  }
  @media(max-width:768px) {
@@ -2156,7 +2156,7 @@
  .promo-text-header h2 {
   font-size:36px;
   text-align:center;
-  color:#002d72;
+  color:#003057;
   margin-bottom:20px
  }
  .promo-text-header p {
@@ -2271,7 +2271,7 @@
   width:52%
  }
  .ag .hero-with-breadcrumb .hero-with-breadcrumb-content h1,.ag .hero-with-breadcrumb .hero-with-breadcrumb-content h3 {
-  color:#002d72
+  color:#003057
  }
  @media only screen and (max-width:1024px) {
   .ag .hero-with-breadcrumb.hero-bc-image {
@@ -2622,7 +2622,7 @@
   font-weight:300;
   margin-bottom:21px;
   margin-top:32px;
-  color:#002d72
+  color:#003057
  }
  .a-g-tabs .tab-content .article .caption .info {
   color:#949ca1;
@@ -2703,7 +2703,7 @@
   font-weight:400;
   text-align:center;
   font-size:32px;
-  color:#002d72
+  color:#003057
  }
  .related-articles .articles {
   margin-top:20px
@@ -2732,7 +2732,7 @@
   font-weight:normal;
   margin-bottom:21px;
   margin-top:32px;
-  color:#002d72
+  color:#003057
  }
  .related-articles .articles .article .caption .info {
   color:#aaa;
@@ -2819,15 +2819,15 @@
  .toggle-nav {
   text-transform:uppercase;
   line-height:100%;
-  color:#002d72
+  color:#003057
  }
  .toggle-nav:link {
   font-size:32px;
-  color:#002d72;
-  outline-color:#002d72
+  color:#003057;
+  outline-color:#003057
  }
  .toggle-nav:focus,.toggle-nav:active,.toggle-nav:hover {
-  color:#002d72
+  color:#003057
  }
  .toggle-nav span {
   display:block;
@@ -2869,7 +2869,7 @@
  }
  .search-cntr.mobile form .glyphicon-search {
   font-size:20px;
-  color:#002d72
+  color:#003057
  }
  .ag-logo-cntr {
   width:100%;
@@ -2911,7 +2911,7 @@
   position:absolute;
   top:0;
   left:-251px;
-  background:#002d72;
+  background:#003057;
   z-index:10
  }
  .ag-site-menu .ag-mobile-back,.ag-mobile-login .ag-mobile-back {
@@ -3070,18 +3070,18 @@
  }
  .wizard li .step.visited {
   background:#00adf0;
-  border-color:#002d72
+  border-color:#003057
  }
  .wizard li .step.active {
   background:#00558C;
-  border-color:#002d72
+  border-color:#003057
  }
  .wizard li .label {
   position:absolute;
   left:0;
   right:0;
   margin-top:10px;
-  color:#002d72
+  color:#003057
  }
  .wizard li::after {
   content:'';
@@ -3159,7 +3159,7 @@
   position:absolute
  }
  .ag .carousel .carousel-indicators li {
-  background:#002d72;
+  background:#003057;
   border:0;
   width:10px;
   height:10px;
@@ -3172,7 +3172,7 @@
   width:16px;
   height:16px;
   background-color:transparent;
-  border:1px solid #002d72;
+  border:1px solid #003057;
   position:absolute;
   border-radius:10px;
   right:-3px;
@@ -3471,7 +3471,7 @@
  .policy .panel h4.panel-title .expander {
   float:right;
   display:block;
-  color:#002d72
+  color:#003057
  }
  .policy .panel .panel-body {
   padding-left:0
@@ -3595,7 +3595,7 @@
   color:#00adf0
  }
  .argus-blue {
-  color:#002d72
+  color:#003057
  }
  .dark-gray {
   color:#3d4144
@@ -3613,7 +3613,7 @@
   background-color:#00558C
  }
  .dark-blue-background {
-  background-color:#002d72
+  background-color:#003057
  }
  .gray-background {
   background-color:#a9a9a9
@@ -3666,7 +3666,7 @@
  }
  .widget-title {
   font-size:32px;
-  color:#002d72;
+  color:#003057;
   text-transform:uppercase;
   margin-bottom:50px
  }
@@ -3737,11 +3737,11 @@
   font-weight:300
  }
  a {
-  color:#002d72;
+  color:#003057;
   font-size:16px
  }
  a:hover,a:link,a:active {
-  color:#002d72
+  color:#003057
  }
  a.gray-text {
   color:#3d4144

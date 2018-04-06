@@ -20,35 +20,36 @@ html(lang="en")
   block vars
   body(class=bodyClass)
     block content
-    script(src="js/vendor/lodash.js")
+    //- script(src="js/vendor/lodash.js")
     script(src="js/vendor/respond.js")
     script(src="js/vendor/plugins.js")
-    script(src="js/vendor/atc.js")
-    script(src="js/vendor/jquery-cookie.js")
+    //- script(src="js/vendor/atc.js")
+    //- script(src="js/vendor/jquery-cookie.js")
     script(src="js/vendor/jquery-form-validator.js")
-    script(src="js/vendor/jfv-date.js")
-    script(src="js/vendor/jfv-file.js")
-    script(src="js/vendor/jfv-toggleDisabled.js")
+    //- script(src="js/vendor/jfv-date.js")
+    //- script(src="js/vendor/jfv-file.js")
+    //- script(src="js/vendor/jfv-toggleDisabled.js")
     //- script(type='text/javascript').
     //-   window.cookieconsent_options = { "message": "To ensure you get the best experience on our website, this website uses cookies. By using our website you agree to the terms of our", "dismiss": "Got it!", "learnMore": "Privacy Policy", "link": "/privacy-policy", "theme": "light-top" };
     //- script(src="js/vendor/cookie-consent.js")
     //- script(src="js/vendor/cookie-consent-2.js")
-    script.
-      function initMap() {
-      var uluru = {
-        lat: 32.293945, lng: -64.787641
-      };
-      var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 18,
-        center: uluru,
-        scrollwheel: false
-      });
-      var marker = new google.maps.Marker({
-        position: uluru,
-        map: map,
-        title: 'BDA Bermuda Business Development Agency'
-      });
-      }
-    script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDENXPvX7G8399dcrtSTVCd7MdhWz0EXjU&callback=initMap')
+    if bodyClass === "contact-us"
+      script.
+        function initMap() {
+        var uluru = {
+          lat: 32.293945, lng: -64.787641
+        };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru,
+          scrollwheel: false
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+          title: 'BDA Bermuda Business Development Agency'
+        });
+        }
+      script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDENXPvX7G8399dcrtSTVCd7MdhWz0EXjU&callback=initMap')
     script(src="js/vendor/scripts.js")
     script(src="js/custom.js")      
