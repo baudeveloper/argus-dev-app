@@ -1045,7 +1045,8 @@ footer {
     padding-bottom: 30px;
   }
   &-thumb {
-    width: auto;
+    width: 138px;
+    margin-bottom: 30px;
     @media screen and (min-width: 768px) and (max-width: 992px) {
       max-width: 150px;
     }

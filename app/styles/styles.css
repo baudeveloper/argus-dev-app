@@ -2137,6 +2137,13 @@
   padding-bottom:0;
   padding-top:5px
  }
+  .mega-menu-title .mega-menu-list li.divider {
+  padding-bottom:0;
+  padding-top:0;
+ }
+ .dropdown-menu .mega-menu-title .mega-menu-list .divider {
+    background-color: #6F8AAA!important;
+ }
  .white-bg {
   margin-top:100px
  }
