@@ -18345,6 +18345,9 @@ a:hover {
 .mega-menu-list li {
   padding-bottom: 10px;
 }
+.mega-menu-list li:hover {
+  background-color: #1f71ac;
+}
 #limheight {
   height: 150px;
   /*your fixed height*/

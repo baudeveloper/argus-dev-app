@@ -89,7 +89,10 @@
  }
  .topbar-menu.topbar-list>li.dropdown.link {
   margin-right:8px;
-  padding:7px
+  padding:0
+ }
+ .topbar-menu.topbar-list>li.dropdown.link:hover {
+  background-color:#004e8e;
  }
  .topbar-menu.topbar-list>li.dropdown.link.has-children {
   border-radius:0
@@ -114,7 +117,7 @@
   top:5px
  }
  .topbar-menu.topbar-list>li:last-child {
-  padding-right:0
+  padding-right:12px
  }
  .topbar-menu.topbar-list>li:first-child {
   padding-left:0
@@ -130,7 +133,7 @@
    padding:0
   }
   .topbar-menu.topbar-list>li.dropdown.link {
-   padding:10px 3px 3px 3px
+   padding:22px 3px 18px;
   }
  }
  .bootsnipp-search {
@@ -189,7 +192,8 @@
   align-items:center
  }
  .header-v8 .navbar-nav>li {
-  margin-right:18px
+  margin-right:18px;
+  border-radius: 0;
  }
  .header-v8 .navbar-nav>li>a {
   padding:20px 12px;
@@ -204,13 +208,13 @@
   padding-right:12px
  }
  .header-v8 .nav.bm-nav-menu li:nth-child(2) a {
-  padding-left:0
+  /*padding-left:0*/
  }
  .header-v8 .nav>li:first-child a {
   padding-left:0
  }
  .header-v8 .nav>li:last-child a {
-  padding-right:0
+  /*padding-right:0*/
  }
  .header-v8 .nav>li a .sub-menu-indicator {
   display:none
@@ -225,14 +229,17 @@
  }
  .header-v8 .nav>li a:hover,.header-v8 .nav>li a:focus {
   background:none;
-  color:#003057
+  color:#003057;
+  border-radius: 0;
  }
  .header-v8 .nav>li a:active,.header-v8 .nav>li a.active {
-  color:#00558C
+  color:#00558C;
+  background:#eee;
  }
  .header-v8 .nav>li:hover>a {
-  background:none;
-  color:#00558C
+  background:#eee;
+  color:#003057;
+  color:#00558C;
  }
  .header-v8 .nav>li:hover>a .sub-menu-indicator {
   display:block;
@@ -2134,7 +2141,7 @@
   position:relative
  }
  .mega-menu-title .mega-menu-list li {
-  padding-bottom:0;
+  padding-bottom:5px;
   padding-top:5px
  }
   .mega-menu-title .mega-menu-list li.divider {
@@ -3593,7 +3600,7 @@
   font-weight:inherit
  }
  .dark-blue,.carousel-caption>h1 span.dark-blue {
-  color:#004b8d
+  color:#003057
  }
  h1 span.light-blue,.light-blue {
   color:#00558C

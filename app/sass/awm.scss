@@ -129,6 +129,17 @@ footer {
   padding-bottom: 0;
   margin-bottom: 0;
 }
+.v-divider-investment-solutions {
+  border-right: 1px solid #ddd;
+  height: 100px;
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    height: 130px;
+  }
+  @media screen and (max-width: 768px) {
+    height: 0;
+    border-right: 0;
+  }
+}
 .header-v8 {
   .nav > li > a {
     color: $blue-AD;
@@ -144,7 +155,7 @@ footer {
 .awm-navigation {
   .call-to-action {
     font-family: "Interstate";
-    font-weight: bold!important;
+    font-weight: normal!important;
   }
 }
 .top-nav-container .topbar-list .link--btn {
@@ -166,7 +177,7 @@ footer {
 .btn.btn-primary,
 .btn.btn-secondary {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   font-family: "Interstate";
 }
 .navbar > .container .navbar-brand,
@@ -502,7 +513,11 @@ footer {
       color: $blue-AE;
     }
   }
+  h2 {
+    color: $blue-AC;
+  }
   h3 {
+    color: $blue-AA;
     margin: 30px 0 10px;
   }
   &-link {
@@ -549,11 +564,38 @@ footer {
     text-align: right;
     @media screen and (max-width: 768px) {
       text-align: left;
+      .btn {
+        float: left;
+        clear: both;
+      }
+    }
+    img {
+      display: block;
+      float:right;
+      -webkit-box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.22); 
+      box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.22);
+      margin-bottom: 20px;
+      margin-left: 15px;
+      @media screen and (max-width: 768px) {
+        float: left;
+        clear: both;
+      }
     }
   }
   &-client-login {
     .form-group {
       margin-bottom: 15px;
+      postition: relative;
+      margin-bottom: 36px;
+    }
+    label {
+      font-weight: bold;
+      // &::after {
+      //   content: '*';
+      //   color: #ff5959;
+      //   position: absolute;
+      //   right: 15px;
+      // }
     }
     .btn {
       margin-bottom: 15px;
@@ -794,7 +836,7 @@ footer {
     width: 50%;
   }
   &-title {
-    color: $blue-AD;
+    color: $blue-AC;
     font-size: 36px;
     line-height: normal;
     margin-bottom: 20px;
@@ -986,7 +1028,7 @@ footer {
     background-color: $white;
   }
   &-heading {
-    color: $silver-AA;
+    color: $blue-AC;
     font-size: 20px;
     line-height: normal;
     font-weight: normal;
@@ -1006,12 +1048,14 @@ footer {
   }
   &-link {
     &:link,
-    &:active
-    &:visited,
-    &:focus {
+    &:active,
+    &:visited {
       font-size: inherit;
-      color: $blue-AD;
-      text-decoration: underline;
+      color: $blue-AE!important;
+    }
+    &:hover,
+    &:focus {
+      color: $blue-AD!important;
     }
   }
   &-blurb {
@@ -1045,7 +1089,7 @@ footer {
     padding-bottom: 30px;
   }
   &-thumb {
-    width: 138px;
+    width: 158px;
     margin-bottom: 30px;
     @media screen and (min-width: 768px) and (max-width: 992px) {
       max-width: 150px;
@@ -1099,11 +1143,14 @@ footer {
       text-align: center;
       margin: 0;
     }
+    @media screen and (min-width: 768px) {
+      width:75%
+    }
   }
   &-footer {
     background-color: transparent;
     @media screen and (min-width: 768px) {
-      display: flex;
+      //display: flex;
       align-self: center;
     }
     // @media screen and (max-width: 768px) {
@@ -1155,6 +1202,8 @@ footer {
     }
     &-medium {
       text-transform: none;
+      font-weight: normal;
+      text-transform: uppercase;
     }
     &-small {
       font-size: 18px;
@@ -1202,32 +1251,36 @@ footer {
     }
   }
   &-listitem {
-    &-conservative {
       .card--funds-h2 {
-        color: $silver-AG;
+        color: $blue-AC;
       }
-    }
-    &-balanced {
-      .card--funds-h2 {
-        color: $blue-AI;
-      }
-    }
-    &-growth {
-      .card--funds-h2 {
-        color: $green-AE;
-      }
-    }
-    &-aggressive {
-      .card--funds-h2 {
-        color: $orange-AA;
-      }
-    }
-    &-moderate {
-      .card--funds-h2 {
-        color: $purple-AA;
-      }
-    }
   }
+  // &-listitem {
+  //     .card--funds-h2 {
+  //       color: $silver-AG;
+  //     }
+  //   }
+  //   &-balanced {
+  //     .card--funds-h2 {
+  //       color: $blue-AI;
+  //     }
+  //   }
+  //   &-growth {
+  //     .card--funds-h2 {
+  //       color: $green-AE;
+  //     }
+  //   }
+  //   &-aggressive {
+  //     .card--funds-h2 {
+  //       color: $orange-AA;
+  //     }
+  //   }
+  //   &-moderate {
+  //     .card--funds-h2 {
+  //       color: $purple-AA;
+  //     }
+  //   }
+  // }
   &-listitem:last-of-type {
     .card--funds-wrap {
       margin-bottom: 0;
@@ -1419,7 +1472,7 @@ footer {
     padding-bottom: 30px;
   }
   &-heading {
-    color: $blue-AD;
+    color: $blue-AC;
     font-size: 36px;
     margin-bottom: 20px;
     line-height: normal;
@@ -1480,9 +1533,7 @@ footer {
     &:visited,
     &:focus {
       color: $blue-AE;
-      text-decoration: underline;
-      // font-family: "Interstate";
-      // font-weight: bold;
+      text-decoration: none;
     }
   }
 }
