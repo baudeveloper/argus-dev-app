@@ -594,7 +594,7 @@ footer {
     label {
       font-weight: bold;
       font-size: 16px;
-      margin-bottom:15px;
+      margin-bottom:10px;
       color: #54585A;
       // &::after {
       //   content: '*';
@@ -1338,7 +1338,7 @@ footer {
     }
   }
   &-heading {
-    color: $silver-AA;
+    color: $blue-AC;
     font-size: 20px;
     line-height: normal;
   }
@@ -1490,7 +1490,7 @@ footer {
   .card--portfolio {
     &-wrap {
         display: block;
-        min-height: 393px;
+        min-height: 220px;
       }
     &-list {
       @media screen and (min-width: 768px) {
