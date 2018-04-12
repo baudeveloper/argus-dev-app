@@ -120,6 +120,10 @@ footer {
 .header-v8 .mega-menu .nav {
   justify-content: flex-end;
 }
+.topbar-menu.topbar-list>li {
+  padding-left: 15px!important;
+  padding-right: 15px!important;
+}
 #footer .ag-footer-links {
   margin-top: 80px;
   margin-bottom: 30px;
@@ -584,12 +588,14 @@ footer {
   }
   &-client-login {
     .form-group {
-      margin-bottom: 15px;
       postition: relative;
-      margin-bottom: 36px;
+      margin-bottom: 30px;
     }
     label {
       font-weight: bold;
+      font-size: 16px;
+      margin-bottom:15px;
+      color: #54585A;
       // &::after {
       //   content: '*';
       //   color: #ff5959;
@@ -602,9 +608,13 @@ footer {
     }
     input {
       width: 100%;
-      height: 34px;
+      height: 48px;
+      font-size: 16px;
+      color: #54585A;
+      font-weight: 300;
       margin: auto;
-      padding: 6px 12px;
+      padding: 15px;
+      border-radius: 4px;
     }
     p {
       font-weight: 300;
@@ -1436,7 +1446,9 @@ footer {
   &-listitem {
     margin-bottom: 30px;
     @media screen and (min-width: 768px) {
+      display: block;
       display: flex;
+      float: left;
       flex-direction: column;
     }
   }
@@ -1454,6 +1466,62 @@ footer {
     // background-color: $blue-AF;
     background: $blue-AF no-repeat url("../images/building-blue.gif");
     background-position: bottom right;
+  }
+}
+.no-flexboxlegacy {
+  .card--features {
+      &-wrap {
+        display: block;
+        min-height: 500px;
+      }
+      &-list {
+        @media screen and (min-width: 768px) {
+          display: block;
+        }
+      }
+      &-listitem {
+        margin-bottom: 30px;
+        @media screen and (min-width: 768px) {
+          display: block;
+          float: left;
+        }
+      }
+  }
+  .card--portfolio {
+    &-wrap {
+        display: block;
+        min-height: 393px;
+      }
+    &-list {
+      @media screen and (min-width: 768px) {
+        display: block;
+      }
+    }
+    &-listitem {
+      margin-bottom: 30px;
+      @media screen and (min-width: 768px) {
+        display: block;
+        float: left;
+      }
+    }
+  }
+  .card--team {
+    &-wrap {
+        display: block;
+        min-height: 348px;
+      }
+    &-list {
+      @media screen and (min-width: 768px) {
+        display: block;
+      }
+    }
+    &-listitem {
+      margin-bottom: 30px;
+      @media screen and (min-width: 768px) {
+        display: block;
+        float: left;
+      }
+    }
   }
 }
 .card--summary {
