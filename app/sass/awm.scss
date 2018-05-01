@@ -89,7 +89,8 @@ $blue-AF: #d2e3ee;
 $blue-AG: #1178bb;
 $blue-AH: #409ad0;
 $blue-AI: #25aae1;
-$red-AA: #ff5959;
+$red-AA: #E03E52;
+$red-AA-old: #ff5959;
 $orange-AA: #f68b1e;
 $green-AA: #dcd087;
 $green-AB: #817f6f;
@@ -621,7 +622,7 @@ footer {
     }
     .form-signin {
       .btn-signin {
-        border: 2px solid #ff5959;
+        border: 2px solid #E03E52;
         margin-right:15px;
         &:active,
         &:hover,
