@@ -1,125 +1,140 @@
 .umb-grid
-	.grid-section
-		div.site--slider
-			.row
-				.col-md-12.column
-					div
-						.row.ag-row-mobile-full(style='overflow:hidden')
-							#myCarousel.carousel.slide.carousel-fade(data-ride='carousel', data-interval='false')
-								// Wrapper for slides
-								#hero.carousel-inner(role='listbox')
-									#10780.item.active(data-navigation-id='nav-10780')
-										.carousel-caption
-											.container
-												h1(role="heading")
-													span.site--slider-text Transparency.
-													span.site--slider-text Global Exposure.
-												h3.site--slider-summary
-													| We have partnered with leading global wealth managers, giving our clients access to a diversified pool of investments.
-												a.btn.btn-primary.call-to-action.site--slider-link(href='contact-us.html', role="link") Contact Us For More Information
-										.ag-hero.carousel-slide-image-container
-											//- .banner-image(style='background-image: url(https://argus.bm/media/3644/argus-virgin-pulse-homepage-hero.jpg?width=2800&height=1500&mode=max)')
-											.banner-image(style='background-image: url(images/awm-slider-01-bg.jpg)')
-											//- .image-overlay
-									#10355.item(data-navigation-id='nav-10355')
-										.carousel-caption
-											.container
-												h1(role="heading")
-													span.site--slider-text Cost Containment.
-													span.site--slider-text Local Expertise.
-												h3.site--slider-summary Providing high quality wealth management advice so that you can focus on the things that matter most.
-												a.btn.btn-primary.call-to-action.site--slider-link(href='contact-us.html', role="link") Contact Us For More Information
-										.ag-hero.carousel-slide-image-container
-											.banner-image(style='background-image: url(images/awm-slider-02-bg.jpg)')
-											//- .image-overlay
-									#10356.item(data-navigation-id='nav-10355')
-										.carousel-caption
-											.container
-												h1(role="heading")
-													span.site--slider-text Discipline.
-													span.site--slider-text Simplicity.
-												h3.site--slider-summary We have developed well structured investment products, customized to your needs for your peace of mind.
-												a.btn.btn-primary.call-to-action.site--slider-link(href='contact-us.html', role="link") Contact Us For More Information
-										.ag-hero.carousel-slide-image-container
-											.banner-image(style='background-image: url(images/awm-slider-03-bg.jpg)')
-											//- .image-overlay
-								// Indicators
-								ol.carousel-indicators.visible-xs.hidden(role="list")
-									li.active(data-target='#myCarousel', data-slide-to='0', role="listitem")
-										.outer-circle
-									li(data-target='#myCarousel', data-slide-to='1', role="listitem")
-										.outer-circle
-									li(data-target='#myCarousel', data-slide-to='2', role="listitem")
-										.outer-circle
-								// Left and right controls
-								#heronav.hidden-xs
-									.container
-										a.left.carousel-control(href='#myCarousel', data-slide='prev', role="link")
-											span.left-arrow
-										a.right.carousel-control(href='#myCarousel', data-slide='next', role="link")
-											span.right-arrow
-		.card--summary
-			.container
-				.row
-					.col-sm-12
-						.text-center
-							h2.card--summary-heading(role="heading") Argus wealth management
-							p.card--summary-content Argus Wealth Management is a Bermudian financial services company that provides a range of investment solutions to individuals, couples, trusts, companies, endowments and philanthropic organisations.
-							p.card--summary-content.card--summary-content-small
-								| Argus Wealth Management is a member of The Argus Group of Companies (
-								a.card--summary-link(href="http://argus.bm", role="link") www.argus.bm
-								| ) and was founded in 2005. The Argus Group has a history of over 20 years managing investment assets.
-		.card--features.card--features-secondary-bg
-			.container
-				.row
-					.col-sm-12
-						.text-center
-							p.card--features-caption
-								| We manage over 
-								strong $1 billion 
-								| in discretionary and advisory assets and provide a range of investment solutions for 
-								strong three main client groups:
-							ul.card--features-list.row(role="list")
-								li.card--features-listitem.col-sm-4(role="listitem")
-									.card--features-wrap
-										header.card--features-header
-											img.card--features-thumb(src="images/awm-feature-01-thumb.jpg", alt="High Net Worth Clients", role="img")
-											h2.card--features-heading(role="heading") High Net Worth Clients
-											p.card--features-content For clients with more than $500,000 to invest, Argus Wealth Management manages customized portfolios that are tailored to clients needs and risk tolerances, on either a discretionary or advisory basis.
-										footer.card--features-footer
-											a.card--features-link(href="high-net-worth-clients.html", role="link")
-												| Learn more &gt;
-								li.card--features-listitem.col-sm-4(role="listitem")
-									.card--features-wrap
-										header.card--features-header
-											img.card--features-thumb(src="images/awm-feature-02-thumb.jpg", alt="Institutional Investors", role="img")
-											h2.card--features-heading(role="heading") Endowments &amp; Trusts
-											p.card--features-content Argus Wealth Management manages portfolios for trusts, companies, endowments and philanthropic organisations.
-										footer.card--features-footer
-											a.card--features-link(href="endowments-trusts.html", role="link")
-												| Learn more &gt;
-								li.card--features-listitem.col-sm-4(role="listitem")
-									.card--features-wrap
-										header.card--features-header
-											img.card--features-thumb(src="images/awm-feature-03-thumb.jpg", alt="Corporate Pension Funds", role="img")
-											h2.card--features-heading(role="heading") Pension Funds
-											p.card--features-content Argus Wealth Management uses its investment expertise to manage The Argus Group's pension pools.
-										footer.card--features-footer
-											a.card--features-link(href="pension-funds.html", role="link")
-												| Learn more &gt;
-		.card--callout.card--callout-tertiary
-			.container
-				.row
-					.col-sm-12
-						.text-center
-							p.card--callout-content
-								| We have a wealth of experience working with both local and international clients to whom we are considered a trusted advisor. We spend time truly getting to know our clients and take pride in our investment approach and excellent client service. The majority of Argus Wealth Management's staff are Bermudians and our investment team includes three CFA charter holders.
-							a.card--callout-link.btn.btn-primary(href='about-us.html#our-team', role="link") Meet Our Team
-		.card--callout.card--callout-secondary
-			.container
-				.row
-					.col-sm-12
-						.text-center
-							p.card--callout-content
-								| We can help you achieve your goals with our exceptional products and experienced team.
-							a.card--callout-link.btn.btn-primary(href='contact-us.html', role="link") Let’s Discuss Your Needs
+  .grid-section
+    div.site--slider
+      .row
+        .col-md-12.column
+          div
+            .row.ag-row-mobile-full(style='overflow:hidden')
+              #myCarousel.carousel.slide.carousel-fade(data-ride='carousel', data-interval='false')
+                // Wrapper for slides
+                #hero.carousel-inner(role='listbox')
+                  #10780.item.active(data-navigation-id='nav-10780')
+                    .carousel-caption
+                      .container
+                        h1(role="heading")
+                          span.site--slider-text Transparency.
+                          span.site--slider-text Global Exposure.
+                        h3.site--slider-summary
+                          | We have partnered with leading global wealth managers, giving our clients access to a diversified pool of investments.
+                        a.btn.btn-primary.call-to-action.site--slider-link(href='contact-us.html', role="link") Contact Us For More Information
+                    .ag-hero.carousel-slide-image-container
+                      //- .banner-image(style='background-image: url(https://argus.bm/media/3644/argus-virgin-pulse-homepage-hero.jpg?width=2800&height=1500&mode=max)')
+                      .banner-image(style='background-image: url(images/awm-slider-01-bg.jpg)')
+                      //- .image-overlay
+                  #10355.item(data-navigation-id='nav-10355')
+                    .carousel-caption
+                      .container
+                        h1(role="heading")
+                          span.site--slider-text Cost Containment.
+                          span.site--slider-text Local Expertise.
+                        h3.site--slider-summary Providing high quality wealth management advice so that you can focus on the things that matter most.
+                        a.btn.btn-primary.call-to-action.site--slider-link(href='contact-us.html', role="link") Contact Us For More Information
+                    .ag-hero.carousel-slide-image-container
+                      .banner-image(style='background-image: url(images/awm-slider-02-bg.jpg)')
+                      //- .image-overlay
+                  #10356.item(data-navigation-id='nav-10355')
+                    .carousel-caption
+                      .container
+                        h1(role="heading")
+                          span.site--slider-text Discipline.
+                          span.site--slider-text Simplicity.
+                        h3.site--slider-summary We have developed well structured investment products, customized to your needs for your peace of mind.
+                        a.btn.btn-primary.call-to-action.site--slider-link(href='contact-us.html', role="link") Contact Us For More Information
+                    .ag-hero.carousel-slide-image-container
+                      .banner-image(style='background-image: url(images/awm-slider-03-bg.jpg)')
+                      //- .image-overlay
+                      // Indicators
+                      ol.carousel-indicators.visible-xs.hidden(role="list")
+                        li.active(data-target='#myCarousel', data-slide-to='0', role="listitem")
+                          .outer-circle
+                        li(data-target='#myCarousel', data-slide-to='1', role="listitem")
+                          .outer-circle
+                        li(data-target='#myCarousel', data-slide-to='2', role="listitem")
+                          .outer-circle
+                      // Left and right controls
+                      #heronav.hidden-xs
+                        .container
+                          a.left.carousel-control(href='#myCarousel', data-slide='prev', role="link")
+                            span.left-arrow
+                          a.right.carousel-control(href='#myCarousel', data-slide='next', role="link")
+                            span.right-arrow
+    .card--summary
+      .container
+        .row
+          .col-sm-12
+            .text-center
+              h2.card--summary-heading(role="heading") Argus wealth management
+              p.card--summary-content Argus Wealth Management is a Bermudian financial services company that provides a range of investment solutions to individuals, couples, trusts, companies, endowments and philanthropic organisations.
+              p.card--summary-content.card--summary-content-small
+                | Argus Wealth Management is a member of The Argus Group of Companies (
+                a.card--summary-link(href="http://argus.bm", role="link") www.argus.bm
+                | ) and was founded in 2005. The Argus Group has a history of over 20 years managing investment assets.
+    .card--features.card--features-secondary-bg
+      .container
+        .row
+          .col-sm-12
+            .text-center
+              p.card--features-caption
+                | We manage over
+                strong $1 billion
+                | in discretionary and advisory assets and provide a range of investment solutions for
+                strong three main client groups:
+              ul.card--features-list.row(role="list")
+                li.card--features-listitem.col-sm-4(role="listitem")
+                  .card--features-wrap
+                    header.card--features-header
+                      img.card--features-thumb(src="images/awm-feature-01-thumb.jpg", alt="High Net Worth Clients", role="img")
+                      h2.card--features-heading(role="heading") High Net Worth Clients
+                      p.card--features-content For clients with more than $500,000 to invest, Argus Wealth Management manages customized portfolios that are tailored to clients needs and risk tolerances, on either a discretionary or advisory basis.
+                    footer.card--features-footer
+                      a.card--features-link(href="high-net-worth-clients.html", role="link")
+                        | Learn more &gt;
+                li.card--features-listitem.col-sm-4(role="listitem")
+                  .card--features-wrap
+                    header.card--features-header
+                      img.card--features-thumb(src="images/awm-feature-02-thumb.jpg", alt="Institutional Investors", role="img")
+                      h2.card--features-heading(role="heading") Endowments &amp; Trusts
+                      p.card--features-content Argus Wealth Management manages portfolios for trusts, companies, endowments and philanthropic organisations.
+                    footer.card--features-footer
+                      a.card--features-link(href="endowments-trusts.html", role="link")
+                        | Learn more &gt;
+                li.card--features-listitem.col-sm-4(role="listitem")
+                  .card--features-wrap
+                    header.card--features-header
+                      img.card--features-thumb(src="images/awm-feature-03-thumb.jpg", alt="Corporate Pension Funds", role="img")
+                      h2.card--features-heading(role="heading") Pension Funds
+                      p.card--features-content Argus Wealth Management uses its investment expertise to manage The Argus Group's pension pools.
+                    footer.card--features-footer
+                      a.card--features-link(href="pension-funds.html", role="link")
+                        | Learn more &gt;
+    .card--callout.card--callout-videos
+      .container
+        .row
+          .col-sm-12
+            .text-center
+              p.card--callout-content The Argus Wealth Management team share their thoughts on the Argus Interest Accumulator and the recent National Pension Scheme Amendments. Watch now.
+        .row
+          .col-sm-6
+            .video-001-wrapper
+              #video001(data-plyr-provider="youtube" data-plyr-embed-id="v6bOvJ0tKdU")
+            p.caption Argus Interest Accumulator
+          .col-sm-6
+            .video-002-wrapper
+              #video002(data-plyr-provider="youtube" data-plyr-embed-id="E6fZCJghTgc")
+            p.caption National Pension Scheme Amendments
+    .card--callout.card--callout-tertiary
+      .container
+        .row
+          .col-sm-12
+            .text-center
+              p.card--callout-content
+                | We have a wealth of experience working with both local and international clients to whom we are considered a trusted advisor. We spend time truly getting to know our clients and take pride in our investment approach and excellent client service. The majority of Argus Wealth Management's staff are Bermudians and our investment team includes three CFA charter holders.
+              a.card--callout-link.btn.btn-primary(href='about-us.html#our-team', role="link") Meet Our Team
+    .card--callout.card--callout-secondary
+      .container
+        .row
+          .col-sm-12
+            .text-center
+              p.card--callout-content
+                | We can help you achieve your goals with our exceptional products and experienced team.
+              a.card--callout-link.btn.btn-primary(href='contact-us.html', role="link") Let’s Discuss Your Needs

@@ -1,0 +1,75 @@
+#macro-report-june-2020-table thead tr th {
+	background-color:#D2E3EE;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: right;
+}
+
+#macro-report-june-2020-table {
+	min-width: 940px;
+}
+
+.table-wrapper {
+	width: 100%;
+	overflow: auto;
+}
+
+#macro-report-june-2020-table tbody tr th,
+#macro-report-june-2020-table tbody tr td {
+	font-size: 14px;
+}
+
+
+#macro-report-june-2020-table tbody tr td {
+	text-align: right;
+	color: green;
+}
+#macro-report-june-2020-table tbody tr td:first-child {
+	text-align: left;
+	color: #333;
+}
+
+#macro-report-june-2020-table tbody tr td.bold {
+	font-weight: bold;
+}
+
+#macro-report-june-2020-table tbody tr td.neutral {
+	color: #333;
+}
+
+
+#macro-report-june-2020-table tbody tr td.negative {
+	color:red;
+	
+}
+
+
+
+#macro-report-june-2020-table tbody tr th {
+	background-color: #00558C;
+	color: white;
+	font-weight: bold;
+}
+
+.site--content-commentary {
+	display: flex;
+	align-items: flex-end;
+}
+@media screen and (max-width: 768px){
+	.site--content-commentary {
+	flex-direction: column;
+	}
+	.site--content-commentary .col-md-3 {
+	width: 100%!important;
+	text-align: center;
+	}
+	.site--content-outlook img {
+		margin-left: 0;
+		}
+}
+
+.intro-text {
+	color: #1f71ac!important;
+	font-size: 20px!important;
+}
+
